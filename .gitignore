@@ -1,0 +1,43 @@
+# === Visual Studio Essentials ===
+.vs/
+out/
+build/
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+
+# === Compilation Output (MSVC) ===
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.pch
+*.tlog
+*.lastbuildstate
+*.idb
+
+# === Qt Specific Junk ===
+# Generated source files
+ui_*.h
+moc_*.cpp
+qrc_*.cpp
+*.moc
+
+# Qt Creator project files that are local-only
+*.pro.user
+*.pro.user.*
+*.CMakeLists.txt.user
+
+# Build directories created by Qt Creator (shadow builds)
+build-*/
+
+# === OS & Misc ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

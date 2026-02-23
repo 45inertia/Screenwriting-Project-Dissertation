@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Styles>
+    <Style ID="98BD0011-2D28-4E73-AA41-64564459867C" Name="Title" Type="Para+Char" FontChange="Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs56\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sb260\sl262\slmult1\ltrch\loch {\f0\fs56\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="3F913246-3CC8-4989-9221-D99AB54A6ABC" Name="Heading 1" Shortcut="4" Type="Para+Char" FontChange="Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;\red0\green152\blue222;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs28\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx0\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\sa120\sb300\sl264\slmult1\ltrch\loch {\f0\fs28\b1\i0\cf4 Attributes}}]]></Format>
+    </Style>
+    <Style ID="8A5D27F3-B263-47F5-B878-2FBFE89D70EA" Name="Heading 2" Shortcut="5" Type="Para+Char" FontChange="Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs26\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sb260\sl262\slmult1\ltrch\loch {\f0\fs26\b1\i0 <$Scr_H::2>Attributes<!$Scr_H::2>}}]]></Format>
+    </Style>
+    <Style ID="D546E590-C6F7-4AFF-83AD-22986D4E8995" Name="Centered Text" Shortcut="1" Type="Para">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs24\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\sl262\slmult1\qc\ltrch\loch {\f0\fs24\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="C437C912-D74C-4BFB-9DEA-7F0639AF9920" Name="Block Quote" Shortcut="2" Type="Para" FontChange="Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs24\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx720\tx1080\tx1440\li720\sa240\sb240\sl262\slmult1\ltrch\loch {\f0\fs24\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="01978C54-7ABD-41E9-8B71-7188727906A4" Name="Attribution" Type="Para" FontChange="Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs24\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx720\tx1080\tx1440\li720\sa240\sl262\slmult1\ltrch\loch {\f0\fs24\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="DCBD9288-14BD-4FDC-A4DA-16F35C8A7015" Name="Code Block" Next="DCBD9288-14BD-4FDC-A4DA-16F35C8A7015" Type="Para+Char" FontChange="Face+Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Consolas;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs22\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx720\tx1080\tx1440\tx1800\tx2160\li720\ltrch\loch {\f0\fs22\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="CE176CEA-8066-48F7-B4FB-012655E35D7A" Name="Code Span" Type="Char" FontChange="Face+Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Consolas;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs22\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx0\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi720\ltrch\loch {\f0\fs22\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="EAB3116A-73B2-4B80-AF5F-8CF46B5302E4" Name="Caption" Shortcut="3" Type="Para" FontChange="Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 ArialMT;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs26\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\sa160\sl262\slmult1\qc\ltrch\loch {\f0\fs26\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="44C11FCC-A8E6-4C11-B362-793A8A964F3B" Name="Emphasis" Type="Char">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs24\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx0\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\fi720\ltrch\loch {\f0\fs24\b0\i1 Attributes}}]]></Format>
+    </Style>
+    <Style ID="B763052D-E1E5-430A-ABB6-6C84D08472A6" Name="Menu Item" Shortcut="6" Type="Char" FontChange="Face+Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 SegoeUI-Bold;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;\red0\green149\blue223;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs22\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx0\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\ltrch\loch {\f0\fs22\b1\i0\cf4 Attributes}}]]></Format>
+    </Style>
+    <Style ID="08E1508B-A30A-4376-8728-EA822685C941" Name="Note Prefix" Shortcut="7" Type="Char" FontChange="Face+Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 SegoeUI-BoldItalic;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs22\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \ql\ltrch\loch {\f0\fs22\b1\i1\cf3 Attributes}}]]></Format>
+    </Style>
+    <Style ID="23E062B7-834F-4753-A85D-DF3B63862D48" Name="Note Block" Box="0.982574 0.990005 0.841505" Shortcut="8" Type="Para+Char" FontChange="Face+Size">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fmodern\fcharset0\fprq2 Calibri;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs26\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tqr\tx10498\li44\fi-43\ri-1829\sa240\ltrch\loch {\f0\fs26\b0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="87C54B37-2345-45DA-A618-1A6D23034C7F" Name="List" Shortcut="9" Type="Para">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs24\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx0\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li763\fi-475\sa240\ql\ltrch\loch {\f0\fs24\b0\i0 Attributes}}]]></Format>
+    </Style>
+    <Style ID="EA6C74BD-4B6C-49D1-A413-6FCBBEC7D62B" Name="Indented Tip-Note" Type="Para">
+        <Format><![CDATA[{\rtf1\ansi\ansicpg1252\uc1\deff0
+{\fonttbl{\f0\fnil\fcharset0\fprq2 Cambria;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue255;\red128\green128\blue128;}
+\paperw12240\paperh15840\margl1800\margr1800\margt1440\margb1440\fet2\ftnbj\aenddoc
+\f0\fs24\cf0\ftnbj\ftnnar\aftnnar
+\sectd\sftnnar\saftnnar\titlepg\pgnrestart\pgnstarts1
+\pard\plain \tx0\tx360\tx720\tx1080\tx1440\tx1800\tx2160\tx2880\tx3600\tx4320\li1454\fi-648\sa240\ql\ltrch\loch {\f0\fs24\b0\i0 Attributes}}]]></Format>
+    </Style>
+</Styles>

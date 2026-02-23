@@ -1,0 +1,994 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FinalDraft DocumentType="Script" Template="No" Version="6">
+
+  <DocumentRef DateTime="20260121T121050" id="12ee6345-d5af-447f-97ff-9e7aadfb8a06">
+    <XRef DateTime="20260121T120501" id="f0aab7a4-5bee-4dff-9a58-577552de2ace"/>
+  </DocumentRef>
+
+  <Content>
+    <Paragraph Type="Outline 1" id="dcd46ba3-4c48-42b6-81c2-23c788b7b918">
+      <Text>Act 1</Text>
+    </Paragraph>
+    <Paragraph Type="Summary" id="be55a867-d6d3-4569-ac9c-5cfde8544130">
+      <Text>Luke discovers his abilities and must learn to control them while the tragic event of his family dying forces him to leave home.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" id="37ff2f78-9e09-4b10-9d1f-ed08d7e5e9fc">
+      <SceneProperties Length="1 1/8" Page="1" Title="">
+        <SceneArcBeats>
+          <CharacterArcBeat Name="BERU">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+          </CharacterArcBeat>
+          <CharacterArcBeat Name="LUKE">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+          </CharacterArcBeat>
+          <CharacterArcBeat Name="OWEN">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+          </CharacterArcBeat>
+          <CharacterArcBeat Name="THREEPIO">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+          </CharacterArcBeat>
+        </SceneArcBeats>
+      </SceneProperties>
+      <Text>ExT. lars family home - DAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="c7720a13-73cc-45af-842f-d202056b0af8">
+      <Text>Outside their home, LUKE and AUNT </Text>
+      <Text AdornmentStyle="-1">BERU</Text>
+      <Text> are talking while the Jawa </Text>
+      <Text AdornmentStyle="-1">sandcrawller</Text>
+      <Text> stops near OWEN who is beginning to converse with the </Text>
+      <Text AdornmentStyle="-1">Jawas</Text>
+      <Text>.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="c27b2ae4-5eff-4be6-a432-948822c1cb40">
+      <Text AdornmentStyle="-1">Beru</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="6b43bf3d-f214-4bd1-b079-15f22638abb5">
+      <Text>Luke, tell Owen that if he gets a translator to be sure it speaks Bocce.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="674da971-fb3c-4632-8a53-499fff1af4ed">
+      <Text>Luke</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="8a366523-a7d0-4b7d-875c-7bd95973e748">
+      <Text>It looks like we don’t have much of a choice but I’ll remind him.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="b602993c-a2da-42bd-bc1b-992c0d7d888f">
+      <Text>Luke returns to his uncle as they look over the equipment for sale with the Jawa leader.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="493e3d4e-d877-4531-bf16-81c6dc69ad6e">
+      <Text>Owen</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="b1c786d5-a3b7-4911-b484-862274ed5c68">
+      <Text>I have no need for a protocol droid.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="a019c28c-ef6d-4933-b09f-44ee9618e90e">
+      <Text>Threepio</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="6410c479-794d-4f1b-8abd-7f197ccfb25e">
+      <Text>(quickly)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="4050499c-62dc-4b18-81a6-7fc873785a9f">
+      <Text>Sir -- not in an environment such as this -- that’s why I’ve also been programmed for over thirty secondary functions that...</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="db1be4bb-aceb-4f62-be5c-d89c6fbaa593">
+      <Text>Owen </Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="74c0c4ac-a933-4c21-af04-58947f1c4d62">
+      <Text>What I really need is a droid that understands the binary language of moisture vaporators.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="040ada3d-111f-4e3a-8aa4-ff0ae9f19498">
+      <Text>Threepio</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="50e51ea5-5d73-48e6-b978-6c6438e04b3d">
+      <Text>Vaporators! Sir -- My first job was programming binary load lifter... very similar to your vaporators. You could say...</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="771c4513-febf-4876-82f1-f76dae7fa1ca">
+      <Text>Owen</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="ac3912d3-51e5-4ec0-a2a0-39fa5322048a">
+      <Text>Do you speak Bocce?</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="982f1532-2786-4de7-a5d2-ab57c37fbcb9"/>
+    <Paragraph Type="Character" id="3a891ec0-55f1-44f8-8937-fe340a1b2651">
+      <Text>THREEPIO</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="739e5d6e-57f0-4077-9c04-c624d1d158d4">
+      <Text>Of course I can, sir. It’s like a second language for me... I’m as fluent in Bocce...</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="791b0921-7c4b-40fe-8e29-68c5f0651afd">
+      <Text>Owen</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="59cfdef2-18ac-45d2-b0e9-763fe575e132">
+      <Text>All right shut up!</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical" id="cd691cbb-2e58-4ed4-853a-7c87631d3013">
+      <Text>(turning to Jawa)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="1e6742cf-9204-4de6-9d8f-6d6ee857a1ab">
+      <Text>I’ll take this one.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="0af09781-b3d8-4439-8ca3-7dd873466132">
+      <Text>ThREEPIO</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="437f9d70-b780-4759-a988-ef002efa53aa">
+      <Text>Shutting up, sir.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" id="1123cd00-2bca-46aa-b173-256c9d1ff202">
+      <SceneProperties Length="1" Page="2" Title="">
+        <SceneArcBeats>
+          <CharacterArcBeat Name="BEN">
+            <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+          </CharacterArcBeat>
+        </SceneArcBeats>
+      </SceneProperties>
+      <Text>EXT. tatooine - wasteland</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="3af968e2-4529-48f9-b517-cb55281db9b7">
+      <Text>The Landspeeder with Luke, Artoo, Threepio, and Ben in it zooms across the desert. The speeder stops on a bluff overlooking the spaceport at Mos Eisley. It is a haphazard array of low, grey, concrete structures and semi-domes. A harsh gale blows across the stark canyon floor. Luke adjusts his goggles and walks to the edge of the craggy bluff where Ben is standing.</Text>
+    </Paragraph>
+    <Paragraph Type="Character" id="b4277423-e0bc-4dd9-a2f3-219eaf04d3cf">
+      <Text>Ben</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue" id="911554ee-417b-4785-b566-019b856a4414">
+      <Text>Mos Eisley Spaceport. You will never find a more wretched hive of scum and villainy. We must be cautious.</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="6f29aeac-5f7f-4bf2-8b7c-b926f73aaaf9">
+      <Picture Height="432" Id="d750cb33-a998-42c0-a2f3-d6ba7245c95d" Width="432"/>
+    </Paragraph>
+    <Paragraph Type="Scene Heading" id="1c3dbe0a-4ad2-4319-9792-53e82d1c9780">
+      <SceneProperties Length="1/8" Page="3" Title="">
+        <SceneArcBeats/>
+      </SceneProperties>
+      <Text>INT. CANTINA BAR -  dAY</Text>
+    </Paragraph>
+    <Paragraph Type="Action" id="4078ab17-677d-4877-87a0-1a3ac69fb190"/>
+    <Paragraph Type="Outline 1" id="8def140b-3a99-42a7-b852-5791af2cfebb">
+      <Text>Act 2</Text>
+    </Paragraph>
+    <Paragraph Type="Summary" id="2172e7da-e5a6-40f9-9b66-d08d3dc55e43">
+      <Text>In leaving and trying to escape he is in danger of being captured by the empire. He finds a princess and decides to aid her with also escaping. Through this struggle he loses his mentor.</Text>
+    </Paragraph>
+    <Paragraph Type="Outline 2" id="75fbbd85-90b3-4606-b991-59daec901844">
+      <Text>Central Conflict</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.13" RightIndent="7.50" SpaceBefore="15" Spacing="1" StartsNewPage="No" Type="Summary" id="c4ad1ee5-ea34-4af4-bfa7-3802071f5dad">
+      <Text>1. Luke's goal is to realise his mystical powers and stand up against the empire.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.13" RightIndent="7.50" SpaceBefore="15" Spacing="1" StartsNewPage="No" Type="Summary" id="2142b705-0d23-48c0-8fb4-00a023bfd20a">
+      <Text>2. The main obstacle is the empire and learning about the mystical powers.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.13" RightIndent="7.50" SpaceBefore="15" Spacing="1" StartsNewPage="No" Type="Summary" id="1f398228-b56d-4246-8580-87fd85bdbd80">
+      <Text>3. Luke must grow as a person learning about the mystical powers and use his skills to confront the empire.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.13" RightIndent="7.50" SpaceBefore="15" Spacing="1" StartsNewPage="No" Type="Summary" id="c537bef3-b6ef-43be-a083-6b46be8957ae">
+      <Text>4. The worst thing that can happen is that he cannot master the power and therefore dies trying to stand up to the empire.</Text>
+    </Paragraph>
+    <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.13" RightIndent="7.50" SpaceBefore="15" Spacing="1" StartsNewPage="No" Type="Summary" id="6d100800-0b92-40df-8eb8-c8f88ada7535">
+      <Text>5. Luke has to change to understand the nature of the universe and be comfortable in high pressure situations.</Text>
+    </Paragraph>
+    <Paragraph Type="Outline 1" id="79848527-9b33-4857-babd-380513fe6073">
+      <Text>Act 3</Text>
+    </Paragraph>
+    <Paragraph Type="Summary" id="67f12446-cf22-408c-a93f-d5f6164195d4">
+      <Text>With the empire chasing Luke he has no choice but to fight and to use his powers to deal a blow to the empire and survive himself along with all of the rebellion.</Text>
+    </Paragraph>
+  </Content>
+
+  <Watermarking Opacity="70" Position="Diagonal Descending">
+    <DynamicContent>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="1" RightIndent="1.39" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+    </DynamicContent>
+    <Distribution>
+      <Name></Name>
+    </Distribution>
+    <WatermarkImage Height="144"></WatermarkImage>
+  </Watermarking>
+
+  <HeaderAndFooter FooterFirstPage="Yes" FooterVisible="No" HeaderFirstPage="No" HeaderVisible="Yes" StartingPage="1">
+    <Header>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.00" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">	</Text>
+        <DynamicLabel AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Collated Revisions"/>
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">	</Text>
+        <DynamicLabel AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Page #"/>
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">.</Text>
+        <Tabstops>
+          <Tabstop Position="4.50" Type="Center"/>
+          <Tabstop Position="7.25" Type="Right"/>
+        </Tabstops>
+      </Paragraph>
+    </Header>
+    <Footer>
+      <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""> </Text>
+      </Paragraph>
+    </Footer>
+  </HeaderAndFooter>
+
+  <SpellCheckIgnoreLists>
+    <IgnoredRanges/>
+    <IgnoredWords>
+      <Word>Jawa</Word>
+      <Word>Landspeeder</Word>
+      <Word>THREEPIO</Word>
+      <Word>vaporators</Word>
+    </IgnoredWords>
+  </SpellCheckIgnoreLists>
+
+  <PageLayout BottomMargin="72" BreakDialogueAndActionAtSentences="Yes" DocumentLeading="Normal" FooterMargin="36" HeaderMargin="36" InvisiblesColor="#808080808080" TopMargin="72" UsesSmartQuotes="Yes">
+    <PageSize Height="1879.00" Width="612.00"/>
+    <AutoCastList AddParentheses="Yes" AutomaticallyGenerate="Yes" CastListElement="Cast List"/>
+  </PageLayout>
+
+  <WindowState Height="1058" Left="16" Mode="Maximized" Top="6" Width="1737"/>
+
+  <TextState Scaling="60" Selection="728,728" ShowInvisibles="No"/>
+
+  <ElementSettings Type="General">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="General"/>
+    <Behavior PaginateAs="General" ReturnKey="General" Shortcut="0" TabKey="" WinShortcut="0"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Scene Heading">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Scene Heading"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Action" Shortcut="1" TabKey="" WinShortcut="1"/>
+    <Outline CanHide="No" Level="2"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Action">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Action"/>
+    <Behavior PaginateAs="Action" ReturnKey="Action" Shortcut="2" TabKey="" WinShortcut="2"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Character">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="3.50" RightIndent="7.25" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Character"/>
+    <Behavior PaginateAs="Character" ReturnKey="Dialogue" Shortcut="3" TabKey="" WinShortcut="3"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Parenthetical">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="-0.10" Leading="Regular" LeftIndent="3.00" RightIndent="5.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Parenthetical"/>
+    <Behavior PaginateAs="Parenthetical" ReturnKey="Dialogue" Shortcut="4" TabKey="" WinShortcut="4"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Dialogue">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="2.50" RightIndent="6.00" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Dialogue"/>
+    <Behavior PaginateAs="Dialogue" ReturnKey="Action" Shortcut="5" TabKey="" WinShortcut="5"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Transition">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="5.50" RightIndent="7.10" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Transition"/>
+    <Behavior PaginateAs="Transition" ReturnKey="Scene Heading" Shortcut="6" TabKey="" WinShortcut="6"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Shot">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Shot"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Action" Shortcut="7" TabKey="" WinShortcut="7"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Cast List">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.50" RightIndent="7.50" SpaceBefore="0" Spacing="1" StartsNewPage="No" Type="Cast List"/>
+    <Behavior PaginateAs="Action" ReturnKey="Action" Shortcut="8" TabKey="" WinShortcut="8"/>
+    <Outline CanHide="No" Level="1"/>
+  </ElementSettings>
+
+  <ElementSettings Type="New Act">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="Yes" Type="New Act"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Scene Heading" Shortcut="9" TabKey="" WinShortcut="9"/>
+    <Outline CanHide="No" Level="6"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Sequence">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="Sequence"/>
+    <Behavior PaginateAs="Scene Heading" ReturnKey="Scene Heading" Shortcut="Ctrl+8" TabKey="" WinShortcut="Shift+8"/>
+    <Outline CanHide="No" Level="4"/>
+  </ElementSettings>
+
+  <ElementSettings Type="End of Act">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Bold+Underline+AllCaps"/>
+    <ParagraphSpec Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" RightIndent="7.50" SpaceBefore="24" Spacing="1" StartsNewPage="No" Type="End of Act"/>
+    <Behavior PaginateAs="Character" ReturnKey="New Act" Shortcut="Ctrl+9" TabKey="" WinShortcut="Shift+9"/>
+    <Outline CanHide="No" Level="6"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Summary">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="12" Style="HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.88" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Summary"/>
+    <Behavior PaginateAs="Outline Body" ReturnKey="Summary" Shortcut="Ctrl+0" TabKey="" WinShortcut="Shift+0"/>
+    <Outline CanHide="Yes" Level="0"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 1">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="16" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.88" RightIndent="7.50" SpaceBefore="16" Spacing="1" StartsNewPage="No" Type="Outline 1"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+1" TabKey="" WinShortcut="Shift+1"/>
+    <Outline CanHide="Yes" Level="7"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 2">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="14" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.13" RightIndent="7.50" SpaceBefore="14" Spacing="1" StartsNewPage="No" Type="Outline 2"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+2" TabKey="" WinShortcut="Shift+2"/>
+    <Outline CanHide="Yes" Level="5"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Outline 3">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="12" Style="Bold+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.38" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Outline 3"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+3" TabKey="" WinShortcut="Shift+3"/>
+    <Outline CanHide="Yes" Level="3"/>
+  </ElementSettings>
+
+  <ElementSettings Type="Note">
+    <FontSpec AdornmentStyle="0" Color="#87878F8FE0E0" Font="Arial" RevisionID="0" Size="12" Style="Italic+HiddenText"/>
+    <ParagraphSpec Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.63" RightIndent="7.50" SpaceBefore="12" Spacing="1" StartsNewPage="No" Type="Note"/>
+    <Behavior PaginateAs="Outline" ReturnKey="Summary" Shortcut="Ctrl+4" TabKey="" WinShortcut="Shift+4"/>
+    <Outline CanHide="Yes" Level="1"/>
+  </ElementSettings>
+
+  <TitlePage>
+    <HeaderAndFooter FooterFirstPage="Yes" FooterVisible="No" HeaderFirstPage="No" HeaderVisible="Yes" StartingPage="1">
+      <Header>
+        <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <DynamicLabel AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="" Type="Page #"/>
+          <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">.</Text>
+        </Paragraph>
+      </Header>
+      <Footer>
+        <Paragraph Alignment="Right" FirstIndent="0.00" Leading="Regular" LeftIndent="1.25" OutlineLevel="1" RightIndent="-1.25" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      </Footer>
+    </HeaderAndFooter>
+    <Content>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="7.74" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="Underline+AllCaps">Script Title</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Written by</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Name of First Writer</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Based on, If Any</Text>
+      </Paragraph>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Center" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No"/>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Address</Text>
+      </Paragraph>
+      <Paragraph Alignment="Full" FirstIndent="0.00" Leading="Regular" LeftIndent="1.00" OutlineLevel="1" RightIndent="8.21" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style="">Phone Number</Text>
+      </Paragraph>
+    </Content>
+    <TextState Scaling="100" Selection="26,26" ShowInvisibles="No"/>
+  </TitlePage>
+
+  <SmartType>
+    <Characters>
+      <Character>Beru</Character>
+      <Character>Luke</Character>
+      <Character>Owen</Character>
+      <Character>Threepio</Character>
+      <Character>Ben</Character>
+    </Characters>
+    <Extensions>
+      <Extension>(V.O.)</Extension>
+      <Extension>(O.S.)</Extension>
+      <Extension>(O.C.)</Extension>
+      <Extension>(CONT'D)</Extension>
+      <Extension>(SUBTITLE)</Extension>
+      <Extension>(TEXT)</Extension>
+    </Extensions>
+    <SceneIntros Separator=". ">
+      <SceneIntro>INT</SceneIntro>
+      <SceneIntro>EXT</SceneIntro>
+      <SceneIntro>I/E</SceneIntro>
+    </SceneIntros>
+    <Locations>
+      <Location>TATOOINE</Location>
+      <Location>HOME OFFICE</Location>
+      <Location>LARS FAMILY HOME</Location>
+    </Locations>
+    <TimesOfDay Separator=" - ">
+      <TimeOfDay>DAY</TimeOfDay>
+      <TimeOfDay>NIGHT</TimeOfDay>
+      <TimeOfDay>AFTERNOON</TimeOfDay>
+      <TimeOfDay>MORNING</TimeOfDay>
+      <TimeOfDay>EVENING</TimeOfDay>
+      <TimeOfDay>LATER</TimeOfDay>
+      <TimeOfDay>MOMENTS LATER</TimeOfDay>
+      <TimeOfDay>CONTINUOUS</TimeOfDay>
+      <TimeOfDay>THE NEXT DAY</TimeOfDay>
+      <TimeOfDay>MAGIC HOUR</TimeOfDay>
+      <TimeOfDay>DAWN</TimeOfDay>
+      <TimeOfDay>DUSK</TimeOfDay>
+      <TimeOfDay>SAME</TimeOfDay>
+      <TimeOfDay>SAME TIME</TimeOfDay>
+      <TimeOfDay>WASTELAND</TimeOfDay>
+      <TimeOfDay> AY</TimeOfDay>
+    </TimesOfDay>
+    <Transitions>
+      <Transition>CUT TO:</Transition>
+      <Transition>FADE IN:</Transition>
+      <Transition>FADE OUT.</Transition>
+      <Transition>FADE TO:</Transition>
+      <Transition>DISSOLVE TO:</Transition>
+      <Transition>BACK TO:</Transition>
+      <Transition>MATCH CUT TO:</Transition>
+      <Transition>JUMP CUT TO:</Transition>
+      <Transition>FADE TO BLACK.</Transition>
+      <Transition>SMASH CUT TO:</Transition>
+      <Transition>CUT TO BLACK.</Transition>
+      <Transition>TIME CUT:</Transition>
+    </Transitions>
+  </SmartType>
+
+  <MoresAndContinueds>
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+    <DialogueBreaks AutomaticCharacterContinueds="Yes" BottomOfPage="Yes" DialogueBottom="(MORE)" DialogueTop="(CONT'D)" TopOfNext="Yes"/>
+    <SceneBreaks ContinuedNumber="No" SceneBottom="(CONTINUED)" SceneBottomOfPage="No" SceneTop="CONTINUED:" SceneTopOfNext="No"/>
+  </MoresAndContinueds>
+
+  <LockedPages/>
+
+  <Revisions ActiveSet="1" Location="7.75" RevisionMode="No" RevisionsShown="Active" ShowPageColor="No">
+    <Revision FullRevision="No" ID="1" Mark="*" Name="Blue Rev. (mm/dd/yy)" PageColor="#C6C6EDEDFEFE" Style=""/>
+    <Revision FullRevision="No" ID="2" Mark="*" Name="Pink Rev. (mm/dd/yy)" PageColor="#FDFDCCCCD4D4" Style=""/>
+    <Revision FullRevision="No" ID="3" Mark="*" Name="Yellow Rev. (mm/dd/yy)" PageColor="#FDFDFFFFABAB" Style=""/>
+    <Revision FullRevision="No" ID="4" Mark="*" Name="Green Rev. (mm/dd/yy)" PageColor="#D1D1FEFED0D0" Style=""/>
+    <Revision FullRevision="No" ID="5" Mark="*" Name="Goldenrod Rev. (mm/dd/yy)" PageColor="#FAFACDCD3939" Style=""/>
+    <Revision FullRevision="No" ID="6" Mark="*" Name="Buff Rev. (mm/dd/yy)" PageColor="#FCFCEDED9D9D" Style=""/>
+    <Revision FullRevision="No" ID="7" Mark="*" Name="Salmon Rev. (mm/dd/yy)" PageColor="#F8F8AEAE8E8E" Style=""/>
+    <Revision FullRevision="No" ID="8" Mark="*" Name="Cherry Rev. (mm/dd/yy)" PageColor="#FBFBA4A4B4B4" Style=""/>
+    <Revision FullRevision="No" ID="9" Mark="*" Name="Tan Rev. (mm/dd/yy)" PageColor="#FDFDF1F1C7C7" Style=""/>
+    <Revision FullRevision="No" ID="10" Mark="*" Name="2nd White Rev. (mm/dd/yy)" PageColor="#FFFFFFFFFFFF" Style=""/>
+    <Revision FullRevision="No" ID="11" Mark="*" Name="2nd Blue Rev. (mm/dd/yy)" PageColor="#C6C6EDEDFEFE" Style=""/>
+    <Revision FullRevision="No" ID="12" Mark="*" Name="2nd Pink Rev. (mm/dd/yy)" PageColor="#FDFDCCCCD4D4" Style=""/>
+    <Revision FullRevision="No" ID="13" Mark="*" Name="2nd Yellow Rev. (mm/dd/yy)" PageColor="#FDFDFFFFABAB" Style=""/>
+    <Revision FullRevision="No" ID="14" Mark="*" Name="2nd Green Rev. (mm/dd/yy)" PageColor="#D1D1FEFED0D0" Style=""/>
+    <Revision FullRevision="No" ID="15" Mark="*" Name="2nd Goldenrod Rev. (mm/dd/yy)" PageColor="#FAFACDCD3939" Style=""/>
+    <Revision FullRevision="No" ID="16" Mark="*" Name="2nd Buff Rev. (mm/dd/yy)" PageColor="#FCFCEDED9D9D" Style=""/>
+    <Revision FullRevision="No" ID="17" Mark="*" Name="2nd Salmon Rev. (mm/dd/yy)" PageColor="#F8F8AEAE8E8E" Style=""/>
+    <Revision FullRevision="No" ID="18" Mark="*" Name="2nd Cherry Rev. (mm/dd/yy)" PageColor="#FBFBA4A4B4B4" Style=""/>
+    <Revision FullRevision="No" ID="19" Mark="*" Name="2nd Tan Rev. (mm/dd/yy)" PageColor="#FDFDF1F1C7C7" Style=""/>
+  </Revisions>
+
+  <SplitState ActivePanel="2" CardsAcross="3" ShowAction="Yes" ShowSceneTitle="Yes" ShowSummary="Yes" SplitMode="Vertical" SplitterPosition="875">
+    <BeatBoardPanel DisplayMode="Page" ScrollOrigin="0,0">
+      <FontSpec AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style=""/>
+    </BeatBoardPanel>
+    <IndexCardPanel DisplayMode="Summary">
+      <FontSpec AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style=""/>
+    </IndexCardPanel>
+  </SplitState>
+
+  <Macros>
+    <Macro Element="Scene Heading" Name="INT" Shortcut="Ctrl+Alt+1" Text="INT. " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="EXT" Shortcut="Ctrl+Alt+2" Text="EXT. " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="I/E" Shortcut="Ctrl+Alt+3" Text="I/E " Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="DAY" Shortcut="Ctrl+Alt+4" Text=" - DAY" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="NIGHT" Shortcut="Ctrl+Alt+5" Text=" - NIGHT" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="SUNRISE" Shortcut="Ctrl+Alt+6" Text=" - SUNRISE" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Scene Heading" Name="MAGIC" Shortcut="Ctrl+Alt+7" Text=" - MAGIC" Transition="Action">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Parenthetical" Name="CONT" Shortcut="Ctrl+Alt+8" Text="continuing" Transition="Dialogue">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Parenthetical" Name="INTER" Shortcut="Ctrl+Alt+9" Text="interrupting" Transition="Dialogue">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="None" Name="" Shortcut="Ctrl+Alt+0" Text="" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="CUTTO" Shortcut="Ctrl+Shift+Alt+1" Text="CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Action" Name="FADEIN" Shortcut="Ctrl+Shift+Alt+2" Text="FADE IN:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FADEOUT" Shortcut="Ctrl+Shift+Alt+3" Text="FADE OUT." Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FADETO" Shortcut="Ctrl+Shift+Alt+4" Text="FADE TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="DISSLV" Shortcut="Ctrl+Shift+Alt+5" Text="DISSOLVE TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="BACKTO" Shortcut="Ctrl+Shift+Alt+6" Text="BACK TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="MATCHCUT" Shortcut="Ctrl+Shift+Alt+7" Text="MATCH CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="JUMPCUT" Shortcut="Ctrl+Shift+Alt+8" Text="JUMP CUT TO:" Transition="Scene Heading">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="Transition" Name="FBLACK" Shortcut="Ctrl+Shift+Alt+9" Text="FADE TO BLACK." Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+    <Macro Element="None" Name="" Shortcut="E" Text="" Transition="None">
+      <Alias Confirm="No" MatchCase="No" SmartReplace="Yes" Text="" WordOnly="No">
+        <ActivateIn Element="General"/>
+        <ActivateIn Element="Scene Heading"/>
+        <ActivateIn Element="Action"/>
+        <ActivateIn Element="Character"/>
+        <ActivateIn Element="Parenthetical"/>
+        <ActivateIn Element="Dialogue"/>
+        <ActivateIn Element="Transition"/>
+        <ActivateIn Element="Shot"/>
+      </Alias>
+    </Macro>
+  </Macros>
+
+  <Actors>
+    <Actor MacVoice="" Name="Man 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Man 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Woman 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Woman 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Boy 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Boy 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Girl 1" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Girl 2" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Old Man" Pitch="Normal" Speed="Medium" WinVoice=""/>
+    <Actor MacVoice="" Name="Old Woman" Pitch="Normal" Speed="Medium" WinVoice=""/>
+  </Actors>
+
+  <Cast>
+    <Narrator Actor="Man 1">
+      <Element Type="Character"/>
+      <Element Type="Dialogue"/>
+    </Narrator>
+    <Member Actor="" Character="Beru"/>
+    <Member Actor="" Character="Luke"/>
+    <Member Actor="" Character="Owen"/>
+    <Member Actor="" Character="Threepio"/>
+    <Member Actor="" Character="Ben"/>
+  </Cast>
+
+  <SceneNumberOptions LeftLocation="0.75" NumberScheme="1A" RightLocation="7.38" ShowNumbersOnLeft="Yes" ShowNumbersOnRight="Yes">
+    <FontSpec AdornmentStyle="0" Font="Courier Final Draft" RevisionID="0" Size="12" Style=""/>
+  </SceneNumberOptions>
+
+  <CastList SortOption="Order of appearance in each scene">
+    <CustomOrder/>
+  </CastList>
+
+  <CharacterHighlighting>
+    <Character Color="#RRRRGGGGBBBB" Name="BEN" Visible="No"/>
+    <Character Color="#RRRRGGGGBBBB" Name="BERU" Visible="No"/>
+    <Character Color="#RRRRGGGGBBBB" Name="LUKE" Visible="No"/>
+    <Character Color="#RRRRGGGGBBBB" Name="OWEN" Visible="No"/>
+    <Character Color="#RRRRGGGGBBBB" Name="THREEPIO" Visible="No"/>
+  </CharacterHighlighting>
+
+  <ScriptNavigatorPreferences>
+    <TableColumnSettings Filter="" IsSortAscending="Yes" Label="Script" SortColumn="" TableIdentifier="NavDynScenes" id="e4cc0e17-e966-404f-bacd-ec32b98f478a"/>
+  </ScriptNavigatorPreferences>
+
+  <AltCollection/>
+
+  <TargetScriptLength>80</TargetScriptLength>
+
+  <ListItems>
+    <ListItem Id="11892d8c-669a-46d5-a5ef-472348543f0f" Title="Star Wars" Type="Beat">
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Luke discovers his mystical powers and uses said powers to destroy the oppressive imperial regime.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+    <ListItem Id="f0ac76a7-75fb-4b7b-a6be-cebab3bb84f4" Title="Luke" Type="Beat">
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.33" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Luke lives with his aunt and uncle on the fringes of the empire. He has aspirations to join the rebellion but is not old enough to do so.</Text>
+        </Paragraph>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.33" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">He is a moisture farmer alongside his aunt and uncle.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+    <ListItem Id="11113810-7569-49f9-a41d-f022a217e3cb" Title="Act 1" Type="Beat">
+      <SubordinateTo Length="19.000" Level="Outline 1" Number="0.000" Order="0" Type="PageGoal"/>
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Luke discovers his abilities and must learn to control them while the tragic event of his family dying forces him to leave home.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+    <ListItem Id="62f587dd-d61d-46a2-bd0d-3d50fc92640d" Title="Act 3" Type="Beat">
+      <SubordinateTo Length="20.000" Level="Outline 1" Number="59.125" Order="0" Type="PageGoal"/>
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">With the empire chasing Luke he has no choice but to fight and to use his powers to deal a blow to the empire and survive himself along with all of the rebellion.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+    <ListItem Id="d0986ef1-0fb4-418d-9253-8713e4e03e5f" Title="Vader" Type="Beat">
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Vader is a general for the empire and possesses mystical powers which he uses to subjugate citizens and non citizens.</Text>
+        </Paragraph>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">His purpose is to serve the emperor.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+    <ListItem Id="3a90200f-b50e-43fb-a131-ad55c74834ef" Title="Central Conflict" Type="Beat">
+      <SubordinateTo Length="39.875" Level="Outline 2" Number="19.000" Order="0" Type="PageGoal"/>
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">1. </Text>
+          <Text AdornmentStyle="-1" Font="Arial" RevisionID="0" Size="12" Style="">Lukes</Text>
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style=""> goal is to realise his mystical powers and stand up against the empire.</Text>
+        </Paragraph>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">2. The main obstacle is the empire and learning about the mystical powers.</Text>
+        </Paragraph>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">3. Luke must grow as a person learning about the mystical powers and use his skills to confront the empire.</Text>
+        </Paragraph>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">4. The worst thing that can happen is that he cannot master the power and therefore dies trying to stand up to the empire.</Text>
+        </Paragraph>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">5. Luke has to change to understand the nature of the universe and be comfortable in high pressure situations.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+    <ListItem Id="ded95a71-6f2c-452d-9cb5-49f3917327f3" Title="Act 2" Type="Beat">
+      <SubordinateTo Length="40.125" Level="Outline 1" Number="19.000" Order="0" Type="PageGoal"/>
+      <Content>
+        <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="3.06" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+          <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">In leaving and trying to escape he is in danger of being captured by the empire. He finds a princess and decides to aid her with also escaping. Through this struggle he loses his mentor.</Text>
+        </Paragraph>
+      </Content>
+    </ListItem>
+  </ListItems>
+
+  <DisplayBoards>
+    <DisplayBoard Height="10000" Id="ea5ac6af-4926-415c-897c-51bfeff25831" ScrollOrigin="0,0" Type="Beat" Width="24000" ZoomLevel="100.000">
+      <Item Height="280" Id="3a90200f-b50e-43fb-a131-ad55c74834ef" Left="40" Top="300" Width="240"/>
+      <Item Height="120" Id="62f587dd-d61d-46a2-bd0d-3d50fc92640d" Left="300" Top="600" Width="240"/>
+      <Item Height="140" Id="ded95a71-6f2c-452d-9cb5-49f3917327f3" Left="300" Top="440" Width="240"/>
+      <Item Height="120" Id="11113810-7569-49f9-a41d-f022a217e3cb" Left="300" Top="300" Width="240"/>
+      <Item Height="140" Id="d0986ef1-0fb4-418d-9253-8713e4e03e5f" Left="300" Top="140" Width="240"/>
+      <Item Height="140" Id="f0ac76a7-75fb-4b7b-a6be-cebab3bb84f4" Left="20" Top="140" Width="260"/>
+      <Item Height="100" Id="11892d8c-669a-46d5-a5ef-472348543f0f" Left="160" Top="20" Width="240"/>
+    </DisplayBoard>
+    <DisplayBoard Height="90" Id="f54e428f-4469-484b-8c9d-7dba54866258" ScrollOrigin="0,0" Type="StoryMap" Width="1430" ZoomLevel="71.500">
+      <Lanes>
+        <Lane Id="f7afb03f-08f1-44d4-9c40-06826256c840" Label="Outline 1" Level="7" Type="Outline 1"/>
+        <Lane Id="cf114935-a6ee-482c-8935-13747975c358" Label="Outline 2" Level="5" Type="Outline 2"/>
+      </Lanes>
+      <Item Id="11113810-7569-49f9-a41d-f022a217e3cb" LaneId="f7afb03f-08f1-44d4-9c40-06826256c840"/>
+      <Item Id="3a90200f-b50e-43fb-a131-ad55c74834ef" LaneId="cf114935-a6ee-482c-8935-13747975c358"/>
+      <Item Id="62f587dd-d61d-46a2-bd0d-3d50fc92640d" LaneId="f7afb03f-08f1-44d4-9c40-06826256c840"/>
+      <Item Id="ded95a71-6f2c-452d-9cb5-49f3917327f3" LaneId="f7afb03f-08f1-44d4-9c40-06826256c840"/>
+    </DisplayBoard>
+  </DisplayBoards>
+
+  <Writers/>
+
+  <WriterMarkup State="Off"/>
+
+  <TagData>
+    <TagCategories>
+      <TagCategory Color="#00003600B700" Id="01fc9642-84ff-4366-b37c-a3068dee57e8" Name="Cast Members" Number="2" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="028a4e2b-b507-4d09-88ab-90e3edae9071" Name="Background Actors" Number="3" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0377dbe6-77a3-41af-bda8-86eb2468fdbf" Name="Stunts" Number="4" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="04721a56-f54b-49c8-80ad-d53887d6b851" Name="Vehicles" Number="5" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="05c556eb-6bc1-4a3a-b09f-f8b5ba1b6afa" Name="Props" Number="6" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="069e18b8-2109-4f3d-94e7-d802027a60a8" Name="Special Effects" Number="8" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0726fa85-1e65-4ab8-87de-bf21d09b01f0" Name="Wardrobe" Number="9" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="08ae1eef-32ce-415f-9a9b-0982d2453ec4" Name="Makeup/Hair" Number="10" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="09cb0d1c-ce01-4f22-bb64-b5f2e6c491c6" Name="Animals" Number="11" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0ae40617-cc7c-48e6-ae2b-5aaecc09986f" Name="Animal Wrangler" Number="12" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0b0b44c9-aa4b-4c40-88b1-d94472ad7a26" Name="Music" Number="13" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0ce7d308-096d-4603-8fe8-349f72cd89ff" Name="Sound" Number="15" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0debb71b-5743-4c53-80cc-e17e841ce645" Name="Set Dressing" Number="17" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0e7a8fc5-5441-4bad-a9bf-5ddd3fe51c69" Name="Greenery" Number="18" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="0ff5cda4-4d43-4cfe-940f-91380c46fdad" Name="Special Equipment" Number="19" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="109d0eaa-0334-4823-ac0c-b44d3f209dc4" Name="Security" Number="20" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="1179a4b1-70ee-4011-b4a2-809a0af09e92" Name="Additional Labor" Number="21" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="12ab0932-e3b9-4b4a-bcd0-3da1b4e61d5e" Name="Visual Effects" Number="23" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="135cc9d1-c4d5-4d00-83d9-571f584ea9cd" Name="Mechanical Effects" Number="24" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="15b6f4fd-4e74-4ad8-9971-b239d88c2997" Name="Notes" Number="26" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="216f33fd-fc42-4269-be01-b05b18f815a0" Name="Comments" Number="31" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="47b02ff1-5161-4137-b736-f36eebba7643" Name="Camera" Number="7" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="63c140da-ef2b-491a-b416-b46f461abb89" Name="Script Day" Number="27" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="70877d87-30ef-45b6-be46-c6fa94b83a71" Name="Sequence" Number="29" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="849f1ebf-5507-4f33-bff6-3a5b4d73be14" Name="Unit" Number="28" Style="Bold"/>
+      <TagCategory Id="8e5e75c2-713b-47df-a75f-f12648b98ded" Name="Synopsis" Number="1" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="c5e89e4d-f83e-4c28-950c-92a63f1b5f26" Name="Location" Number="30" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="c86eae40-3b01-41c3-a7de-6859e6ec971d" Name="Art Department" Number="16" Style="Bold"/>
+      <TagCategory Color="#94AA11150000" Id="ce04f547-f7ee-40c9-ab66-d95a0c98034e" Name="Miscellaneous" Number="25" Style="Bold"/>
+    </TagCategories>
+  </TagData>
+
+  <Characters>
+    <CharacterTraitData>
+      <Traits>
+        <Trait ID="a771e8a7-0c6f-401c-ab87-b50f83fc64b4" Name="Age" Type="text"/>
+        <Trait ID="6b3a0017-69de-4c7a-b6e8-1d0b4d2ad047" Name="Disability" Type="text"/>
+        <Trait ID="4b987a9f-24dc-44ae-9bb5-0756485c1c80" Name="Ethnicity" Type="text"/>
+        <Trait ID="611965b7-ffab-41a1-a154-023ea8caf768" Name="Gender" Type="text"/>
+        <Trait ID="9b51b304-a8c0-4277-a841-342b5f84fc65" Name="Occupation" Type="text"/>
+        <Trait ID="ecdbbc67-9a69-40dc-8e9f-745a665ab73a" Name="Orientation" Type="text"/>
+        <Trait ID="338d378b-5235-40ad-8102-0dbe0b32ff84" Name="Role" Type="text"/>
+      </Traits>
+      <Holders/>
+    </CharacterTraitData>
+    <ChartOptions Identifier="InclusivityAnalysis">
+      <FilterSets/>
+    </ChartOptions>
+  </Characters>
+
+  <ScriptNotes>
+    <ScriptNote Color="#RRRRGGGGBBBB" DateModified="20260202T113052" DateTime="20260202T113044" Id="1" Name="Hello There" Range="1667,1667" RefId="e1a9a108-5bf0-44a0-9313-6086d5a41ce1" Type="" WriterID="401df5f0-59bf-4f9f-9722-3648ab182763" WriterName="">
+      <Paragraph Alignment="Left" FirstIndent="0.00" Leading="Regular" LeftIndent="0.00" OutlineLevel="0" RightIndent="0.00" SpaceBefore="0" Spacing="1" StartsNewPage="No">
+        <Text AdornmentStyle="0" Font="Arial" RevisionID="0" Size="12" Style="">Hello There</Text>
+      </Paragraph>
+    </ScriptNote>
+  </ScriptNotes>
+
+  <Navigator>
+    <Tabs>
+      <Tab Selected="Yes" id="e4cc0e17-e966-404f-bacd-ec32b98f478a"/>
+    </Tabs>
+  </Navigator>
+
+  <Images>
+    <Image Id="d750cb33-a998-42c0-a2f3-d6ba7245c95d" Length="51736" Path="C:\Users\OJ\Downloads\🥵🔥.jpeg">i;_I07S43l!wxS\8,rYk!!#Oi@KxBeAncKY9hbTf!!"JK"TSf.!rrr7!ww*"!!!$""TTGA!ww*"8cShk"TTJB!ww*";?-[s!rs_M!ww*"!!!'#!rru9!ww*"!!!$"~8,rVi!ww*"8,rVi!ww*"6NGm@"U##0"px)6#6kx9$4$h@#mq"N%MT6V(D$uc(Dmu')AX)v)BU7G(*"Pw+=nWN.46Ge*uQLW-nR,).4?Jr!8IN%#6t8s$4$tD'+,'[)AX5x-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl-n$Jl_Z)#4!XKAw"5j7=!WXDFvH`%G!6"mw!WW3x!wE3'~~!ww*"!sJf/`;^vH!wFvw!wE3%!!!!"~~"9S]+!8@GV!!*01v-EIFT`G,nGj*I's*8GXmbgA2k3mBgfq*K]Q^9nFj7gC#KgkLa+P31#pJQ%s`2U(vlpr*XE9]:T?GO)f3\@Z*oA+7tl-#F-h_+0I4i5Z(xg"+5_QHN-?QEqFYvDH5j4_v6bXl]H4ub^ivIZW"N7%,Dq.b/!#T\DU4hkw$EEQ#T20*if0V,XOfb.5ld1e3,h-*cqVW'?[P+v[._H!Juvli2(kB+c2?;3)CI'S[^Of-Capj90TgeLpNdM`p:G`aa6B7NHDpfpF[RcY7I!'Os_F(nh'X^rhRg,`8KkPhto(GGX2e"^3K0ad`:(TCBa`hAmbRaBBD7QYWbcAWZ=36h5'Q++bwg=k3Yf'?1Wk?d[V$-%23O1Sc_whk_H*U)+#UX@P9SrFf::N?#?4:8bakE4uu^_K;!GTN\?O2)%nT$Jp[kj^ccd;SWto9hj"3L`FJoIx\]gki)%3+xC\XKLom.sxW\bY./XawVx^KdxY9$Ns1%ZSQeD*R;@#O40jNc#e4KX'NoFX)5vn`g1[kbhn`wM/o5t/#?IJ9quk_=QS.\:,dKuB7F6Vgh-pF`^ZQTg3I``8)c3cEC=x_:m4_wcZO9x+E^\c:*L7+0qr@j8wOOQ\=fOR.,vbI'ECB3!"^'5Oq7j.0sND52Mw!KvgeVeN6I9ukBxKrS[ivH/!X^$H+)G\0onM6[6.5JYKn;=N6:VO$g^U`^3]%3O$.e?ZoSRHR:,LJj\d](lXB*1e')"X^!5'K^oXB)KVxqg/K4gaCd=AF5m#_q*eeSHMQXLI7v14Q=k+vrYB@K?O!HAYD2eBr8!)p,Z\(BEQTuVD=Wjp"v!5E/m2Rcdv!5uI-hhjlHAF\cf0eW\Cct1Xf!g:ElVU9G4S4dYPGtxMH!/%iWcth:#(6)If(,^,,@1I8fe1aOAT)GWTA3,_h)o"Jo@5A9lUcT[IIG9rUH0JMT'PIHUf.Z]oA#VOeE6\_jYLW7m8MuF]"Ce1r)AaAje[:-=ru4H:k#Dl6?uV8;gD?g.^.A]=C.sSna]R@^jK*ER/*/a5l%+FQ'=f3P?^7QV,k@QLvIP4l#ZGGJd0q@1BK]f"fdI2;OV7l9M!'[M]vJTY#2?%33B*;a9jiFV2GpDqE9VbnTg@J?*ikIL%QKxUj"5bV-Ev*Oo)G+.B/+KHFM(3+L!Jn92*@,=%g/2bL+]xQH/$\]@$JvF\=^Og`ja[U@s=A`dka4/Rk8/Zmj#9PI;W(E(TF3;ln^(g,`8Gm$_FCfP"L04mkFWNOslVI$TLV?!"a5QTPApTM\NSZ"x0NF0nu4a?4/V)Cb!@VHQjZ8uwM(ND/1dfbuG0k]NIipbVR4q*"@mWH7J!bdZ;?T,IOfEn^1NBFN`B]SK+9V?$Y/fDOf_3ZheXarU-28UxZNC?Rf6XDL/(8(1twD7LZ6\gDv@]P:WnjHs_9X[35]aX2sjA$AUd%EW!6Xq`9njB49LK/1rdU.37,`VD-uQ@#I[1A)U:;g[iJYKkJCI_ZjlI14,HrA]iHkgt(k%.jN%v"r+W^(blWk5k4v!UID[]Enf2VRIv13hv!]gHJq)A(-9tMUDW*O(_C(O_084'fR9bBM:[UO3cVG!w9o!gk'!`Ls*8gMjWv'\i$R*:0S4g(pl6GhCro,[UVvG(YU'v1CW"LCl]EQ0l/Xx,Z^g;3a+b/W%g,.j[cj\]W%6uJX@cw!!!"L35IEO7N;DeS75#:WlELLxk6]J:]cv,$kTJ*N%grE_R)@pl)qW"aN+S(%n#%R`ll\Lett+g^RdkR"E4Ge-C=cfv;"VH9`RO8"+U@Y3W`2RdCNS?RwtXS.]qLhl-[f(-t!=B1]\6u!2'?H!"v]+pGaH!c.ANHgZ-K.HAx;F##TsP.\/$jG3x9r2=\'!!"23H.;/te8*+DoX$(qQeYCBj%;u:/!+5j3TE0Rt9`P/3![nKh3Z8vVe[c_l'vQ0fp6'$gld3u*)$#Hs!WrE?_urvN"TT[b]`J06H;nsC]xs*lOh:56#`qelW1x(c%=R;1qYTfe@l74`,63B13h]Q-1Y7*=V6k8h".Vk'%8%::!e:SZ!!WL48jGp:!7Ckc3'2*c(.sq:WSr'%?wXne47r-2M#dTe@YBi9!)Ox=M?*\W:?)J@Grj,Qxje'2;=3NBc-s:`KH!k%x)a#ZXUod1YvP)wLc4I;Q7A.6MH-OPqDIrqOEpKx=bcFsYY5`B)?:wp!'i4@Jg!A]!WZ$uO"\YtFh'Y-c!%U8k@f0U$-7xS!uN4-BgWO6!AK=gbGdt)SYr0!cJ6%Y7hR]x5(=.S1$kVS=kwfT(MZ8akxS30Mg\X%%CJV-=\]"uSc*q[:EQd8aQ[[E!"2+*~%5H34"HnAU#UTNO;jN/GLMHXwq`K:5-Nv=XGGSTW0c!m"@7*CQJ-f`he-*_Lhc\7b3X.)DqT_nMOd43jGg!#JJqi$`YLLR3E9Wj]Un0d%,1bW0Lw_KhKXNXk!^cs"jd6Osx^CNV?9L^D5iWvG,v%C?$t3%!"u$(9J.nS!$j74NLF-De6g=+aI@`X+QWLd=%fPb%dnjHJ(]Xu!+V5QB]pElYG.CoXF1bP6amM^$M/'YAZMN"=O+b'D3F*T-qI=:!Qb6V,o,[A-osehQ!"_],BP;o#V0lP08hF73`pM7h.%_PpLeO9^!=_c`JJ\AE0glt:+TMs+#QtQdHt":/$0fjKGPLh+1UJ1+!#[r,#Y5)qW=]=QU65R'9:p^%J@^,;FXb??APG6mG2=.!7cRe9bffBE]fD_]htaV!oJuKi4hg6U(#Bbmv]ibx4,"h'd40Bv4FO]a;eoc@"7k`dR\mT#L(Go/jUc87-31.`'Fd=c?ml$%+94Y/Fnmj#:RB\.'mlK86DweP+JSr:P8EwpJ-KH_Dlj!xpiae#d!9*ov4w`K)iFa84/WI%n[KU!m;cuJE`prHkIfg?F_wng?bYm'0=sCu?N#hFHfE5Xm@5W?47DgLpM'0`GFCUmq=WEVF*a?#":5'FVGTrH"%Fa"JAxox!Ke#qBIbr3!gj61*X?3`l#XG#f2C;bo=*Qr?l4=!--?5s@L)rgca2(DQNP\u0b#LB?SrK^VH;0vakfm-mfP/u=LqYu;"+7ng?$W-opxaZa$2a"Ep@v[N^[\0dwESO(-\kl[:3_2k0+b?il\Hs=IAU/YsP+wa?gPm9`R_?8[8m?-3f(G=9-jDa8uerF%VcpI/CR0mEO7/hk?U9^tM?m6N@3*x$;#)\m.xMC="].![*=jO%:!^l!Z+Ni]c8IO.FbY*E04+SF1GVG-44/Vu3rU/'hk6jgR)FO.JO`6A"D_RIx*]f:ts7IfwZMH(@^LvDe)pNAQK_L_XBlMdmxji^PU:C(`lH5XLvx8P+F4FD-(d(]D"*TvmU+CmT%"8g+p+v2?LJHB/0W7;mBK9#U)d![%^$;Ox]rEi[?RqDRpZ`f]!:PM2;E)vFTBFf%%m,_@0D3sA3TjhgG-BQ;MO:Ta*W.Iu[3Q0[OUa`uWj;2TXsBU!27dXbdEXY^K(.;2%%!ww*h:Rg]-+$jY.UsDOqk\'-'^a/)e^k#*mGr^BXlWBW;)Y?$4Jg^Y70!D\";n\HxOfr)OMZ/Y)8ZekueE?"=/Ipe`X^(-`PQ:bbHTZnE@.lY2.KCw9m4f^Emo`/.@pZ7Bc"tuUGIY;+YStIK:_L#P;C9q]1^!el!!,UmC_CD2V5/5oB@K*eBBXZd35Khv1^\*0C/Q9Dn_@I4@gTKw!,)S8+]\mLd8x6/wvj?FobkFeLwmAW9Xi@,)KwH+$sMFOV+^jh;3o@.d;"8pPNWQ7s*MjDDUK=$9X"8.;*@F*Qk$U'Vp"D)^x\EBAQRE1ZEDB;BP=IoUC^@T#XA@io-vDa5"\Q8UHL5XTx,K=:wq7:="\AAFj-C`o?jVw4eL$a8g`4BvdU!E9d.gB4Ee2)QYsO$n!r^5qWW]$5;+xE8X%+m9`YfUJ0lP[JMoap!_H7^op$xVbB\;wgJ=F63;/6r]l2ln%X'Fg/Fb`KmYnC?o2uG_3chac\v3c;^`,OV!!%Z^RfjW8N7:!\"ero0d*L+'6aU:oFh+oWluIi?/YDK4!t?BBow(Fj'^e9;E01hko?6L+HHqTNH;`?Nai:jCd5$!jkK7FrEm6R([ZJ'O@,.sV-icLWWSEnA7pxEajb\Y3TBYq2ml]kmkFCqA7sB6[HCUA)@7qV7"@J+r%J@",^Y$kFEL5RHKm*GZvEG[HF'sq5:7kVPehfF8s$FIuXU_6/Eq`hA"n$?^rk7T%%5\*/b7[i!oGhP"M#m7T_:4A^e]Y5xY@1:hUDVWA;4gdF+huvJ/hawu_SJ*5)RocTjRIOa$!e%,$JNG*H#x*52s3]')YI?`'V[d?G!JvB^^u"rb9x.:h`Xc9a3b]!SPLoKx%G1"B;-mXom*qtMqdFVm0kRDfm-=7[)]SJ@iZvI$nWB$_C6$AUAt:!0W0JCSIi_-=j?+mcfh@-D*C^g.5_XXv-/()BLYE[D99X`q+/tP'-3C_"b\En$\].tHC.q4oDKLEgAHWh"jgBc8SB:J#,%YY$XFnUX9V\I[.wN/gg]vvW$xbfq3=.qU77e$9@JiQRaXbcrYh3Zw]]Pq+R/Oo.KpKMUb'gaxYW0s@N'L9xP[@^0"uE+hkeA"oBSe/l/lXI/Yxj_JxvY:"H:;4Cg@52'MKdO#/GaSO'3GLX.KJMLO3[(T=:Gf0)kO%D"r\x15#W-84-(7+xd'5rar#C!^1E+PT8"5449d.\'jAorVW0L[4=][WHlN^l-4.`d(HwJXUtR;SV#3:8u"4Ia6+\_r4P.jhdfEIGk@]/?In(WHhTL[%DCducYkVCAZ#1b$qh\W!wCJ,eQP7(+rS!R173#*q;0+KxkbnwVw-%UkfW#Q=blcuZ!ZEogY:%AKDtIIq#pES"Af/9=g86+.np^#VjTi/$?E#i,bBG8R$cx[l#TRBq)KHrA#Vo.lKpQA0%[],'JK[7bk4$[j!7vh-Yhk09BmL73\.mff;X_Le]-EL)o'^fg/p=x[2hxa)Lwng;.m:]qXwh@(Cs79I*T-:^e2t\2w@G#d[1BQS!rpN+.lkGdb6ZMb4x2Un]o^rOm[F^/?*7CLC:8eQ[ZU3-*aYC*+0R)!C-_7w7x4U-5pv2of=dbU%7O063'NZ9#j8AXIC=$pGb$086_UU@KxU#Km'";w(0_2#b?2"m=jHd?xVkuB#!s1MPGs8@^.soG$DI63gh0M(E-;u46wm:b:cZfq:V^E:H-VuoA-B^b#2.0xB$YYQ7@_?Vb))[Z]AGUdb9,7?Nv1:P7GpWF7,:R]jn\94[SsxpTU0gQ+\NL%t0l'R^2.rJL'INdi^n0J4VFooZ0u8$bpm,+Q$K2\Y_D2HHNA^Ud8?oeBgA(U]A4f1qCIND*0XO_Ofb'SJdmSI=?s!rHkkp*_..j.L4#iD4T4^MV6;wwiOg=\*P+#dLmHr18^Z7qK_Dh')ajr?N-Cw@p,Fb1LH29qIm1El6p##NSEdg=f@ldCL42VafN.$hSQO"]2!XAGc^7N?uC5fnAYQYJNeDN#Chf_.AN)Bd2fB-csQnTUnJM/T(hr+$a=XC=Tma=HLhR%H)YP)SRF7$,R?bfV+rx,.$JDWGq3HGd[a835+0B]r]WeYr]OF#?M!lxH^qKUk*bUa/EtDd.^h@l6TNOq2%,t?=Z[Uhx*ha%T(HSg9xw)lqwI+?CSf5K?xQ-\RXB%O\MV:/7Agc?q=`Ojg=[D-T/)0-DtJuW*cc$?nRU0_Qa*OI;uQ9nGC1IvfeVwW@-_i]5er'%)l5pPWF+gJ#x+OQP:"ASIga#g0956\%0T([jt(X4Sb)[oSSk9f\S?YfF/)mS.3H=RcI`][!'L,*fE$%TW0Ub?Dq;;.jb_f0/$HbBenVv7D-'m"T=8bVlTsd2ZZxJ5\=,M$x4!T+m5iG;ea+9"xcF%U.WnVM2lCt=W*qF0*/t7)fP_h.hYDBUegaa^d^`XG:L@nb.9aG1%KHL/-gA'BHb$g^qJ!3^)exbWl6h(uvx5O?D4\'8EhY)0h(!()$kk-O=0l/F-P-(!xBc+bNQU!/0c_4'mMXc[Q;5)2(Aka[@-o.@D)k1M`S=ncxccKA)ppRedxD1rF/LxEbr0Vf;X??Wo)-58;Ff!p8ihi1gdiNO==1gi"p9k5K$,o9?9TFFj0_83\q??_4hk@/6[?v(!7DpTeZ)@H?EMGXQ=hw$Aq%EYJ)JQq!$LPKjZ4Oj"M/jdH$,YD1SxvOB/qL0cekku]4Xn%H.kwMGw0F.0j7*t)G=QHD\R,9Yvbq)I;+t,O/Dgp22C'Nep2:::s-xn%K=)aS#x;#:Z";QjkP)wZBhmcC%UG3B'7x+/92YalW`A6jvsWu_D0gM;4_:B4jV"46iQf8v\[tk*m_^lvnQ`eD(GZZm$o[3^@]4vYR\Eh1B'G,1iMYN#cN6#=fMIV.egKR48#Z.,S?\hXvKH1=ZP[;H1U=#9S4AuCrK!p=Z[x$VMSnqgBfk\Q5V?DaqdWCQ0-wHS^4Flmw0tg1j@U6*=$1hc,PX21O"vG=D-m_vdM#u0L.!2NNA+tG8[#t8;D6.xFtN?vcMLST?gQG9d!99_J'9@g#H;H?,\uCe)r,l$Y"AFK0hf#:,%+VRHFkvlZjdpU?HK*VZY9GjkaU^1??pAA%OJgleIL#C[l5$/]Tn!r:JEHVm4)ogFRCR?Ct3]O,d8pl*v#n@p\2A`R:ugLvRY4dh,qrF?D,12dUMviDm@Rf*2+t2LW*[hnjcPK;kQSh"vfbqXn%/f5-+Ldl^C\Xr4@RHER%N_V*'nw9j=.H@;BN4m,0SD6/dGVouDH704T.8i=q$JYmshc"F`/TeEn$gZ++NAQ7mx@@BCN0l\'[Xm5%dJwmETkLggTr-E+:cJLqYl'GPCPP=KmiE$oIvwX]I6JOhpZ,dJJ;vw`)v]djR'JpLt1c3.tOTmKoq\:D$HXekR9lr[T,KZ0jP=a1GhTFNf[xVMvNAmaCBugtCZv]3AKrM#9L-C6?c`\G19n#5ZqT9vroViBeKkAosja8g(bW?:GT3_o2d1`?5%wc4DZpJ+34K\TF:Hj)a]u/GrdDSe]^kw@O9!j`^!L_C\fQ(%i!'nmS,_JYG!'gMfm3VrmX0ix7wRCf.'t_pH%_j65F.0Xcc?^HqfeFGrAHFVZpR4`:(XlbXH_0l#mPPTkq1rtZXh[M8h5j1=(/V,,LM$'W/?cd*-KB;P+GuxQp,\IYXQaabpxNxYiHv\qM)ocw-w=kp2gtu338gT0D-T`^'QuHY'='qqp%XmYq7Ss\H]M)Y!!!QAXh67k?DA"5;O8wBWS$8_j5ns0bHmv-kg'?O*Of8n.KD/w^np:]JY`EWQeRA1LOZKxovC@3V^S1OQ8Df7o:6:kI![nPv@Wm$7U2Gj2(0ape$'OTqs`.W54)?rm8^Y:HPL\x*w?-aL$I9,V\VaE`ABx3j:ai[J32O=`)[-N[:8*b7WT'JAKaMe=%g5.lhv[:$Q[qYk/9@7L5173\ssh4lbrt`VqTZd'`ou8pu8\Vior9*kB(3NdZ60#`UWwaxk[-e2sYK,w%^=4q=WIeoBEYR'Q#BVTHV_B8-'WwC%UQHigI8rZW:i7Wn56:!J%\V:)3Sq7-L[Q'JL/q?C-iV48]R[!(t_If$F[W965?eCB-p5D4uX'U=vR'gdSfNO.I7aqm]`m3otFqUi#t`BXE9gg]H3T$VK+wM/PtPM':9nSC`xv!\\suXj,5UID"xVitC5/qY1u?bX2C1)"TeW"BoL@=w("t7aw;vG#W'2[d$%=m;fE%wlU-I0YCc!bHTw%L30t,#s\Rq6sc4DTX`Ed!WYJCog2/^lZ0R/NDLu*QYeiHFsstJA7hO1H2%(.Ac=k)V/*BWT:\jEO"YD=Xt1`!(7Dg4f9Y9,@K:gO4l6]2IxF*A@LwYgo(+m^o2?TSaO\]0JGJrk_MM\_-@feM7AbllD8aDQo]P=TbIcwi-g^3;!Fh3AEi7bB!BA1Q$vun5Xd3Q=dmWo0!!!!q?5:Tga0C*LlkOf42UxCKGG,T"W6wRILkUv6_iYeeo]C^*HgqC,G*SLAma!]NVA?qo"s/SOx[B)W$86g(qHTTmkkFWwR=8I3?Fr1d"#9lVOb!_FMvSck+iP!dH[I4jfIn78rT8I%2!GDK+JU^.fv9Pc)^6XTF?)$!qK+ft!+M$AY@7J3PWP#a.PQi7=i#[`[;K-L",MGfTEaQ/S55o=en-erfo(n\p[`C[BPYS$v08Ga=#prol^I!;^e8%[LNC-ghxI0lhJpZ%O)EfLl^EX9_%7%"8o,.L+d6##5'a\!U#X.UhM:8d'Fg$v+u(_16:WJ':=GhT:mY6]cO;x)'WeffR]MQ$k9W012Ixx`*\F!NHwaZcLa7WoG]kQpl#pHLK9(L8JoJ?eAV1ock7Ao$VX8BVPwJ\,V-YuEEHwCC"ucQwaktHV`;afL!"^ga!wWE)!sA]2!!*0%!WW3#"9SZ)"VVL\+WqI11*SG,5Vs]A:a?cA,t(*e#QWTY!ww-$1tD^3O(k'2@xf)':%]g92:\.1el6Fbx#VQvC/)+5W\r=qWRb$aVHQp#RVGR)CT98BXf9lN[DlBKX$g4R;fS(Z5]][KF;C2!9a3-+=s0pYwfD'/?j3X!VA5jT(ek#]5[#;47'e#-O;:@pK2[RR3aigLanWfRi]7t/b?Sw8;fS4_`)S-:=.-S@A`x0QM5swTXtk!^b/@:,'j$g5x\2nMQv2P8-E]+D\B;`i.MGmO9O+FREKuB]xpc^0?fmj%r"v%h;NtP'AmeSIA7jE:hKYIQ9#$wipljt-rClaG7/'AxWO1L4pp[i9!w5;#m@W-:h0@,tnuGE4?!U`A9snx6fgr4Lbj[!D:8Z.v]RH\`S;'2t]P!\'QhjjOxLMo'W@_.ZEa*Emfsc*./@fn-A]q3WL!g=)jx1d4C6-l8%b+oX\BJn0/j!w].h5W#$_RZY)FG0+0f4m;Ph$\RV^4rNBo1:Ox,/Goei9d/'LllviO$JK3/U%)AJV#FoZQ52km(fr4x!W[k/s(JR+qJC"8k`nU$d$[EX?3vrDc(Kwu1Ox,sr/?NJ+Jo(+t_g\4"1[$4E1k**aZGE/fKCM5;S^%'G_3ixN"=CF!.0/3SiDE/fND2vw?W5e+hMv2#)1ixN"=9-dadO`6/1'j*mUKiM6+7Xtk.L]u?0XKVc,JQ5f@xesEdwF!?T`Dq6'HDO\h=*g]EV,quxAxN@R'^VXwp']jk;CAC1Ov_^9.+Z_+SHQc$n0YF@WV7P7d`'Vjwm(+OrVE!lF$k7_BD4ZNXR7Tc)\N7Y@TLR-XH41'w%DR7ZS'wqU?Tj\/%Bv3JLnw_Y2Cd?"g[+pA;.+H`LZ!wHDO\JQ'IV7=B9O3Q'KwDQ'IW"I9YC6e\vE(pRT]?7Y^aQ4emFkko?Uuw96QJie*As9k3`.,K4q#QThd\3`X9'.X2lXOnVgt=-Ksh2MUo1;Np$h;Ulj[XnH^7dI7XAQ$'tZ=kU9Lk24wj6N!BYdoSYVNL2!I#H1,t"guf78O[k45ufc`x*%%-!pp;0e)Y4kFDY@lhCI]j.I-;m)pbC653K.4,FnDRj%ZPLrwT_L;mTB%%=U)@m?Po1C)tM635UH.KP-SK%*!Q\V?c5NPd3%"Kslru=WBhWm8cYg'%T!=,x[@rOW#d(,N2bH"]vl6/0G-jjI!C1Af(WNYSUAXd2#gbIs*6$l+t,:'jZ"-6C(p1X,n(%6w;0bXH41v:b-.s5cp[p!O[G]wm1nca,RB6w.b0^F;q4$V'@'rKr!iNM'/#W'm=FoVp]rMZ8=CZ9P0?SAwS$+w#gl3x$:5:/!VnCkH`G'Evr=kn]#TQdi6J2iv!-)AO*XZ664A^p.F\xKVKN."k=cJ'3GXD(/PB2=[4R3TN99oJ6G4?!bqbDZXQtZ_5s"==YVF=@M[1F/=70Y0ahU4M2Pxw/eW/d,-OEZaD27EVHWvg)JW!SXI1rqj@Wsx=X$MA\gtw(X00v!n%.eaX00v!ltHLn:.xZDXM.SpwFF2''hgoYE)b!o:o)e2'GQ)aE2M%TMb-BK,MRIC)\G)g6mivAAsXDJfr-)^R\w2+W.J)c/WPi=Wa(c8Zx!@bb3Y/$APmwGrGH1XeQ%s$eQ%*'$W^PUBu,B)AL7e[=]r_$=]nm1=]nm1=]nm1=]nm1=]nm1BmLFqC("aOJvn+n5E+Fr9rG!XbW2GmbQ`YBXZL6R\H5P2euq%x8iD%UFj^oN:nHpIV9JF(w)^W++H5BpOa7W@]UO*?-ECcgMA=;aZEgdAZEgdAZEgdAZEgdAw`W75=B8I'YRFR6"g!4hJ@w[2X:'imXh/9fZqadPd?80K6qa7#*%lf.TLfW[iOZoQ\F+=lXtswq3`FKF\."__*A56@AZ%I%mImT7rsPj^fLD8/RNjXe'MD:?$IDdhNXDP0(31Y2\p!-^cXJ]HLq%7PRZa%7`[R,a1shIXH^q!nV@_HIw,%hL3\;(]ZGUg2/SNhr*Nm9`E#gQETQRd2_e"VHlYmlIL[/nFE'Xk83a@I+\.7-L+0NM(6i0T-dMCg/)F3Dn2QB)j`mJOe4Z0r5wNX8CJcL[)i^iE^MON=[vXs%b!CrU?3c^g2Me\r!WhxA4@DnR[G+TYQUi6Ria*8MG3kqXpQ$5:\]0)3Q'u5U5$H9hJ@WBBH:gB^((7-VUY/RfYMG%qwQf;1R`O32i95uC50#_skl:GtEUpq,*-W"CG3?RPZ%+)kDOpFLk".$c:IHPardCOjl6o5pD*%f+VRiGp;oHJaaJ59(jV79:jE@n?4x$Qu$lP.t13lQ6!6ue(C;-]j*'UL4#`H@+)MfCJSi`]TFVRRxlQf:nJVPUd:(dpgYpoeR7ZIi=`U5LY1FIAQ\AnxOS=B8I'.kw-Nw\,aO`JPB\8.VS,lPj!Acg,2P?T#GA8`Ok$`C1kB10Ceh/;"[G=KuwQ((1nZ$l1Br/;n)D#0UCWQGG=YK4V7qb?u2=s#*s`h)x33FS]4KO:F"-+BfniJnP1l/#F'0ZiX9%^kujFAZuSD?l:MJ$wRwZYq23[=Y,JB7Ma0VN%?R=DLJ#vYLU80,T]]o`wj4lb@6m)_(o*sAZuT/`NiTXA[*eP@Tb7?10x=8/#F'1YRFQ+9IluO0s-gD`O')X!w8'nVm[QC5C68\;8ntR7`OGqGE+_VWpTc?-eYEk1X8[Ehgb_,[e8s*gPaWHnZu*gBe)nij,J2o2t_*nSdwqCh:gQ@Gu*+'n=PJZQN$M@8"kFbI]Ex4lO@pC5.3\C$h8Gt\t*v9bqA3MXOQB"B3?5u4[2,(Dx3#'pnx*6O"(/0)F9t_-Zt97o/uH"I[\_M[x'h_eWbICrQ:Z(W'2Jj1S[0dI_:Nkn:LXh!w8hvr8WQ-g'Sq#N2h'k9F"lCax)lPTXAKKALO=Nc9Aj`o8-jw]kf@b_4WF`T7#1FGNaP7rFsI=q8FGP^FJkSW#83+g#;d=h.X:'5r"s45Tw4?^Ei9`-JUiDkj1rHEQTs602+^Eag,k7llMO,q?]CC:@dxU/B:Uv27mq*?Y$seI^EZIr8Wj`H5:[Jl/l02;N[W@ROG-ql98E?oe.2S2u,^K-FhJLS*PF%]N/1;$*f5D$i\@][(?Xxr_YwK[bL]nr))1/AFGD*V]iVA%hM$I`JgBEQI6UNMt+qW]#+]R$djv7RAu`tj]"*@4E/eH-O]ol05\2os7i@qlK/WX!0/$QH'6:e"4WMwFTe]lBg!T$r"^%lHma7CiEnh8]`A'fCEM7c'`RVqBdPNs(nu7v!L8veA;McS)O`Eb1/V4ORC!-+$%:og\VZGXBkO6#xuF?A9iR[oWn,I[P77NlLUR*XJ,E3uNqH;%\ui*([?Set.ii1(6vL7Hh^K?WnO6PF6lDX\bEF\h1E"NV`A/m':Y0YDj.I*^[5;ndh1+FVSc*66#5H4dZr%2($us[/GM)urUCF4_LBj'A\-giM,!sa\^JaWi=So/NWO2%vp"wgIc3@g*B][@l\gf%Ym'3G!r#_I(D7BCwpnY5wVZHku4'30N1e/cd[SlN;/'c"/oI73@U"3l",cR=eTVf_BKq`1Zs/:gKh`e7Eh=!SuO3W3]qxgHR5ehKKS8Qh:'+_)4w#nO42S0)\ZX;q)Zt#%Dfk2?V[U6IBr2W_RDx3j(pnP/;.[K\w;@YCN,(ws`[7\A;02u(ej]cK'c544+Bl!Q(eAZ0$W7PYmBc^aE^4mKfT.T39B$9d@qPeq'?]5!bp8..?IM[KU\=_:uG.Mg'%)6ns)fKAm4:.KT_JpSZOlPc,.]uWg1=0#H.KcMq.]TY2DA6ZBcqZlwT6$;es7iEUT7=f[l[R?+l!8[7%vOTZhE1-M)Kgv'f1ts.WZb"@VM_4,PJvb8Fk*c:=ZxZH)I''hI]='HLA"HIpm8^_x:9$=5,mpx8cA6E,#e`X/1t%0W[S]"kw%3s'@lP0;nCf]WO6kjHxXA$!G++oXdnEbwesHiIs`tu]$H`vrb1]6/OvD_N0c[sZpnaMdt2:b5/@:'[DlkUOeJKc$LJ\:AOhbnAS#FaZXn"oPSi,RSQ2H!php[PYvwj-O$?862X4,Nos$TsG5?QTDQ)iUVa-O[[L$Q!FLKt%wJmBbNeU0D*=@*oOnJ2qA;%Wsk+D/cFS9(t-?^J\4RT2ukg.xEZO8\,UGe5^Ys).#WR]x[:+nj.'x^83+lwu9SXou$+Wt@L1AkL@I93oRgrCM%5ROc\"B@P%E+=3wYAoApOn3IX1Gal\v,*#@I\nKH2lXO8e@/["wwL7V_ZVx4J,oTths*+,qtQqmmw6dAcf?cO#HfEcJMrZ@mtaJ4p(h\=;7qI[qThGkqg?nO91_37j3wj4c[U+]B6B[s?$tvQN(/3$A86:6`O(WR$tTmvQ*1fD3Q(*@_7E`'e5'slPin39K/GBbj,I`E-!fks5p5*=J'Dm]fiNw_\QsU1Lb2*0VMowaR@0Y0GYD6rZm2M;R*4`/Ia6K5HM':tbvk)AN_Zd2,XF7AIPDHfWk3Xeieu*r3(_rmI5]K'Y_/sFgW[T67ePiCd:CwY76*,]MjZtFkNWMf"DMwgD"fm*QxcE$;.PNSb't`bB6BOox^XrPA8BT]4Anl5fKtx_8v%-Hh+[E_ACqPSxaiqh:[3gJ]31N"'n=p(A%$(rG2u0ISxg488BMKCN0BO"QHxZ@IjV%sFdGx2I*pVc$7!Sr**#TJi#rP=k',i"4Pb%hnRu['A(vmJWG25ChfL*Ydi,TY%p31;SH/JgeuYeS,-u0^+;G3A'QSL\9]A=uasVgKp0%(S.2RJ5"2g=lXFBsT/%=041u3A=?x-@k-r'F'=.NXPUjH#UmRr$-KBbhXPK39jKt6Y?]-2)K/xW21fi2-Ink%bpp/gc3rt\s`aHP'QgV?9U!(K)JVn;N(mNPP!VP)(0!DqW\)Si6q.H@DqT:L-O/Sc4a[DH*ZZ_0./'n2x]=]a;,220`9FOfD?WVRgZ(6b8k1H01;*GF07a1E@U=4Jtp4+'oYMGiwe]lOE@q+r#taAhn.QOokTKCQI;[)VIJ=Y.-G*Cq\gUo3a%$IR=^KTf!dQc[Xjo\EASbj]`8'MYI3_aR%Q%[Z.;ck3;#GSY*[b0%G8@puq(DCwSx76\i,T,I_0\+l]'O.ku8nvVt4gu=,=VVh*#Xtvx^3EN"^0Fh#DagsQT`v)8\1?sUl=gNx6/IXo*o.-#IW^$D]Jfjh:0xtkwdxg-lX6S=6,eiL/QZAV=%v([gn'dD'v(7[@b(welDP_/hSDqhRW=-0Mm1%12L!36*B-h#lH'lBh5o%,6J/v"Q0%2_uec!53nO7(t@l3Bo=A$v9j`a(Nns/8pP"0=B.XA6g[\q8+\@7mm[l%*cf'Hg+Te\wf3rBYXT,@-tISXRRTsLrf#""UM=F?mJ*v$Ckplx9L\_JU@!J3mYCWTx$A9`7rZmZ)vpg%a*]pt+GWnT\)j+l'3-e6mD;r0BY5B=(G-[GYY,7_51MV,;ZO!^T2!"m@b^Y^?Y#E`25Jc_sShGb[H2E$)Cb)e[^f]1gJO6Y#SebGiFV3H96/V`eo7t+7Vb;ixf9oJJ];j*#DF94t(LkHT=0NOcOj]cr@_9CEr"R*uGV6%Xq3d$[)rj)oO5GsJdl?6NDpnG*UVIM0T9:B9/Ef2**SE0=+vIpLr=P\#co#cXZ+D!H#ENh=*lqF1w]?$nKR[s@rOsZ1".7qX[ablfbWXmUg1_iOfwVW9!\-HuhIIGANv!d+B-"f$Q,,i"Fq2'C8i]axY,\wZ"wn8+_r'I@I(Mx[[J^t#xX;WPE?,-R`o)-2"Q*`9eG@[_t#U1Q]40Wq]3+b+OqrhIp'`Ojdd6X.p^A$a"B?U;=]dn#KS6I^I6@w=S.fs^ThK3rhSmsw_4GGdrgVF`L)oiU[`[8V0+t7js1`gAB\.UVVlu6MU3Tf`qcWh3wi@$]0TaO53bUcM?UOE".@k5-P']TR"UR'v_wXQT=?_414rDKP?3a+87_%(WlOm:23noW.5]hoJ(!(Iso#SBrTPF\7r1\6@.N-%pQZxvn]*(k%r?RXmdDA=HU,[wj'Q,f8B27HN^Neg\X_)o][1!F0$kiQoEB4j!DL:$5Y\Pm,#'tB@8@fZN:H't`vmX8eeJh3_!v#5\YYPdNvcC(ZZ@"Abi%*1D+g@T-[VcvCDM)H9vYcp3WO?F8@CXTMmUr5`p;BlZJCJpSfmD8l1fZI$+rKX!\bh`9*A##HhHP.O'N0@-Q.2sL@*_4J/3*MLT/[.=Bg,2`'aDl/2UO]J(=Fusw_G:B9M4kogqpIV*=K4HF5O;H*qNjgG/e%,VNJJa%6vi)S1.YSs9AOq%)B:PR@pO.'pWB(tp.!V,WQ^3,@SmlpaXH,,@ue-r@4"\`Ha(2rW^]337QibqY,5"Rm)xrE7Q)4A!s8h^?+Gf%nW7g%F=6HCPW!6n/vw/6E0etZBQX@T]H?aX:J:/ZWjuYqk+qjMw#cKbj9qXRc)dFuZ$QK8M9moiP9U4f4*ftXT)ej_=Bd=#7qgmYi04uRn3BwLZ%AiKaR7$ww-tm`;f+@sW,Ii%C8OL?Q6Lw9d`uaSqpFCiIthlV6(CA7GrLbbs2Sn%6J,!4drno%!w8=Ic*EP66bdh"m#gH!rSl1'ZZkMpe=d(FA/#.[@P"VS6Is0TN@T#B72+;xfMRqTR@3;3nYS*(aj'Z*Bioc*Yv;RSFoWn6fYO,Mxw_rNIbgBtd8n2U(ZV'W7Z?xg=1wvtAn7oXFsfvsXaXn1.xi@\oLi'6YS$S=wOY)c[$KDLC@Y?`9B`t-Ms*UxRQW+?UA_5#'if;KN,aNG7\Wr@'l0_axHXNc8@kmQTx3qD=]w,9$bNTJ/G8I(;X`Wk?+gY$Tr`wHBO#IcWXnE+K_3AI*MUX!vNkq@9fx-2`TlK*O0])^psWAKR$J#xUNn\+n"#/p+RPW1V?\DW9P:5Zqn`0rmx^m1QEqArS=@_W?JKdhFZi=aC_7Er%#.a=C#u]t*H?TVZ7Aw:17iA$C2o1[Qm@BG7qx#@O09v\P9XjxjN6s/10HolwooFCB5LI'V5+TSLIXsaGFkBcN1%bK'17VuHXZ?KZ"v=;xw1OB.C)%9mn/][2BxiC^1_IslbL,pg)0tXZQJDter'H+]Y0wA%_12D=Wu*95BklbWR:1*)V7l8\^KluEeL@[A2eKl7`HVcRC,k)SVlNn)+mWEq@F#`2lQK3b!p@dL)^t0Z.V:VN+d=FOeiodp(VNA15bp:qFd*q4CDeESX`Fe1t`*17S3-E,J8m--ugR7G-NfeUdcm\cVIcY4Q6r(*H\4I8rc+x;(BSKwM(b\'S@rB4,%fW1%"bad%)MI#H#d=Qm-l9#]]Hp6lih6R45:9."s5xP6ed^5.`_*N(-O,%x,n!Cc'NRw);fGN,qG91Dxk@,\8,Cg[FFQA;:Sm$MfMkf1E2!B,dP5?2%]1W9ZauI^ORY=c.*p7:%]#D?R;`c-/5cB4]/e3GQw14bWYFbEGXQ8xj*.6S'6vD7LL\:0Y%7\()-Fv^E=-PX7ok'J,+rM%"$l1J?F8HRG!cV!K,r9Tn\(DX,DXIB4!xqNU#-=(O1YdlmG4!'NXp^0KIa%"#JK8.XmGT1M8fr4ZgnlqEW!ZI39Pamcr\EPLLDxDZMov;D;;0*pU'YATUV;tVL1a_4Z#X"2"+D!jdKea6fuj*l2I?*]^.#+/^feRFie']KnaIq*BB'Wiij?FF(oLDUCK%8tR:aGhgGwiM;J(A0MMh2-]?"f:XDK"4tqA.fSH/54IHdL9*qF^eBFTLr53O^u7m!Vnt@W9h;U,t5eL!cB(/6wZ1k'R*ljx3F"ZCPfIe1F1QbTU)"C.o/I5[p5(O.Ge#Gn'QPI0JDR3b'v@oc$$`Zmje!0hh3jpB[7s-cKId_w'/Y,Us9Dk?ZJ7:3QdqaZOupH4IMTb;0T@l3D\A^:je^R(!B2RcnxD!1qgCCilj-fN+j]X:=Zu(4P_GE/(4BLg9]TXkm$SIJbvZ`Y`19:IRpox\t4#?J#_YZe'OscB9`qTV"4!/)"muin*4N@ag;T#mZsZ9\vn%MN0JWE@9;g^V9(JE;[0fLRE]ucm63NwO7)V-83],TdH\IB([ZM@[.d(Eq$j=;2qE/LwP4UK1EjO3ACHO4DRq)!QVbHE)nId:\u3.qXdQx*UF=^,-(Gq=1F%M\?1*Fs.gTDmpQ[G=YPP\DY8fdw@f(/oEhL#6A8a\i9t:]1B9+?5cX6@[EDk[F6sCF=SL#)SNF\/RbAQ=2QqEKD^,"Bq1/Bgk?*en-N1mjtk\^f3c,=EV`axRKOc-usJ!J8B)1"%[Vm:9p//-]qG,TA"5FWck4IOH)S4ngA;_0V*T5:uxE]gib=iBjV`WMe8Z(:1CGYk`59A`(VN3!4pc#OXQ/W:#m77M"+:(oH!bKe(6CsgB"Fo7NIV)nTRZ`225r0?R60)e1SW6.#l[jJFWFpQXg0)e1S73^K.fqpS'A2_L;KqP2WaM^u?\Ej6+Lo6u*8bd+af8[lnZ;28+5$MRZ3t%CKw^DTe9,@IO-h:"VDPD7e_A"q\_%6ogS=h#K'$@GC:Ngnt7[bF/`Ka90dY;N4d)HH:K`e,(7Vg$S,q=3x8=Y9FNBWHMZIHQlOCs5\F^OlKS6oRrKAYrtvCGWCBu,$$humHiAQAgxZEeA+Y1+P)-34)!oV^m22qIQMjEQ$HAXug[daRifP+35pPct-,\QL`Z(D@`;_`:WZ\qa?Tj/8BjmMrDAUPhhx6gOG^LWk1pVoDc+6bIT.hKX,%o1tqFvJ+3P(mpER7Q3'*v?_ScU[mD-_vYE0%f*6lI[]$5Xf0CFViVr.?+av!xY?Y-?HCkk4u(@gIwC#'o`,s%4/\R4h)B*A9:-c"l!!Hso?,=HB=_R[ag--PCVnnw8(ftEGZKsl\1`_WAGM5GkV%U)nrk]f[4^p3'V"32TDdohX.RUHp2W8'dnIw'0nr(aU7^H\,Yhtp-ac_uL=k?.w;!'(N#WQcnb:%mTB5H9]d$%D;!5QVkU0:m`lXLBDrl.(.?F^,SV/-k1E#JEq;-%=F(Si+gu8wrm2k2H06BS*]oeN30^OWkGfuRoFlXA"o2En0fC*g"*FhBXp`v6I7gSdLJb\7H"k,X)T?.2h#BSG[0hLYp"u7!',Ps4).%x;OPUE`ZF_5pxXX[d!?u6nN]l8?tkniI@^9kS`S%i.P5i29];hZU^L]^C)m-v$T07+N0cEfbcjp?V8GI"InCghKV?_/4l`6M\"FsWBEFL$,PJ:8^A.3Ij02i9i/fn4x;MY9gx[9TMk2W-3;R9D3iI1O`,xtXMw3K7f"U;W7$PT(KgTC0RvB!N9=v)!00lugt$Fd(p1@3"5tWBXxGZwd\1`WsZAWpjGGc,](@Ci8iCSXj_pA9Y=8-7OjNl8)6m3W/r,[lJl##u)I:Zrg#nliplcieQkl(tZjqDohwwdQ1-If8FNv'Ot8tPOFw;kvhot^K(#f;p.m9=kjtj4"IpvO82VRbAQJ*3ONWION00wkmi!SjUp#F;,Z;oaI^UnHIFK1d8/UG`$vkh0]GAuq+Qw/xV!q@q']$QeW\-G,fbO8,X2;/S++7ci'1Sm0-]A5hK:'xcF;?_(`N`]5M5Mdg;P^V]oaA7FGE*"G9LKcRF+G8nwx9-I\PRvDGEhq?d.eDjR#H;PN:nrGn]ve'E#?NgbH3P-^l#cxX.CkLV8,7`@jr(rY0k9DXx(LPW_lsiYZgWc"@eJZ\W]R5q?"X4_3Caraqw4`h"Hr5MV%`kY:hldg_G%;*RHilEI`.nZn]LXDwS%]orawHE?t2I0wZpjUqrWoj_fVZ^04FH]jnpE$)qe9B!pxI(U9TG`^v,Rr2d"R2p4?pXoWhmsAO=Y`!n/LHM8H%Kcwe1!6b9gwZ7;+8HI3p*0FFZAWkRo6Y%%0AK$`lK*-@`/V8)PFZNCB-6fxx\l[ZnR:"ALKOMtd=0pSg]s8:PNis5MsnmClAFC*x3%7*w0j6+=X$MY6mQ9*IEuHuRWWbhesp?sLi0nD%Kk0#:s8CeOWKP6qx$]WBJmh7e`@fnVV#4B9+s$j`Nlf)Fg3RM;]Vrl899E9B#@:p0O:cd\gHR:PB#*k2bP28d)E:H?/;tqN9a8F1*%\bFg,C[PuXoDPa.N!1:`xgoB*cuA=5!w10GsIN7=-7,xSE]!6"mj!WWfW!XvN*!!**v~!ww*"!tl1I5VO;l0d.3-gAau8!svZ-!C$Sc2U,RNbv#T$m%qp4jihvRb[/HY?HVWrcKqCOm,cGtjihvRc!J]^HhX-p*8x#g?HVW2/R,$px:).oZHnggxIJA$XYDRp1HlbUir]Ac?sklV`Wp+'+OaeIP..Hl9MA,"0ekCT`$dxp;7N@=78Xaf:_Z?:78_R#x=6dQwYS!M;=mo=Q*.vjMP@TvmgB!NaQTC'H8!a\C0p;\c4tcr/Bb?nZ7O2)0sN:QkTnx8/Bb??aN2HD1,@%YY3ZoZFpZDNJU`.6O4c-"LNJU'^2fq1?gqQGZ3s*9kj`[e7%jmhP-(pix=*(R;LPj[d(4fNq]dl,5AKuVd:Wgn7$bq0W0pmXk-HrCBM5mh@Vptg^(8=vEB[V$2mh[OA@J:HCtTc?MO_`_..x8v?,7$gZ6pG#vkuXu0vYc?Wpts[.rdhrvYj?R/tkp+oSBj8Cj`,#FDlSH2HM.LE5WJE%v#0klA?cpU8?1A0dIiw03po,?2!vb`wVnA4`tEKDV9)tED8:c9c_qTZM"Tmb9A`@i'Z#Y/Nk;49ZiZbD!D[47`:%G2+q:EU+LUS1+$/8'8oPmN,NOrW#w0KV+X4do\PReO[@2k2rkg'3^#7?w#:4GijpM*[3qc;O@xM!7QhivX+[31h.)YF/;m2BA`nu9oL3j57qdruD^)Nab;/n!X3h12Q*DLc_A-A.B(Ca1jX499W0oalSER;7.vnnTwto4:'?N7xQ'3e*Ah[)w"pP89M1G^4"ssOD""#?A0Sx45!s:xC24H*/U75D216!,lE.t@)0(apnEA9k@QV!0SB(D/"6ve(LQDgvwe*u1d'n-a[VV,MM9DBh0kwu/"h_^OElq]Btr](eD`\JbOBllqkXxXD+Djp[(r]-v+0dBR)AeA=SbuVKIqvlt55^W"H.@i)R)j7dW0')Zw[.P_D9rCVgnbeLIap=UsI+]s.,v6ma+ZZocb[OPcS;ueZkD/Q11E!0K#,@OFqU-cjSFK#]!6"mJ!WWfV!sA],!!!$#~!ww*"veP3I0H_#?5Z'6Z!8@H=!wN9-gAsMx9=huq(hFf:gd_1Wpi%09\)G5A52:l'Dx8vhv%CN8)awv36Z)U;L(C]NAVEA!ljv#76O\f?FOwMj(nh3sVqG`JnxG"0C;Yh\I(0V-g[Lmp+)\uO2LN"DLYM=W%3KK*iAQ(n_2$e7,0qaj)i6U%nj_KWNP(B4`ZvjWRrxt0b:;B4R,]A6\b*#c:(]7%d8_`pDrcnla;]CLj,H"Snj_J\DnM2k,9teVN6GfZOcc'UOHGZfx\%C+ijd"9`T8:Q,9nEXA7R#3?"@JVG8V9dTk[_77Zxw,NL1Q@m(7!A*Fl?V@^0#d//F/_-]43l`)nRm1tlEDM,?ZCM2@(GM2@(GM2@(GxUD(?bN3cTxV6h\DfUuN9wRSL+sSm77Rfl0MixkK0c(^qMhr#a`%5LTR$a8[b[M?o77TpCD]*E@0SA%*#%fPC1RPue=j17X)2j?.10,eI77Ka9/f0r!@rf+b@R"E?VW5MA`xEjRZ1#`gf_ZkSp*v82OPl2wA,DY*vIEmuM1'4.A;3;U?S:)Z0qre`6=o'kiYtr^r^^#?=F,WMF:BbXri7Jp6l1tGQWPN*UdtnE7-=9HNq*WbZ.N6C`",^^0(tFLP)f-No]h8S5K=kvbr6GJN9M8t.K1d_b/`Y,\B)Zw,9`9I4xO`+#gOfch2(Hf^D#+QKo:b/$d$H/@/D4d.]-n$(X6WJC(Zm!"OT0hC`iFDV/IqWvZV5BLr_uNvQGB5CBEwN$'@QpLrbg=04OdxVs^#[v%nk-=N$`,Ua*4Sl\D52:C05!i+)W!A2:ZJaX?%CD(^M2A#Br$ji5@_Z-!83dk)x5w*"oOE!_"wVnd"O$RHQ-%8N^_4,qm78Qb5ART@6LQu:qpw)sO8;,#jYX=$v$gqnp+R6kf@kvQRuqM8-Tx)PraOjH%UDQO.=P8d#!K\JJ^lkFI`*3I%e\rB[,9lw+.aG!RcDUH6ePh[^1fj^a/oSqT2!Nj;YdR$k(8El=3*-r3ljVA:uB`ncv,"@aMi$4MIUhCgKd\WanPnY't3+=_S7)EEtw"EE"/_gtmU,fl,#c=ek\_mXMCY8K(\6O?42S"Ko\Kk6Uxo/\K?Wo*xQO0'Q/H"'w7HPdxLQ%29dQ*R9Y+g5QIGm(RjLAGI(E#5DIGl!mE*fYbl$xmLgGn:eGp?0VDn;VP]^`u\]'73qo;3IE._;$,aXXI1v3$x@7b/aJlHmcBMWT*rO=R"XQcYxxpw2RK0:0dcd3W8vVx07C.l!T8r"`:JF=Mn/QQBU6$Fqnx?w"F'BSq6FOeTCf2aV=$BQ=J(.5S`=*ig]`NlYOa8m@4=YWwSx8^5!l5-Cgi)Nh^T.?R_$@hhRW!w:WF+n1qT;C!'D-"w\q+0h7uOW14Z#.2r^ZCf:A;^,7'-bxc2N2#k2WE`#xG-G9^1iYHcKmnq[C'nwCN+B*H,B`Y=0xweF`@3+ErQ%]_Q.AAZHw:qQ]gS-[!6"o0!WWcc"p=u.!wNw(!!**(!ww*"v2=au"#(l@5sR1w:gkPF6?*[4;DTO#s,hxQ!=/\Z56_)g.WN!#Eg_mN/sjcCj`7n:xV;AdbN3cT\QgbRrT^xvX.s#B5wWfSZ#F!D(5p.@((4=t(5p/KA$K,eF,`g[dD(_@s#U#.k[-g[?QK+1FnD`0dBARZ^H25AlKD;xUL,v?IWb:`e^:R\8v%+]rT`TJX.s#BNdc-CqUNus=%C"d*Wx9eorFipqj;A^RQ]Z\RWr-ScSu..7uCWdK\/1G+8KH)A(A@:UX#\kN]QI(QcnKbICWT8Z,N'!8hKM[drImBV(r6,RAwZ"/f/Z[xV6h8lwGt,W2#A6lwGt,8"GQ!*Hfk/0:0jN)TUsvfqhU1MoD-/YuiOm(5p.@@^0#dLm!e;0-mj)"CC2+9VT:`)Tu6';4/Dh2:pou==b4\8]P;FPS.c[(5p/O@^0#d//F/__/HS\9G'J.XqGuJS.VBL#7g]%@UBTWN+k1pE$97pj[@2hMZrDmq=uIZS!a,s.48$53?.r;if'U50(tK.`Vx'-W9bx"=?](8;ka9lp6TH:re+TI$2_Jn39)Tbr7]6w/A$f3"hE=uUZ%BtU#6*0Q$J(dF6Zkv7f8c,vJBpn"CEJOABVrf71+#`0*p%#61fr=g0haCb?b%W\QgbRQcnK2/sjaMj`7n:]JuD#pCq(*!w7n.L"80($)``,bG3/tHn:14PnZ[/3Vc4+8]Pj]8mREg9JSq1N8X#4Bo'iZc=K5#Ek/-D3g\%OxV;A$bN3cT\QgbRQcnK2Qck@A0'Z[oj`7n:xV;AdpZ6G+$I7]rfcM.PYq44tvreGKxf/B^j#;ZA8P0F$=J=[u)HB[Me*K`u/-I38C1#[@A$N8WG];MxLI*JxbF'x+EHxY"'T%R9;Egh,)9(UQA.@""aSmDuB/CC%*,576ifZs)Z^YELqhx:e==b6R//Fh]_A3M`,Sn#2+qZ"f$KoZr^.?hr8Bhe^,\na!,`TlpfTie(-93rca9\A(Da#FOGw2J7K^aG1.'1KR@ejTCbbb,*%ir!+N/eR75,-;sRhMMoUa\KJXvdne6?/S0Daf%i=DD*V//B_/`F?)S==b5GMoB/1STHCuFOE`.S9-wJ5t5]=@9V]x;*%_J3i]T!*-0J)k[5:O==b5GMoB/1YuiOm(5p.@@^0#d@^32W`M0]X@^0%@//F/_`F?)S==b5GMT'v0OSpwu-PRHd@xi)k[TI?^YuiP8YukgYi@wxoYuoXf(5p.@@^0#d@^3/VUKFh@4rb#%K9%bLSuq)KZ"/d3]*m;0*.g,9gkVXqhbW%Xm4KUA;u"_g[[=e=vu+5\+Q4DQKLYA^jg)jiM//08OXhmQ`?O9-9vdqJ*m+apPFkr8Cb1A'("_;]lii62mQuP5g%:^3lS\;\oHB!!wE+#rrbU8nO%Aq'HoO%lZ1-d"+3rC(',Pm.gS]%FnjS6X;/['hrtGCVFSAw+Ar2:-r[e$pX7hB@MWLf9$brgKm\0^]B9bqMEm'3XMH\;^a/#uGl5FFJl-sg];2n"$50:%X^SQQ08o;0MnOhxNR3PEHk)EfYbrVW)H594\N6bfBpuR6DL:$Z!BxlC,e@B/0d8\Y$)EUZ@R.rVFURlf*pwVfdSbvPM1n0^?OTnZDoxI^7E+N8;R/!Gw\Zf?4H$.'Mk"'`BeaRx5\O8KI3-m$rpa=*eFo#=-T/cXvvAKRF\?ab@9#3mZ:G$:VadNg.SjHA^_NE3$kXKXeod2m%M:,I.T9JIbOhAQ'xO6(jL-.tI'TvH8/-hxv=OvDjKuRHO4dvnASD;PR@_Y$s9lbIsc;q@=j:Aq+nWOTO'_\L#kiRwej$2QgW"'1rkOCEr\Z0U:Po5;L86ObO;wS1srr#Pn2hsOG@e%$`P%.9"w0+ovUNPd8;+DY+M9/9W^LZ[U+81L)b2RP^1oA6w]R79[;PHDI`5F;S0*)$4xXu,S9B,GWiI):cq8w%WTbk-]Nsm`ggp^,x;4X98V5v.\=dg`Zrw/$wj#9Hdq8sF0s2-S.Vx*IZ9C/@bpEsm*4FpRfZ11sWV6b9lS`VJoO0Fl=n$r/ecwGNRqTs1M+nEPr/8L9/,^_04,Nxv;W9sPsc'6QD4GjD5MX0C\gA;0lRQSPdW0ZOMh(v?vq6oci3DrmmCo(lk^8p$hbZ68_M1*@7dA5Pdj4w.dgUiYZB![fdE^V.`ES:2`-M17'n;=qL5H7w."N;t/q"SW''#vErSR5rw[Y1cO"]NMkb#bEo(?"'t*r3/"SN6Sr;$\Z.=)Ns`U5@3P@rL0\_7!THN/j1)c!L(=WNkPHao*GT;v"]lC+OdM]/5:%/akR*5/Jfg9feM.06GHHffr!^$B=7PO_X?TG^2oqX7n\)PHUdH/To=te#9.(Ra9t\k"(g)C0?,Lx?4VkkH'\C.=xR`4%0b?X,4p9H#`#9H?_l$(@7J([ZQkE?Gw^@P[-n0wq`8xWK"Po=P3nlYspVGji339,41`?i8[wS4m3=vIBMWL];3573L5jT3OYK(Hf=$1?CmVW9?pwC@7rWsvZ;%m,0e]1l:@A%XJ:e:XF2_dTDdCcMl^eHTA:x!@UhEDok,#/'qm%EPRGaH(4Gexat@qlijPV@ol@=YHQSN:1[e(6A+`l5gR;Ag'OE[,=3g$r*\=V*xFMlowi--po3Hi(C#?tIV-S.Bm%[sNWkBwDp+pWIke!ASbaN:E[G12+,"m:ZrE);$+tom3F)7(DRFEX72(7pgMQCbknRDwsOWw5JC3amUc74^t8/coRa$vnAb0vP=kfNDJGY7jH+VlSTI:,'t(wb1oxt1;b9CApPDO!k1X`=l)FCe3o+leA1r7Qi:I93suR#\#h@muf5Nhkg*V=oUS'H^J_=*)vTfele?f_RS7j?kJYXY.l/k@`)[5-v0w@7kpQYp(XeQIup\7$4'fU4uidIOo5*:DNF*S,J@F/w8B[kKSkFC+(f[oiMAq=Y5Lp8d=T[Z.-pmS1C46B2pLl'hE5..lI0x,wiYu]3ng"3+CvjDBvZV;gR=N8%c]^KU3@qxZ(3qOUk0`%Hf83gfU7(BQ4%P[jwx$%i*?kK(q?HMVOlHX44s"2ws_:Kg"*BC!IHIGu8LvAUEt\!w8+)7idHt,Zm8hQC*CPdMs/d`+Ku,b3I?K,%XaEG*H9RIvW5P0x\Yc8^PNc-D3Bp(Ael8dwU%0^9SBp1p'=F3gRZ?hC,;-)k.NV'N$2%/Mvx-a,7!OY4.-8QEhDx'W%0dDNnohT]'VE#!^)6EEChKHOZ[u\Q!2j9Av^WE^V./IA,f..#KE/Um/psUTf`=UXemGKP5,[U9ItoMcuFNTf5RiY"[Km'R"2xpa@E]Cgh$G@NJJ3U0RMm-s.4m.2SGJAW]u$:aVes=0a7=;.DTjL_f)Q23V2)Z?=XCh^nJA8RdWaT+mKQ*?1;sqQM;KV-#T3Q1:K*P#F_"O%)3dVbgD(\FETSx[vw,v'sddfRKiQS9sn(b9F,Ln8l`IF2fIpeQhBUcI7U/":*B]W5D\7EcPpB`u`d"6FVip.]vH:.kDT?@%'e7po'4L]nC1UV!f_%=%)C+S4P`gkvSqYp_kWlo%xBS3.,3nO%VFsSIh'SnWx:X'VVM:@lm7s\Ep)l=NR=S;*;%PDhq`;v6f/75w4jVO*rJ]9Uve/.(#/@v[@[W1bObJ,P/FrMc*JPvP_J9k??/HNp*w-T?$*l5:%9F0%Wq)7^HltjxdrTNC]'dL':A5*?6Tw-q,cqwS2##ca?owxPT]p$_"9CmDn9M_DQUq-L!Ic%a0WAL-h5,M]A4^)qWaX_;gRwgI(2,,rC!/4H,)aag*`I-.:IH;2(wI7nQVOlnjmPZ!7*+3U2B+k[*W?wO+\H`NGoXY7`;X26(UAb'n%Sh,:P^-ZSdJ?a1?;@nTqos'3TNL5vt6E86qrOf3d%(Hq63]g#2CC2PrC\5FQ!=Haf`("FiUmwtsjZ"6RK;HqR3mYVZjEbmxQ?0,ZKCV5$`9.U;iGjspk"V2Y:$X7/(2-LG1esSCY7d0xV7Q+J5c"JZ5=wqT-RZ.=IZ?50scI/uAV6b90vtQk-bL.7hT@B)Ff3%`(;sh].EhZ@_,_,O43$5'h%fV;b;*%=iFG,\$72D_pn^qw5IrXZmafMJT0B(X]0Dv5Le"""^)9Xl$YGZ%x-#pB67W%2P%+h(RWT4niGf!4ZNIU^_N=8jHIaThYZhLl6Y#:SiF#Yf,k0C+[_K*2FdiK,VP*IWFm9-u^nMK*(c:WK:docBPfPwrh7p#ck=N^)LpYH/'0B#LU92E7'Z@.d_?A/vNqdSF:owsdu*CViGc*sUsT3^e74cMlZQQ9RmgF@$1WUE@fk/8/GPpcY4(q-O!S@31@`d!dI2J'-Wkrx8G.QwZ_Ps`=T=AKh0A)!8)J+dIxOWkduO!DtJnRKDLa@EDwNP1p2l$3vDbu^3PrRn)CMXXh$,?\K$b:T)5m#/?AI4idCh]0o$II:fBEF.-WdYF0erNZ+AqQ^WT8fk^`:V3X.ZGwM]iG1RI:X,.6]_u7LFS9;7lF_.^O)])"j_ub8^oO'sN_jG]IH6Z;qm`K`'RQ*;o-Df/cGvYa:l'UqhFBG-bs'cmg2eV?,AZ/9Skv\!(8e(4`KEtW9ue$-frJPx[`ifZBWv3t]BQZtOZ#;'S_Q+ts*/4d`;fH0!"^RZ"9SZ+!!w9(!!**v~+V54d;*cwZJT3APTohV0_=xpX!8@J3!!**+qB8'('EJ0\vx@k67CqJ4/]-\nU\(O8!w5CMrt,$[PWn"*;xM\h8*Qf@+/+bDI?Zp)^JOb4I=sfBp/1\mhFI#Z!w3jt!w7r_s.K+;p_W#lg?8ZvIgU!ZD+oBM`]j6+Rb4r!%"7cWrRDe_/+h.-^H25K!w5-Vao.,b0;6.Gr@a9+r?$*Q7"60:*%$;TUCJZ+I=M=t#PgRiLY@O5LXq7/!w7]vIHZ*LIHZ+CIHZ+CIHZ+CI40O-IHZ+CIHZ+CIHZ+CIHZ+CIHZ)mIHZ+C(\LdB!w7_4OJ81`v-Tg!N?H;-M*e4[fKpvc\sF+ebAx$jLs[k(^p)=Zfccxj`7TTuajl';WE=fnV(i7M@`=5iU]WoeafS+:nwdC90V^ih+?*0WL_;"+\Ip2":.$0D8g"[9,t\dr.e'GN.3m;QfZ_Dd=DMlLA6w)0(0RxE-\rBaMbG,E%2OXLW%ff!:pu@F,t#2;+;[ax5S-x;w!6(:e:F9M:_wgrKNo4K0LWW?,Z(4g[=n3Fkir\O2gQhiER21'I'c8q#wV,.?k7T,m?n`hM^3%+a'C%CMHjtoS=S#D3xiPBZBL6a8TZ=#PSCVD-4'K/.G-@3g)@Nh7t5P;g%iqC#/!nsop/K\'8k["@LeNqDH84;%t6MZe".hdj,BPxOMkFFQ(F",MR`g!HexYEgrI4NUs0'd-cf`2TN[)Avt4oEOjYQ^SB*wnP-X,n1:1^_xo8:JhRl5Tg_sZ9Z*D2;b#BDgK9Er2N`dFA\Z6MV_=@(Vl#7j.-'q7QKIoV\"[$qJ=E^"WiXG"vM+CAE_'),4Y_Mm_(9xX8N9"L*F0O]wTYb_Q7j9i;"wBUVKfpxnn-HuY'T_/uJd[,t#_r[%i1hOh@%/?,I.41sM1X,TMHXg/@Gn.G=9C9[,o!0qfl/-k2MK?pqL\.V$r\'iA=v9S[,@K4a+jdL=1WQp+WScC3Ds@BK-H[G6YT(6_aMiUNCFIjvE+3(0eg/rv;scrE$;_J=RhJwUc8ih*m*GD6'*8rv-P95b`L1:v\:V=/sA^.g'FXLfR"jpc#-Dd[R7[wN!1efg6v/b+pGEwcf7j,=qa?!dbl$75[LaH1Bm/mLs1"_Z`]6`=F20X/?*ITE;Yf95nF/b"$naYoMSX5W(!.T(\f9?`n3_3(Vg+hamH;fR]A926,K/hYr%@?=]l:u)=$c8ASFPAons@kVab2H43p5C8WElUx%HNN-3N9rwABTO#t?;.VPHc"-AN0/%HK+YeO]9_*[u[Tv.PE@q%]#WHZDbCEZDV$Ux1o9)sl?XpjeCcvUZjad@jwTlU5AHV`dY=Ru-H1,!*P1Yvg/m(_vhiLx_!?LQF\8Cb)bLYqox%dO0o9JFenAAWRjYO.O/ma*ifLjG.=^nh2IPm#AXw92$N-fn"01b"[*m6h[A\%;FH85]+[#ieqv]U#CsJdLj3(FflB;3nL@VS`iW-#X4t=ktL9M:5O%_,wFA3Yvg/npm=fuPAj3n1lIR!Ci]8Ckw%BXmZ[*UNn]4K4;Zeh\:YgjrT8r\4gW2#I[OK?0!Ppip10"RZJ:jXm1_f9Z;Wf-+XEU;.(ZpR"@PY`*8*Ko))S+D#-NrAF=`6P!Tca6`0o^r0bjL,@jX4_,!-DG0/xpB/3Hw!V\akDKv!=@OQoBw=FM]NT#bg2TDe+Iq.2Xnb@gW^ne92"-:d,T,aZ_-Eb*77=X(1b83F.i141:w(itO]csnq%4[we*WY2m210#p-^h4iI:F+cgZOe:K8Ij-#i+..j).#mskDswXLR=x,'eT#s7=%Pl`g:Ga3SA9sOG.]dI"IrvJd\m%bS%qB)+AGk)J+E.M3a[DGGS+$p0,53V5]3/8%?'E!ZgPkOr=H=i.Nt.#D,lDVWq,d%LOhQQhO@O@$rw2Lg2^kjHFpqo5laUdk(fuN!)j6:a'.Ubwo0Wc:!ow]P=VQ9+jA8rt0e_)iM9-OaLxeb8kYoV`g.c0SMkq*C;#5.M=x]+HT,'*BDV!UQ?HFXpTa8:`;?IkWLqZ_j9)H'D?v]abHH^x_mx*]tajp555g64?`fq%S'$.2O1EJ$k.808)=qv6^AX^KLEMrfa=J+O`dE**VR^2#b!uT(2-JgY$H%L)v,AFq#d%mil4MwvX;?E)xkFvFVLGo(XYg;v-RFv;C(WW528oSK0.^Ovs=9tIr-92qe:E64n!+2S.k,IL:_Dcq2FD$26_rN!j%MK0dS#1GXkfikv^\Qk\j-I@$IH,\?Lo[8)mX%fpIc(73mDH0JQCYE,VPh93)O0T@"+,\'v#31gaeDCT9Ob!gt=^"sJdA%KfKSF3)iKb\x9EG8i8tDk]mjgTbZj/qaL#FqIuR#cT0#)?FiL"hf./*_8+g0CDZs0+i:BjDGZD+@u%Df.Jh7oTD`XOOs^q7-p)pOde[8_B]3N:`De*K_PfpxX2/u%,E2u$Ru:9UhZO'@oXo?eQJNEnHqWZZ*TRoV!GgMM$S3j*F5cl/h3DikWfrLb=4ihBKGCV!\;0kalfD4N_2-hd^c'RDHu7cU50ouPO+B1GSc2Rcqt$-:1p,xek)cm7AUYMB:X1n*Hf_#FOjS"3oD5'kb*Pw0mBE1pX5aDk#KTs[oao)FXU;+=HZj6,(h\9ENZ*sUoIQfAw^Ws*SL"fOnnqO(dS6.i?.?g_av/m!D8=#UT23/D3`hUF!@?K#\gGA/L4ji=09]"NQ8ESY[IsjcQ4jEr5fu?KMUM@OX@%p,j[$2-Lnl%wh!2^`(XW9D2i)qv4Rl7[j1*IPvuL6xWO0\pB6Am?i3x*of9=BfRXeR;Im=)(Pjpta$Mw\6f,px[EVDsAU?c2Us_]OQp53Ff.6i_-c#jvdIgvCXW)^hs)*LXvj+SCns:LX*-,?'=('gw"4U_"7HD*5LE73j\DDa:xQhTE!xgmCS0*Hq`1Vja$NBD0djY#x/5e36*@?H@2]Rrbx3MZB=)g9);J'UCQMC^;N:%wl5I0q$K61f6`2VQ8"FftrKjKcvixfwiZG15.PX*'/8e4OHWiP,'NoI:jqd%Eh`7kFrR30:L\5;#W?UUQL$9tE.(.,nF]9/,\X$ObF]3fM:L:BV;/v4+WDdYE!KH0VsZN7Yh0i1"8Bd@Q*fFD]Ib%,#s9Ke8!lM-QKHe-!DP!kg)lA\RdLEtv@i0'SXJdm:cW$9(k#f[$G5FjdZZNahB_Q4Pn"GpPvbZv)G@,#N\87k_!O!^89coE/l?c[GRx$t(SY"G`=`!e4Qv4QpaR9MKtSffr@Mpbp6!s7'uQUp%I.p`I*3jI(@FL(EpFJBa=TC\,(^M'=_^[?r8_C4mXO]:CCOsU'*Jvk;I`Up($8wcf$n%kidfJ/)YPjhG=.a(1sx4eQ-Noj"ev(rF$`%UZ`M0l73c(Fs%F,at/5Ok@2vk`9q-Ow"qB-1i.v0X.*UtHob)nhemDU.W%-xYxU;ZaRWx**JF)n=6%(_[p@-X'vE+*[q)]-@]KJ'ssL9TkqgxpU53(+#9Z-F0Qj8*F1H06wW0om[;,^hg6/v_t-//m1BZxT5DB+G6sY@d0SOX+fT7b-Dc+73928X,:fi\#B'Lnn68ecqn"n++ffZeInq"?o[eBJUbb`4==Mh\Lh5W7U!ZcQ56M--5+$R%@P:bcXN6OwiqWfJKL0RvTlgm8,V%mksQm[m3kJI.TQjmEJuU,G%(_3Lv)6=;DobR,#elwX![P3ZLZ('%rkU,,Z4J-RE"9g(U_F6?xTCnZ1Ho"BTES$YT"Mv8D'+$fF?f\^dah#j$lmT]udYIY\B7'#.)Bf+u4YIU7x%w'K9tf=g12j2m\3C3[)-jGR^3S0PH/A=F`V_M9x@gWYO5thhiO:W`uJ,e%g1,3xj@sZ6#eUA/;cd5rJ`W\d/*S!p30\xRmWx=co/)2Io2D)w"=XWfGoinx]Bi"M^tJqc\%2X4i(gFrw*Vd?/vc"\7lU_lC#?+hv*GY7]T1@:(R:I)F=AE1]*3mb,,+QXu:P`biO9A2h.4pBdS#[*k]f0).6)x[U%2ePF3Q7VYku"N$miJnR`=jG*"L9V"6Q;J:)^lB,.wEDKvu:r`(vQZIeL@T?DQe/LkSJ.d$..jWp?,4TTRr0-'$\kf%vP=0)HlU3*lXkhtR,n)r5%B*/P[;'-Y1tn@'1^mFNSC59K,cfVNZ!:*r=iMs@=_'PIlw/oY-7SknoL-YH/iL\[`Rp.EAmt]*bD+vuP.Z77p%LpxXt[v1NXN=K)\%@1F(?)]4vJsC/'bI"Z308FGSiAKM$%LgVo7RAl_R+,-'fTU8!5-#nW-CG5NJGs`J`T'oE)VWV5.r[k`]ql*S)-]0opZ3:w+-?5CboD6T5drjvBkhvEuc,_FD$w"sZ2V8DSx:)1D"/5vta*+7xHA08?'0BDKpX6oW(W'`Edcc5[IX\p8Lv'raIvac4HZ`^V5[AQNx",AIh'$o3rb!w3TS:=ltf@O,HM[mUh0Kh)t?L9$2,K8qcL+msopWt,'59v#:u2\P)iq(pn3$SOugZt09o13$%"ZkZ)Ih1*O;j'E)Ge_q^wKL@H6$8nf%^uOM@V"bVi6r$_o8du0_7?5(gLPjupIn%]AwDia_LX8),pD?69%,,]5]*P$SL2C%K-l[!)).J1iWDOWN#M$q-2`=.*)Ta#)ZQU6TVMrWY8r,\Qwg*ROWg+Bq@4r6X^?d(C)0hsGLlq#pQ"i$k-h.fc;)0V@PF3hQE4CcObt6j!6`fDs/SYsYR%Pf=M.4l`x38)of`pg$*$w$5Kk#Qta@dWjE2-v'45IZ,79eLl!w9ltP+Pq\o)oMM_KA0raIg@x?@oU-'($O#fZ6\C1l@4TP\Qm8=gm`nfbBd2=)!h*#`[dh9`ZStvd@nRpdC%_Heack#sTMkM9qDrnw36Gq[DErvgF[_klN+!KWld4`3uR7$89NA(?Dc'7#Q"Vd3Qg`-,OD4*9btQNM@+l#*7CxkZF:@F)N2Cw%fUDN/b2iCfG(o*^a1]n7OE:xBJ:4B+F\O."qqSc@Kl1U8c2YLcL;Ok2gG'A1Wq%a*kM;eZ!$2h0S?3-'40)cXpET.`AtcU.u8.-a"7k'?ioqABoucOx@:#@9JhUw;SdAS*EcdHUAEo!w:$O3tfa]-);+=28jTg\e3]'OUjgv_Mghx%\`t.m(S]L@Yda%%T/')WMl#\,$'+^'1R`/3las!@ZhZiWYg'vd`W2R+0L1wi2rkeaJu[pY22fWYwbv[p!26"PDcNOvGW\:1E#i7BrwS$6VWBE$9_!;0hE!V'm+8K3^('1i+k@q1f=8xlmCG!WiCpS:TZZLC$\ES/m9%4^u5Z;2rs%sRp_!PL0OspTHl86WNM7i^31*F`%X"Q[*Dv%Ax()$hR-O%AY!\$Lh;3onK$@gZe/qW=[9E*L,m*PWXp#Bj`LZ[L0ZJWJns..ie)7jNZ2eq.%\f0D8Q:8LK?ek=5)6Cfp/%C.=bfq[V:uolo*gn'sftJ/1_1q3(-d[M9KWUCt0pTp7aK/TYV?Yxk+SXI;swAJ.ciD',rh]MbG*Z%;KwDwe-pfLeP-P#1KeDi"J9Ixi\9^Kg%;GOYdmo+`!9\%2pF+vU9BVk+u/oI*RSu1ZDNaVD3JR$_J\IC)lB%cAh7@15]aG[(J3"w9,40o,*ra8\DE!Y!(@c4bO1gxpON*/;TWj`ER=2!QQXFKj'[:B-BYqbwo?.LCb[!LX%cS^jct"cq2Y9mu\Eni]M6c[CNp.K=erRHBm2.:dXwVr\?'pNBr"*LVAxI@L3aK?'H6B65U"B@jYYDTtGokaCn%ZEUcXG+ZYkLcshsrc5jlhDXdaLb![+10Hu(mCBgl8Si=PH!Zk]+9(JM\aLiP^8ar_)X-e6)9,771[hwrI.5T6,)QO=pd]a\xWD-7?ikQL#H:V!IDeK4og*Rt2);J;$v%3ZGhM6*w,cf@m7cO_#5c5"a[3N/3-12(6;YZH]cuO9T;^\@6;N/9)fHr\slr_?\Kimb],$[X7M,t9Wd]u=^x!h/U%-AncD+$S*A4sctfL_/4r^Gk$/8Ye50Tot,P+e*$OkCC+3gv=Q,4LMA%AicYYrgm!lqQ*(fZl/df87WJ//@3"DJ0v'M(j8Hk+75H9953,b1uLg7iPAF'/F:,'6'FGUhSK@fqc"?wcT?3AYR-!+j*as65)mjn]Em+,)kK!"8nN[bKa?BPP;)6#_\BnK=a=kcqku.(r?a@kfxL*Wgsak;H01u8,tNO:mZmK`u-eU42F.:k'A-YPte53*@YD5Bcg_bF:i_%n8n+T$nj[86Ul=5e,2+I3H3P!;e'j+k=@q#9]wo_*JmOMbGqUn+LWQ$I]OpxZ0wEJ!u[U6=3*WjYvtDjTBKw)WkQd]@Afp'`Q#,=fd"DZp'%h9iu!o#3$mY2"0pMl(FbNST7irD(T(PrPQVER@^jFxC*_.!U6c(%CnGBKd6LBV4kGKq/1rH0iBp8,.fq,:SviZi1:"E?47YfSOl3@Xv),*"v1`/2)EEJ/em^18L[vb^;%3b%C(PrwS\d9AggU?nQ3c`nw?]s2$m7#9(ODbvi-Ow]JY'sIB4/R'La=32E,mNBOGi?k9SUh%Z3gYO]j8k'LiPbZh5EFYqoBYnU9`dA`rlkYB#NXO8Kp'IZeUBDJf(R#2t=+2p5$*.,I@Y+?MB^xnA+T"*+m($OKB\GM`"?/'SUK]iXdQbesN0j+9BYJLTm,@Os^AxGZSorF%dh7@P*b$,]xNC1+DSVGa\4YJNKr#)m[Su]E9c+[*\US@Tc_Df`_u`,xPV+/$Y+mVAX)!!J^J3J-u$[qu]McR_`eL2aE$ox_P@b[AQs.@T.'8#9/"iJlvEP+Z.]YZ6[@Gm+OiS4GKuv%]!=9Sd3]g5m^'"(wXuN7qrDK:Is]+,YTG6$1["d^Rp-p=BDVY]3NUaWY#@O/7hxCokMw.'e,ji8Arfn,"SpWhe"Dm+s@dn3"$C9m"qBA/B+t8hP:r1weCp"JXT)JZ!9dlJ@e\q9+FV%5\Di.1?"B^*i'DnjH2u2P")U-2FK6!8J)uk#Qqr\xGbJK5Sl-,vk%t?hKngcGMv"4m5pk\2_;OkRDsU4DZV)Jm'qWLvKaw!fnX(TW63,ACbXf:lt.h`MaN;OcoZM`A@`2#B+152\T`W6A=W`EE16wkKGP=QTL;Oc!QhfYE;Dt:RtEdTjCfgoBtshlw7]v1KEd=VI%YSd%Z)afW?$n8/fba^1[Ja'w(SdV1d3)'m7"HS$bKwKe3[S_x+"WoO'vk:hB5Ho;V5C+R%4b9+=CBgO@A)H@):sQm%d^$NG)'GOUfUP`/9[]K#28/fGKdLaR[h=Z".ob##m!(J`E5)\3^goX?]1+2^PRsT?*j%=f)`Zge2%'x+mV/',Ex/H4D)Vl8b``*Jl!lU!1eN.;'JP9kF)K2YlEq5(jkh.vh`0Okv;l9ZKVdQ/*QcmeD'_8VRsg;]Rk;OHNEk1[ms+d3;_R7v"6eCkhi*4h9ASS%%%`Zlxm(giA;_AYWmJ1)QFajNDVO9L=PUEH76SR"us.k`-kM`12?JV=;Rb*HvBBq2WuIfSHf[KaC_1C]g"JOo[Gmvx.EW@W1M\)d$W=-8;[fRc#x7-'H1rl?'junVNNcR!(KCjK(r@,t,vQ`c)Qi,S1D0P*cf+)v?[69).%T)#9=-'JaGa0gRaogsm*X"^c?r'!7[]KTVSA^5F[][2;h_$lVNKF[eApTmM`).184+b"A?R0\wp"V3vJ``dYW-wDe=3Kd6$.q?hUp/0Ep@5P2HCNZg4e+XFK)w:_dZn$2[]+w3$.)9WxZaD4p4V-3,SN3K8H.2!;AZv+1s,+*nN7c1KqTX$q$?lY#\2$M?hF9NjYROLZ#?`'2%1A8ZC/@@hhRx`T22!3(P\iVh(Sr6@WjNs)!8B#,2-6%N$w+hXY%%Jw-eDX3/(OP)FgT+n$mV]m7(:"N'edTCnY`0*O$]$oI-6Yx#f\mMcLK20NMQ8I@:d5Us%,,lw/_6Rx2.Vo(5`k%ui6*FF^Jm$5)g3\XPhU1$QmIifE*GSnNE'RmP6@U78A5P'I-\#u'b*6d.Q*3DFwa*L2,`rhv6CeB^J43oW3B;W`nC"TXs$4*^C`7\0(MRY'8mEv`3YgJ"5[KB:m-dL#c+f6dj,.3Z"\f.Z6eo?P2%98-?hA7$TEnFRQE2N[M;B,7l,N`=Xm,LF)/j#;WB]QYjb3sFYFh$AksoNTZUf_[%2a0S+DL9"-(Y?pkdCvYrPK_.g`PDgq^GC71'L;GAo?_wQu+FP!hw(Bqd8KO.5bgwMU?jLb+7199),'\Qb+780!O*)jctIPt2S$FNBwH^t^(W6dsHk(=4RG,0#DB`$VEnNB-:k'FdrVDrb=x70Q7PLS`V"75F5GG5,P*O7bHA:IxaahW2bq`m+VGFODFx@MBhS;5'19M0!:RJK#mR)u*p%OE%(_0h,JY_FxBK'Y6uLCi5!*^$7x.5.uAtU,FPj`[CqGvx[M(82.k@\Ko\[p`-H7VJRSv.$0j,@0v[)n3UXCnr'x!63G]s?CSYJ"IV8`f!GZF%unO_3C,`.:$ABRhk1:W7$cN94x9'XOwc90%9-5PXJUh9eu0$bJu,whX.^@#AD5*?Tgr!\[^jN2D\OE/Uka9S6u'W95;Y9d^!T1TAlHxj0Lh;XaTRQ.Da?u#ed7(1iY[(]:p"^J1x='A\@[LDnEFuJKLwB^6ZN5o;)6I+M#8kw7ioM!0=6cK$w"Gob2=0jbN`,o--TU;%3*AbQwkTQ'9kp6\L42fLFo'OTS09Bvg9JtDDpiHb-hS"BElj;"_Jtx=\]C7N1.g48tf[L%[JAM\cH*L,TxMV#V2%5'e8$7ZI.%'j:E+\6oj$D@L[_(VYZIBED']BHOhZhC:MANWBq^OK9rif=bmI\/YpV+6x[00j!f?sxjs@CUl@BwgW1\K1fBAN_[$wxSTBMOf\`h=3UHhHe;XJ52lo`P8BPb)2x.l(08b._J/v:ZY)grEAh@fB%"m6cq8F[KZ7!gKM0qm3EKH=RJ_!8LM`]=Xg78d$E31kn"3poH1[n7B'=0"+oNS(ui4!8.cfYw.O"oYl8H(9lbf1@xMcSe9w23KZij5Bj20Qxt)PX68gdPZhG/mud=B_RV:'8\o3%x-ppk%F;2-_Ff-JZ^9mLuvQL/*o-cv2]_,a+!0a!dF3T/G!1'$YpW_+4S+!w7X@0`E_q4Ux8TDEL=B0o1N?/_;daQ.Y?7Q#a`9\JK"#iPgw_[=P$*KJ8A0\4L,*jw@+c,t./g2ObnX,S?r"vR-W.e$(mw9g_\,QPA])!t4u9NM4b)3s/P7L(vJ@J8"Fc31v9@4u]_]PRLCiYebOO8V.,'vs5["?-fqMK:NA^!X1'G8lkj]L?*)0%QbwH=LaCqZ4O_I+GNAHO7GibQUL;2k[80XQ/GZlJOs+.pkH,tK\@.goV?4nG5-kE@Z]5NBRJB1[%Tu7fEf-S/'ica?:$x=n4CLB+OZ^c@UX7JBGklXG$=xc+p"(fMn:gKYp2jGA(ML0-??#1A0R8"Rab)3Qt7eKNeo%0-$#_aX;g?]L"WuQU"wY;:;@X"!MaJ0-6h\`m@'A]bs?55NQ'He(7jO13MS#6kx`o$c?.cPnJN.vZAiDeM@H?HXZG7NQ!9G%PrD3TjodS4jI"V/")I9FZ:U2dl3=5c(O_$nA3$h0`E2ho1@W4)_+Rbm8ZhP0b%::C@._D07Jvae-@"`.(H]C4.2d$S\5DiP#pqu:,de5l!g@A^Ru(bD.(7NBdvUVa])ka6,(/@-JOLde".+UhXmKhk/!;IsX;`+a=-c7-]bK!aBq6Q]hH6%2VtZa?(er=c@s65xq1-95Tl6Vm"gX8HPpK!i=x7:l!\Xk22Zjk1Ha!W.6u(8]CdqkX1eLX"8P8"02;'K)Yr$uQJ_6Hceqr%\MdZvDC,)kDkG#".*GEuU'1iTrd_KOYOJ-2YMCRl]OR"q1o/85"41X`-,0Ae);qT1VF*$,52l`,I/8tfb+qSH^%#*n[#-60=bRTQ).9cSZI'=J36^TB.2Iw\"7W'jlisIb,1ko3Q/;GFG%#kFr0YC)*EGKCKEAr,$]aQ1'-a]HvC7?PAAf5\XEew,C;QO/Wcq_X4]4W!a_8$FhJd#J:pK01k6]08lTp=X!/vr,M%51MmHt[XRgCl\egn`"k)FGe$`C4_!xWf5-'EsUtcbiY=7`v3@N#8x#E=pud*a!O#FG5#U6g#UAZFS)boi(XR^uHl)M)h[HDln\2p4,M'kI'XdwuEAYHw@[$[P7hiT$G5+@7K9sSs:Y)JRA3BGfx$Q,aljl3?Dn/-G/Jq/vX(#*dT.[cLBkd-YAC?-70VI(NfdiFM(.)*=\_!Z#%,3-o-H^BMOI3NM.E"D.,nD9?e*HFHSK0v0Wwc,gD(K@DcStP+[qCA23=`VQrJW2hn@iiM*a`4cg:",(peW=;GC)B#rxoBLIXr#g-LaUufmS]1w-#dBM(*Z`66+n;qtTOj]U[Te3N2^PTjcRvNN-RWnsnO,vZ6TYLVLM%g8AR/*mMm'Fh+3gj9dJ-s)1=@=UBi^K','q`K;*G(j4H3g'PnDY,1R6^6Q^P6rpd[5@eVQD;=)lj*Q'e#TAGx)e:%wE7nmUb0*?0v%5dkdF.K.[OqkmT5-"+:qgXBXk!STTd)#dMJRahV\\fElg1U.Swh]PT7W2VFZF,$H6*UDX!xamwcK,jJiW9uqLVEA;CxBnx8bmGY3M#L)j[OEhVU(=[5Y.3n69*HG]'G3!hf)-N%5O55CD'7rS@=Z1td#87k8F;cxH:ZsO\d\L%!/rbm'ZdKJP8*WDB-rCn+;Fi*r0ejs;.WViv5nF/b1QcxRe:TC#@K?FSfS]XnXS(pc,ik%?=c`5"+qxcI?6i[4T3sGmGA?4$(LfZEE$=-Af\#+KAL'F\JKtQ].rlgNhK=uco^#Z*rV4H_16JMra2E^#Tsc5e$TA,"GN#,T6.t9xPdp63gAaCi!wW`1!rrBvv-)\1$o])d-Ma2kXRw)4Mmt,K.4`Y$QW[)m#Gdk!!BjoF*mGFMgNnVx;ev[Ig;(DATL3NUZVd!Im#\Ebc!7Ex7H/O.9nVE%onqRvU:_x7o*9%!2YLP8K^t8-vn^vw]w=lGNrgW.-C"6MKKcGXB_T,3[+))]wP=I5^SBpf\qHqVooR.nqqg^\IV-T[I.E%8B$UhZk$1msafrS^w2F?sRFv=DppRvQ#`_uaJ`bDhiJJdPQQE\!SsmsDp;L+N5hj.eJT-D\1_aAx3?aH?XX@w=-1fQv=OxcFnSFDU4'YqEIxB\:CJ!wmWpD)"HYGjwl=YRgTEkDg%+xoucd.a*#dJI",N3m0J^0G;:_sx(i!x5)o4D8$aTS)]7hVQ`)^#qB\mOLk:vtw8dMCa+w!VnUT!KSSq.0E2\*L;_0`^)xCB[)tf6qhiq_*+$c-l.ST$*U*4R9v`6))gZhv?UC,I15-@Jr+.__MGb(VA^?ZOV5$x2$O!B%(Hexkk%`AE]h\p23=22#d=kQK4+EZEwT9n(BEJJg4n7K1hXSBAggRY@lK!pWax!HnBtmd_=6@;0xLW2m=30?b($s3wWcHQ*QxX1DLE%#0qI5!`%KZ:Y8?6M;NwFI4bckWcWs#S`+i-A_xF=l!k?o;^dufiDd#-[Q_CB;EVjY^IK:-n\6!;w4c?JKs*Y[6lr'W3#[I]\-lb9oYRoK!Xev[_Mekr[o+j_//!ckfac"/+[]n'k6h`mcch;\[cbOT]*HQa$:GTX(prFOfRQ?83JImm=kp@sT6Zk++S$GZJALhi]tP[n?OO6fi8\@GB@va$vCJ"v8Wx"sW7Qw,-K/r(jSV,w[I$i4,39l-Cuq[IaiB33,RWYM)+7KwOf@f=PYJ\X`PY:Y5uO6[D@Gun'Y*VA%MWFT,1mv=C06[9PBYbY_n?3+n)'X+Wg@rn1n:ls0h4o,B[(SmqH:jN4UQ^b:4qx@nFm6T*^YdJ%111Y\IFJTpaJe[g%3[2LPtZDGfp[qj`/A=%B]^2jbA15AhpwMqo1H1%,?U+\gJHGP!+m4W!N7/obCr;\sE)v48CL5Wb1Cg53jVdcD%EQO@TDW/lKO19QcBG\g(ZsXf'M0J3m+i@S\xD1_7;_$_TgV1q-iDe8qTd+6Z*N4q3.W)W$r.Z3kTFF9^W?_jC!IOhsI.Xltd3S^gXsn!P]t:RYFTU=^Q$6lSB0l+iTG/-:vp-.LtJ'1AW;5rN7P0;b[jhJE,RRHjaJ8X%`%_v4[G/C8E(^U`P]mf(\o0trRM8.8;,l%s;VSsldWVVvoL!+Aa0rmL]XE$AJYQf-I8BC#Wu;[@uV8TxdoHk[fel*9Nw4@H]'qRhfrK(AvlCZ(ZviY'l5SJ1/`DK(vJE'x+3ZF]nr9?2\qqRC^l^jf205RR@mo"2%Tj"CJ$S7I+xSYg*,$0gBNM6n47Tg8^Lqb5;A]GLqi"QP([]mJ_VL_=9vaD`0Kh?Y=63!!J4"^YAg:%oVnHSOt_]#rg#-PNXHAfg;_/'VqS.QVB;v,v31%fm`+wS4G`:H/Y,kJ(%*WA\r/(UesT#rNK(;a*0-kd5kRp=4S%^+mg-o_ZqsK!U@Jvfr2l88qe@j^_Ib82g[*G/0O5%viDwioi^f5".dW7rdTc_E],=9XP=A#@853Usw^Zo`ICqCE!X9^pegQcJv\qhtFO[pODhZ\DIC[?O"o5%n7fqTdvn\k^r7xfH!L%w@HJ,a*RvaqnQM'l/1m$PO5'+n7-5"x^.v/vBAT]%LWJ6[QIXeq!%dEdx[k]l3('SrTCHnQnI`$E'IY[F$Dr6CPMwFFkhTqdis6'G9$#:V#L*dJR*=tVIY3rX[8ON0]S0FdZsn?cfw(9i:u@bJ-5`4,r]YDa_wUERm'vB\$-f9Zj9PU\X.c)b47[oR'"Fn1!*:e0@`!Ph_]kTKTcJqCd8bZ%rLfLMpgnVi4-Ae2mKkV=%)i7xDdnp4QF6*lAblE9]@vCd755#nd`b0=2*\;:u3biES^/(s6A8"vKh(l!WWwv!wE9(!!!!"~v.npC0JO[n;3x9Q!8@Hw!wW?.w"M7pG)Un)VIuUEh5?lnrU)?8m*h"ZduQ]kpE0A#kZ=C*qt-r(oW(dv4oP(MAJx$^B!VeTQ'IWZd%%@t\#\kQq@!#]\^0\"qlE!Sl7_S3TDRt^IHiJ/_7IZ[?S%)/-C,;^)E*fn6!?m:#v=cv[*]M`xaWHFSL=1:Ot_Km+YJQT-s!T!KFf+[*?#hC'%[s6ab41k6pa6D6;0os,ROie=G:lC9LrjLD[fq?KP9!P63n_]v.+kHL^##U8.Zt2ROB=F:Fu8O*;^?W^bH:Hv13mn,pn:963n_ZO-xldcX\Xs1/TSgZ;N59ZlXRYJr(mG@YC.?OC/it5r,wgW.4RF',,cJwcBo8"@3[w_J%vRD!6Jp,9t?7KIAvi,9p`0Xpa#"#0MQO)_3GpCc5d72I9Px6gR-UU=va!f6BT?4MM23j#7j0@7Q5JdFb14/gQ0,JL=c`^CP(#@ilI#-p]spvDgkp2:b`QigGSSZ3Et/BII30:?NCvUb!08v$]WljtVP35;Q_S@#9uw(RgvMSY+9Ul/lI]Px'Qk+w,_;IBKioDla/(%A=++Q,)jJ15ZX"@VfNbUg0Z-)n\u\fZbp"XLXmM#9cK3d*NPdMw5uT9!touUQiVM#A]Gwwgqdr4hS9q(jbg/N64DE#i:P)EbSd(oJ+JC`OE'=Z`FD+i.HkUP[YSA#/=*W.:R9?;07sk[+NC.4c$5M%;r]j88KYq"NuHGD\#S1(*muhPYt*cJoPPlp7X_"-^r4BKTMQqvk:7lmrwrppC-!i@sg\(_T@l^E.cH-.@2W)A#HhMXG,#2,Mw_`K;XKBM;eh?%Df.)\Eo3K9-c#e4*lMmCh(][b/BQ[q[E[UG-SOo0grxo..W`\"d'0Z8G;)#,!rr],Mll8HYg5h!O'BS$W7F"?#4=.StO8nFbo_/e=ItP4]YfwYmK1qm20DR(!ejtF7I%i9k"A;+?JIj/kYJ_]XX!BjFYZh252Y37+RlLGZUc^8?wGG@rC3r4;!'86'D[/36bJ0QmFjAnsqO%Z\oENiaU"u,dpgK9jTk8r(4,/5t)4*';S#)3!m"PZpYk8gGEe#L**u:)\s3`]l@S8xRM.+'A)=jcYdnTxe)-D9.\IITMT_w,V0L%;,J0XfU,(r28m[KXCP!8_3Kk5n\co=UhmQnA)i0.\cI;6:i()*RvH_$TK;P/``FVd6V28pfU/v1"YQXIxfTmHfYaBx9MY;S()Fc2L(\l@MX\V8Nwq4B_k=ul'i'^.0Vg'4/P3hVL1TIY)T33#"eROnc$D^//d1\cQGHQgn=V!FBN]0H+iD6Q(*h9FHpc@Z+X848_35]R+j53(4;+[@#RQv0Ol4Gp6B"x^1_bXD2p.0ve)xtw@^(uc%J*EQXCYh+`CVCLvj"8YL]kTl6)+X9Yun90/JQkldp,96lv8x'Knh:weO\"5,[n$=6AS)T@q$#^dNA\M@0oLJXp5Ppd2lffR*I%#AQ-H5N"\TLZ#D)EM\D.6@mZ.j`''RMfnwJ)Kb?(Pq%tM+M,F\iiSp;eTfFab(E86I)I)!,BFgJA8E'N*bGvr1Go=K;vIg?t'A4@-)e_'[7lnA#n*.F2w'rg.@T`.D_MvjT?D$-W*/!#Sb3L4m=XLd"qw!9IgBGG??,g@r+kV3wx/RC/b7iYJKZbcT";(`#k/wWMK^bug$`QW4ha/Etq"+b!(PE2`@2ln:7?1r-7O_BCAYKSZOmNe8VXc20mtCw\,BOW.k0j$$6Q[rU@;dC8kge%X94P#rZj%n_s,Ze4vKq.m!WWwv!wE9(!!!$#~v.npC0JO[n;.5SQgAc_D!W`Q,v3g0r,CWp6_X9^i+8udFo,$DYJ,Vh5!w;tQQN7$s`#h5'r.mRdIeaSj8,Vpva,g#SieJWGvYHuWaxSXYL9wq6?jYL6NWoQ6;eT6d_uTh6O8.rlT-*UHr:(lgO8.g,QQPb8`%O@7Iu%H\O!!o8`%O@7r.n^/IeaSj)@.ow^"=dFoH.vf,"[q9rG+/VMhVioU)TR(2^W-HkqVn."USt'P[V=iJKp!_qBPqN-[,22qJO@Ww`X$$MkVU,lbRlqv.t/#-=PQuRR=:KieC2V$N9=(r\g#?qCDN078XaVZ5K7lM#1g@=4v/5,6dfUxT'8567\u`;%b3D=Qgv3--4/`xklBr+nu:K^f:r7Zw2fCWSjvGclfb?6vA!]fsRQ`WNhLi@ef).?j_olj%,?WgN4m%FKrM61^G6M@W6!($uNRF$=BvkBZiq5$cY#hYbxJ"S-8VmE,2\_Ae@Ap#b#Kxv?VTt0d4r6iPPde-W[HJZ\ur@v;KC^6';@:Udg1dSZ8'9n?R'ham?s-Ttlx5TqYC]vw4cw,RR45a3]voqRE*C5\v1(#ei:'YKvVJ-g4YS`ChQs(WDjv0jM48Y%Ko+U(4mC,UH]3gfBpX`i0k8c!Yqg[f"ua)TAab+k`HW7k7@dYa1r'fGP7u/ZxA%4+%b(PtTsF)DZOd_a:UK@N+:fAC6'BU%t90d)8Q?@PdSx`*m;r-pC2/20Rd%R*I=AiaeJk77gUxR[ixnQlb/4ik*Q_FBXo,x#\uF8D=^"/7B.__eY@MR"!TkZ/-%xMwP(K7)g0ale(GTpuNZb(jO$UJb:d\3u\Qk.Tkx7cHmX_Lga0$+XW.dcl1Ih_j,GxE[f$?Pd%*xaNe6sLxX+=+_9S:f[32DQk5*K%IqeS%I?o:-Lf!Q,^((`%$E7nGj(%P7?THPjC9kQd#emjlkpl@?4736kDh_5xh5QhiPB;wZOw79%Se^mc\)s6?;ss7'6dQ"3^arTa`,E?G#4K[Wfo(TZD)T%`L`cVXiWZ0M2n5LH+1vPM0g_WWVGGWLrpCfNxO3UVFHV$fxGmA)E]j]YnD;P\9O5rS2M.S_F"`'dhckwC.RD(MtO;!"@)URhi$HjMjIwkSK+E%'P\3Wm",`=a"/S*![gnvfruRQ6"J.@ofUI2YtZs-9BEFAw_ltblXw:^n?NKB"f]L*6A^],6_gno6F;E''8$]$`7i6dE"Qov:-p5X3o31=SMa"F+\?M3-.];lI\qfOp.7WJcnmRA5/AE;K@m]P;/NR^1p$HpNa;d7Q3F2=v8[e@HRslXcni=)gDJ_kk^hA$,g4n.,q"?uYdRr7pmxXQfe]_+d$xhaZ8[HhTtrEkcH]$*Amu^4$WTnQe8_6Da[aa3DY@0s:;Oe1`.7'+v:93HY`19c_'tS0-JHhI%7:[aCl/a!d6],6Qq6aeMb"k(34))11l=ax,#*m3@nMReWKrB5FqXSV'DH`/=:M!;bHwDkd#AYmm$vneW""fv50uYhJp$#8-Rb2r,UI,m*f]a[ehu%^'=6@mN=(P\^_ipP%8gri)7phL3Y8)ON!^(6Zv9Nd7[rZ4m)kQnckG!/6pniAv9\g4/L:rPU;G7rxS*0[X!u^Uh'foT_hB!S'd9p9w+v3G(G`g4L`.Q2/Dx)RFsjOg*T"b;fx\cYrW3C.cdNNDx%1idx#l\u+gr`O\j@\kfpxZxC_Rg\.=74miJCH)kV%#rl+cjt=+_/j@1o'7VhLE1K\4\5+W?gm*,,\0`%MW/+ZtbTjs5$tF#1n'.)hRX)T=xV6DY;9_0:c,Se.doWiQjbPG-#x*k#Q8x!U-tKFC^TxSb^u._cKHA(Y`e9cT=+v8Mi:+!_"Vj^K#n*Z*6]OMrQhq8'$rKZ.hH`:?Gm3kMvxc:21qATQPGEJY,:=YIK.aYjGu:"4cT4SGK(X[aBn6T'%E)FVHZBF@g-1%A;?$'s.i7T3bjY]q6VQ0wjFEuejYZ;F$;3hdGM0D$+#UhEdY[N6d4%,3Ko]nU`]qjpEN+fnBHNWtLve3Pb@4jkYK04F%'[Y\iSoF$)$p8Q]joFkC[L3OA0rs.nLv1@Os!Wi?v!wNw(!wE9*~+V=\T;*baJJWXq\nBmpPn_qwh!8@H,!!**+rX_9ps$Zd;Mx4sgs%5b(5R7o$#Cf=re0/]SUv5Fts7gV/T0wngs)6mm'_+Zn5Oeu.IT8Y?r"vxL@"70s!w4;CmSEbKiVpb;iP.\Viib]H'#gJsR.u;`2a3,6l.7?3`CH^g+6ZMsr3?7xa*rt8rm:c:5GY(2#CEGZHA-\A9i+W8P^w33rU08'2x0v(#C,68pVWB[bv?GcVxP@=rpoBogvV.^ni=r\rhTOK6)?f"D9C2-B.4@W5Pq2RQ[`3fMlMU/xuh*qXiLA$2!.$["S4j-bhp-?T_tw+@Fd#q0#aJ%s(KDiK;FM,3^s#G;h"fIlMvoLrV`uS^OLDq!w;8^,@aPGM2uuZ3']Y*\^](MSpL7^+8,8]JpR84;bql]eC1$BWMdN(;,;]-lKM*xHMZ6(p%5/RVavrE_vrWT,P\#udsgpZVk3nx:HeZ[SpL6;4n\HxHKsa5D:I$ASpL7^#kdi!w5)qC!V$N(83^udZoG5J.jMAS1c(hEPUJJ@B5!Q#+P\XR-'5($-=Yn$/w4.MKPQC(-+Krd'=im`1EModwi.K#`N6pAmj[d!$Yr^rQ@!%Pe/7k5$,cs"=]%G'^8)`peC8)b:uS"JIE-pH[kKamSLl$IN][_Gw[r4pvB$)Ae0?FtwH#gRxvLjcOgl"rj:O2A4t8!1^u2I#+EQ5/C03dPEDp1"`=.:a4OZR.fb"?/WH$W)`-6fa1Rboh%jL-bh2Awj8gVOTNP!"I5(P(#QkYD:n)cR+3`ppJmY5:vb66K#M5Fk6HvWq`LsH*\UCcTr,.fRN%vfh*G_eUi1BOkwTf-Bf.:x@%I4L!@wUPsh3uFo_GQb+$:8MD8l)_Xr=3ZR-W/B+dSs"-CWfgL;dW3AZpad0QCb#+DM*'htkSxd?f-==cBo0;mvDIk:FZ6$p-3Aw.YJNonV/gQp1$6rRVD;Y6q8Y2(g^g8iKCc9w%Z:/981/?u!8h-!Hv_:MIkL6hoAd)tbPZQ:4jtoME9+Ru[#Lthch=`P`O;=JUWh?WITmrj#ks,_2[WAp?IXs:Sr$:H0%xPY\D5a[`"x7?79'viq3WUMF=7I6Z"aENvalGK.MD:/A0t50(-RD'o.!DSG?Zg1W5-CUQ*M1b[it%vr\EGmF-KL8HR6Z8)dqHV*m^HI^VU'kqs:aB0gFZX^KgmR5-/FcR(q?eRcWFeR"P9XcW]JGJ")8_\Bgm)"8CnRHKC_=EP_PnrBJN84xEgv!w3%vkl0?d5wiV\*Zd0#*RV%L/FEqije?r%NlTACU"tY'+s,eR6m'FqJBJZqnP@gZ?A^sx57c/fe/oXp!w6lE,lNMxTD0opdxt-T.=I.LI#Ennl3#(i4G!v-QO,ru!+6c2QptYt75/qJ*#f5HDBi_o!v@3X'UoKm-9HC]Td"dh5WfqH(P1ZLq$iUkp*s[^_T`Wl6c+4?bT/AP[\)VQ/SZi#EkW%VY(E[0^'Y.BnRLo3K]hnjvqw=J/F$"A(;s:^5[C)p%RYhol"_!uTl:2GY@7KHr8"c:/En6CZ:joO%Eh5a3'dE$[1qW,`%8j)"O00_Lo\Jm`VdRurQ`m#F:_;FoLq8Qenv,uJ.!ew54j@d3[MHc4]Me#lD)w$^Z3^A5w:+\W=KG:Lp+mvHIPFqoHOv:*cSFsO.N;2nw8=#DaCaj$xImaGDHk?5_p;lbTJcX`YQ'Bqf,8=wotH;1ZAeS6p43nwtvPN1=8HN5"g.*?`EM`)D8fe]SfEd0Rso]MJ*T;Z4?QX9nAtC.\t:DMF'nv;9f%#ikFvm+7@+CFUOMS?F(Fd7\jlGDhtG4,xg*+b9V0:;ktJ/^h?\s#+ShSHoS'C_.BeQg^K'11kE53W8Ll0RSe[g;;Oupfe:/mEJ^;:C;9t.-%=iVM2m`x6@xV9!`[*wTPOX1,p%[%L_R]w6D[pZE[a;m_3d!J"Vo@b4/07-gNuav=JBGYV[['=j912oZ7*.a9$DRCOV*:P3+7N,Ac?GOKNaxc)PH0Y=2\UF*X9GLnh;.QoSV`!.N-,w!lb@q5DjeVan)ARxPOR"@7Qd^Pl]Z[=Wlh?(wA);B8N`nK2@X\m+00U)F6sELfYR-w/w,_iUfuCE#vsZQj;nG$X1%MPq4_JiJ8,^jss[wlWw1NM1O60;o0oX$T#N8itw1"7]_iRX=P%0gc%%KkpbmKed9*NV0JEW-q/3Q(9"x["xFR!6"p(1KdwbR1F$+O3`K+2O4n=U/u(=]beHe6%i+I$i#^'!;2;M]7)2$O1sVp'J?Z.]Wm%Ms9`,vZA^5mLwx+^:He2fS!@bi$wP]9Y@7@*,i-*+gKdBpN,V((19?jV-po.5)5*q(tMRk)GVZ]d%N2UgIX\q(^Q7se0,).C;j),Ioa^_34)v.,lckH"Y_xS]'?NX\a3\:6?=XU`*$w7*+DF!o:5wOF=Y9i=,n"5p%Q0geqVrIM"mRQI;U%t%n5N\#pp4"F_Bx-FGqk*7[@f'eWQ`'`Lb6j0rNMTSi3(cu["V@d\g0i8YZ5/;$m!L(pcDWMx"mB1sbKmQt0V9g:A_:h^?NQkjI"q]K6k$EkR'/4Y;vx3=jf"fipLRd@x6Kuo@[wskZgC`E't86?xYKM`BCw7hgppB)Gwq@J!"hg.!6k?DirLD%!w7?D'DiwFr[7H@r;Lp$(:uf7+3aI8oD5*Js##i9s(Qi\!w7EHf_plg2dH@ws(pcq!w6j8g#%D;:\Si4q[_R;VxD?Us%E*ifG]nQW/nG5aT*o\w-lbqa;b4N*DF@'m!cpBoPB!Zo"UPVL[T$!T==UoA7#H$VsJjhr[tr-`UeR^J*\C=:\(\CARFkh#8WR$IbI`_vadv?^C?;vL#rne*qPb0Ac'[LaquZR+k12jZQBw*JSiG:=?,a"gSbKx+r4c\Tp3s+*LK_8j8]3j!Ae"Umo7,/FmG`K)*5tF64cACcv2,rU\BRnd:70g=!;.T.aH%.-wQ[s.hBKh^k2?QKMfM6($7dXXh_rXk0o-"rTYVTj8KP))Uv*IQVY/!ffoT,$aQrG2CR:gqrO+?dJgjP*.[Zg)xfVGF9)?0Y*vWNq$6'FFC0qP\"`[+_dL2rm^H7/rTQLjE^+T'G_.Gl5DZ4$'J5XaWJE4Q-jl]01PV;.+J!05_p'#:%U(xZRn8q)?Wu/^;eP'pXr0jiEIsl3I(X2m@=APX*pN`fR#u/0eW#s!@$--7ES.c+\6^8.^=E(JM3H^BMPleCY^C20RY'o`XA-m)pKG'[xohsg9+A]SEjN.%"W%`SHYaj7TH9Ae#3qW.2)-1k+OJu,qiqLqFc1.WiOp)P\%-Mf.%rVd_ThANRH?b?wrgoIcOt/QISgbW\Bw`./mS1Y4\Lw99vS0IAIBaXjeb6%gLZ4k0eeL[_k*x#a0Yp@biju'Io*m+!8D)5H(kw=rkxwp[9q=[vC2CH9NYDAEbgxh6$sE-[7YkQ\xVK)1j[J[\39M%2M#wwRO-^KbYr2)7D3:%IqX=CEJoG278'of!bB:+TWsASQ)2@SLC`=[=M^Dmxd9wJV2hUS!YEGTOt6tBX-@q%/P?e0Em2D(6HU_-Jd9-HYx4;sm_,("XYB3?6G0$d=!V6SHgLt'pX;$$KcZ7GwksL2=Np$W#A+wP^kN-=Q"8(o-s2*6g9!i_3?k)$xOE(hHa:KCSubZnL^NtAouC]);*oO/ntZNGppc`d:J'i5ZwtWte,GX=ekK[b/9P)$UqMr1=a@q8O*Cn_7Xx)lg9_9DAS;m37V0JbJ?ipT9SjQ$/d0usGU!.8-ITI;9)9k)U_lJk,sDo)oL(g8'qjiV..K*WNJe/6D\,uCieI4xZkEHQ!3FCU'_glsjo#lf'EZg$ok^C%3LC%^/p5VU)"V.ahOk@r\K[NlLZLHk\m3JIWC7)alSC7kk^7LU3hhFFmPwPw)KW-#(gJ'c/+GR1ROvgW5u[2\pQ*su-H=!A@+U5/xcxHV.X)W,ar'kNq'A4Us18l8%Ex[RPxrdagpj%5MHE"jQ3rj(.5P1/\KoDPb^:hKLjw(U$gK5',NcF2%NFZ0kR,hd`j3sB@VPoC'ONVWXX_`MgKwI9')i.$jXZ%ceSA_9^.j7TF]PZAHLaZOpaYm"pgZUBLjid,Po2uK7xtXV=3A$KjC=K`JAF$+@Ea?n#*QH;8l4Kk:/*HXPh9mp?mH@PQ6B)V*juDW`D%K_@#bCE0EH/7,TTFIoq.TG#cq?#xC.Q'YROX31C$lgvPwBbw'/$XW,K/a6N!+4_uS4xx8?6O=Nda?:qq/ZKD8(d`sKaMp?R7rO8?g_IujB*or"AI'7\aw^QZsg2Xx6K7!XL/h-de+g]oh]Fwf`K@L6)9ogXwm?p\GR!Dso5$;MlW)vnk9I`2?\9(cPa6.F4MgN4bxp1"Hh7"'AI%j-DwidX7qBDcOB+2/B]lGkn]NV_$FHQ`:)Q#;`\f-Wb1lJFMiTCe1N;_1;ar@%d;$w501F,q.]VCdE7T,:a`_!)#fZ6L5'OFb1q1u"?g?'pG@"^M\KjGD@/3o[AO1K-$T]jeK0L,u\:R(E"!D+4.'Q[#KZ::8S7KdwMo$-WDL?N@EgRQ-T%Z.XRMJU9-KE5v*\!w5RNn]+92,O2TVV'l8HVXZnDUp\)K8(w=`pI4ro6?K.I#Lm7dql3wM^jH/,;_r\"'^C1DYtB\9Y\kvvf0#.wqTvj*`)g?-*MrP?rSsT#JGO@VIAk%%JcPgC!w3`SIwpUg+f^xg:HCc,#S]I#Y*o-*@$*@R6wmV58pnDW$DY7lR;wET5o-sWd1J;[M9Antg]:*$9$iIrjcXvLxJt(Z/_X.3arT*X=X$D_9J6HO^ZNLhSlO6qKJ?KxHHN8UlNqSs'L#i!B?vp?R5HOhMq9a(:HFF,`Tg8t@l$f)lI.;P9dY=6*^!#+OI.*qM*YXk(3$UxPAwSNOb8u8k\gd!EOb5YkAgkRKY)J+!+F5C(,[!w$9*isPX+eRM+SmYZ8.v1/9E;Lq.7ddYS#*7Km5??cn^fj85kd)fq_Ng\.A`UgL.5hS6Uh@`A]9L/e3GZbYvqd7@AAbJbnM$BvLTJ?(g1Nb?LiM8sKs@.Z?#Ki)5m[E/GLi`rojdI#GR@5%Q(@J43jXY63!q"Zw,gVLm!/`^81!9lQP?]*S_Q7l8_$X@krU9N*[wR?]i`ew$W9^'J+kB`mhVUv%[TFQ+GsUwJRF-x)0gEeisj1n5QUTmq\J0\Y`G$x(uIiLjp'3f:l+%]Q=k\K3M(`7koB1.V;OJ86!qW8*cN=([v""_n;q:wa?VbP`pQb:=4:6\VWK)D2g:,o\J'[3/KSF[Csb-?SHlH.jR)(9qUnY)[:4VM0*lj1xuU:8K]83;Hd@(jq`[APn)lGDRKJ09oWW*#nu!/of)h):KF-\H7M+*RV3X7UY!cO!.hcQ0akk%J9qAN8kntio"jpAJ"tsdx[#,`mn$@3qMWAw(w*d`*l*MKGk,)`'5%KNSsm\J[uc@Nsfxqll3ae2Ae:x86h-@(UY+QrM%e!Z7@IB.u7F_vGkc2H75hlic:khv^3Bm4Lho\$k*XO?]Did%x=N?=[B8;D.JDL"*.W(am7mZcVJsER2blNDjVu/39aM-N,,r=bX^-.+]s7x\=jLTCv8Vq__(.HbT5SwBi%Gf`FGcXD!G5-"^rfvMwHH9!X=Mhe=f)1^+p#)C\K;d)QDdgjAHlgiEx)v.T+TSisvRIv[,";(3f_Xr?gD6P0KeBLax7PrgND4p^6/u3%/c$\J#RY_d+m=mQsqGWJh0`@GH70W+rl"1$,77?qi?B=JYj,fH;*VvS#967Pj.Xjq7oC=s/CCiNs?"b8n;_Eg4\)/;WbSoHD"'#k_YBWGCLp^fgw9G62chHq2U,I\OP]\T:9*)MTA3EV6xc"g/aE3k?PM4Ds:'[tmx"((T*7Zx^fp*.oin'9rRcAX,?xBi%'rb]Rn?=O%OY"Vfs%V3M'i?7!gZA(H0A=Bo=v(]hG\-F+FD;0Rb+E5H;jG[-Q-kaTo.$W/cpp6Aag'Jr1v=Lk/@Ou5XaW5ZVQc7r@3EEJqp\9N!LrL'$lRK[^PAxTU"*ud'x7kD3=l?IelPtL\:3N.VK\D/a(7lea=cxd?ma8uj][;)veGmQ7gM"FW*EI.]8Z^iih0PWOYV*HldU/FMMMs83=EjJ,*L2"5j2"wuq:^P=q/1i?.n:D5xwP*HHV[/EJVhY"X._^Gr#7B:Q"hjeQ$eciF?iVT"\]nst.w$Nsl.l]m2\4LPLPKeF+-ghua-b$!vhE73bEqmrn/2Gha[?H-WC.'Ne1cq]'CM+ngtXSs74#iV!4Ef?,8eF/9vbUa$oMB@g^4wP]T)5j+m"VMM6Tr0ZLAw/_KG.=v%NhFnq"s-jqA%5;;VpD/I)#:v15,73eg!%@6gZDjb?xkX$ifsSl%_.(8HxU/f\kw/hTeBZG7;3ps'm]*YJLN`!hZ(KRwQ\e2Ag]J'IoBv"?BLb^5TMb1v*3?jv:1GOcI1xq.'7?d^2iH_:NX#1N[4[o!]'pAe9Tb[=(Bl"lZ*qsx6lgh0QGPi*bk5Sc^x(Fi()[iou=#s$TWkC\,)*b"gVG\_%4muii!oe?Hr6lCmi$0"L/-!k)1\XA;x^qdeX0AOa6?SRqYS`=;Fwof^lw$r'GVkBFK8Kk0=V)$A!l;k(3KR+tG"Y,ct?6TRn%9FYHvH#K299HNx]cc83))5p[LaaIPMOTW]?5H=ldkfN`g0NEe=ErO\"wH1r3hVwdv7Y:#Ee%8u/Awo?XjKUtnI/4xS6pD@/=6('+x`2k=ghl+Rpo0aFkhih`Y:rqf`lS(4CVcOvX0%DQTM(I135sUw%x'*Y)I1kVLlrb6+KE1%i!O@NqeQRdpcA40!x`E%B/'Yrnp36=D6u[88/jjBVEvBVvf\kM@K=:[K$Vipp@[Z2IjbM'nq?LJq8Z-O#sVZ)=n$nVaL;%"@?_:gBJQ-`05);Gg'a_A8:Cp#Us'%oLDVL4DT`gxwO=6apmllNd49n:9MQI]MpBPcZ$ew(IjW"^m$9JR"6d0VkQDn9#LjOG`Fh9D\MFQB7;D+5K!e#h[rr60W3v6i#=:iGg*LQdR0J80ZtAF1FcJin$m!ZG):N!6,-Y5A%PS[Tl_,clm-Y__t3\$bCb]eA9'bNEkC;5Z5xu-h.`VG\dp#:E^:ga4l.s3Juvh_h^*upQ9-cRYg'7Sq]SUQh-6Tb`2J!UiLRPh))Vso75Pb:P%@M"Jh*:Z3S\2h96ae2\\@j!Y/"'*b[%(Us%IuhF_1aVqLhXC@(^iV/q`uYpepvlBjs=l7Gv'elD,bSQl6/i`)(?%*MMo2M,%W$4Pe/e,Cv1l(f83FN#%hEF=jN02w+]%XABLERsR2]^sdx_b9:DYU06U[@7(LRH4Av6JXZn3"bUEk)=b\YM2;ho\]Z2PgltI-A]pB[`E^WkP6c#QKDl=oA(J34O(Mp8:qHVDJQ^"!9P'U5PbAj9\6nB2DDEfOE-P;eiQHPOO4,PFNL(j0UkcHSKKJJ3(DH)j!WX?6b_wV\1n:s=Ei4/9n]5a0.khSc?%j]:=FpY1L"dm48#\`n#EGGYe\Y4#B"J777YxLc,abk`m\icD\@wbaLmR\kJ[^R+`c^-l2-Y_XS;C4]jUT"DE[T)9LZ!F1bU3WS?jmv8n71V41p#l;@Gow+EPlb*b.RL]nMrn)GxYmOXsmxT24;W.x\8T!3L7j+c`D3mKtTmIX2pZ;p!(1\ReD=.KM;hRNB-gEM$w$H6q7*?"LVRcA:XC@+?PPwxx,]oj(278L!RcH")Q!*wC:q3Lb'uSMc^!nER.PO**:w_\/D#03%B(9b8e#7i=\/(+PqnTG8t?OR)S.s7i[/l?Y6,Ir%fE6Jv0lZ2T^CTQOnk"LxbPFgjos0n^n1N\C:V%V=GY]*CHC3ZUx$3+l99wU_]55a.6*9wb"NaB#^pDwU-:kEACGC((c+av]F-],-Z/c93l(E"r(!$T0gbg.%8xt/hE[\lCs'%4IMW6xxX0K%r2]1)x(5W,G"R1*3UT9P"+Ck*[*L\F"f2U5Gar.'2sa^C:v$k-P-(4io?[.dY"AY8co)@#$29exdhj]^XPh7r^gdJNcc(vjj)iianLMaQ=VU"0s`Z^U%^*#[=l^2:'Nwi(c`k\jhREtrCGx%[OLXv#9oJ[I//fhba1-$L,!FE?u)`ADug@UvTfFb0Bo?gH!h$W##6P+bG,q4#19:h/Yetvj5go.k*LCJNo[-K=3a9"N[niU@Ho?eGGe1*PY,;]HovhJ6w#qq$45Z@(`n,4]m3"N3#W"^dDcVQd:4N!ei7cxa8/'!3Yc"u5!N:Zk7GU;AvbVa[rSJ+6!c3TE)5,6@"oXt;*lXhN9Pk(hVx)L(f1TaC2HpbP)TfY8LZdA@t%'"G9YaA`7Tfq'pZq4]U0=2x\]AN\dVrOmMNHg0SmnoL`rT-F-.cfCYB14\6g3J=+L+UU;nEFcD\+"x=b`fitIdlwiGd/SilVU]If9O2ejR:bD9GOrt3"cEwDC)oJ])/`woF1;RXg]o8pk4,H)4a(xSQq@!aF!!a+"fH=f,N8hYwQ??+;DvPQ[P_%^UC.9X,:IC[CV+=?"onphQ'!TwoaVhoo](XGp3N[f5aRU[Z=_%so]b8m0lk+:eqS1\"XpgPOB8r.+NOX9#$PmHgFxVq.BlH`VgAPqjX+\q/P\FE5-R1^0;fmoQR@VYHPj@FDv^6%08Sj`YZ^oWeD$]IvNb`Wle"Qgm4=H7_d6QjhfPo;:+-:E#t5'U1;?CSkW,bL*)UCI;(gb8_*YA1$2.$PLBnRY5(J3pRLU6;BQ%+YaM'.eYn(kOiu6"vjwwuaOI6@A2$#Ek5wAYR#.RQG+;8XXF?/Tm:L5D*_qB]F3!GcI)k;OIOb;vEoC(Z-ofl4aO/S1V$O=,=:uJ`/o+A:slu8'SNA0cuVm#T!a4Pe.TqS*?N%n6RV)`4KEC4qPdH)q9]*VBakBn/)GfOM+3.vKcco9D0AF!:el#?,Yvm]7m!e.@COU+C8;F`sh;X!x%.rFd^Kn(D*,O6O2Sh)AY1K\5P\]Aj0.s$aMKu1cM?j+;n74=[[nc!HIpU_oUjRv:Z4mQTF_Jik)a"V@/1(gaeX.j`$-hA#rWE"oqL*b2"8J,:YZ!5UBU4WMN8$*Hq\rTZ(#$ZtoHAkSn'5BaPrL"VVpu#k;#%mfClI8v=!f"kCV'WJbGRPq]Owa;-!MnGo6)8*1kK%@$6,HdXad]F2B:T!VuET*Gd)Gc2F3bY":[RQIdKQtw4`KHX1\*Z%+R.PvD!7Yl7fY#wRH_p([Rd@jl@Tjk*fl"amY%4hc?06+59:iTZnlki73"pG,@E.c=[\0M7$v8[7Ilsef^ps3S%L=X:9Dq^v4EH-'9%"a1+C15u?_l?R@Q^;SG/=5Qi;CA+tmSqi_9/I,UpfMNeF[oudB[waq/.k6wdvOs'9J+0PANIvo$!4]'v\XG67vSmHI$M7P)!\W\Cl'KNFgt2c77:B5jq/TmkX,dD'?ongG`.tN3"VNtf3$'m_+`*2eddR:riFVi!]*ebQUQ)-ciu3HfX_)\]M;V6!Uc*]G??P@+?Cvb=:8][De$5,Be$V$982ee15LoAi\Fn@9+!K.is8D:9?"21PH6=##v[nOU,Rn9X\CLU%+l94x=HN]_KMZ\-fgTXiv3;iw4i\.#gxoB7gPBIjV`kp9W=dT\DqQ8kGG!-\GvG1x+oj!`PkY@M-6cfK7g"-?moC+KF.]f=/vCt4NaKQ"Eln(H5NNQH_LLpA1p9b#!0u_/+JGce4J#Cir7e(E8[NkBv4Ooxi?5]$_slk!=P+5)7W+p?OMhNxx@j;!CDU#Pl]$8()\DfH7UTxF;@A?nj/rZw8@E$%Kt"l2q3uO=^:5/UFn3IrBZ[X+)OIfo@jgPs-P)bp_p"0#GEiKbFL[(jq@/H?+(X#U:l;oUf0eAGV)ZE!;1XZIaJ@![8:[1X=dRdE3j".Pa8bUTWX[VW,gHj-1#$A2F@-=",5ru.H"`!="8?3Kgm'taZq.u2s"M#R2:oF_L-`qe:hQ?889jq/X6+fb@1g6E['s,Ov#i)KDANXRJw(-4W%DkFUDQ^)([l`Fiw',8dtxB4uxZ9(wjN:+a/Z1^iJN6L5TQO0vjS'B4H3@?#$2ee]XFC^]u?@Y3Q]#cu:!8(I?5MgX/PE0OIra6pV(`Qa)'Amhov@_b1G="2HHh0jP'2!ZI;L3*'m,?NT,+d=b0Vnv1wTSi2kv1.ufMa\\2B?=5m+0Q2boV@ZPQ"1V8tGg!Q0_=n:R5qnb8?AQqefck\g=9=w)bX9=0`"^/%(s]FgEq'=-@p=6SF8VDM9DGH!4A9u7;?M,?7jk7C`a9bhx3j'gjs)-b%jS9Q@m-EOKU\5bR(Ya2L;7`cRo,UH(^]K/X=33!E'Tpe#NDN@K_]b#ME;2;JJ\[L[i!"WI1o6Ll:O96J8#KuJZ5?fZ8KQV%0:OL9H"hfE63'+`,`oB"f9dcj`@mo_]$Ep'x]:^lm]`o_w][;96nw/b93Q8p.4_Lbqbj^4RO[7ex^5`Z7P-GiQ`HNWJa-"UCHgi@?.G=:_v@ITMbmwD(m'6W.Y\_R*"G6LcU8k[j'`c!K,s$Xtq$E!6Z95AxS(S!iCjb"9R1`X:45Xgr)FekoS%bp`dk.0r,k*SI0v.93AMI;5rd*Qn7,;C)4OY4Gv)E\tFdxTOB(22'$h).',*svSF6\TjnK%j!#G,)bbWS\voO2Y[-N2gk%Tl0r#vn3lqUe#];_ZPoKK(bsn8hxfUoI@9J'i="Wt-N-K1$pbh?IK?[uceQn$)x.2e8bIIx%1X.;#DB,h$V+R^rA'IJgoWH*6IT^(d%B0D/[pwuP?p%;o/p9#Y1,k0F+g#bWghPX'Hr5O"Ae*f*hf/"V6]bpX:p]alOU.`O3*Z[J^eFM=P4jcZl5h;M+Nd2SxgcL)kT7--`arYI(Kfx2!w8d"cNZbpo`-cn;qS\m;SgQ47KrIF,-3-'""qR+'eD?V]`sF"Ocx@+4NvWkI**G6,-Gt(/1^r^eB;F;!-d$/xhZ.fgjgnG,iwH'au0DC`YR'x1n=VOvl:9lZxwqD)$dX1$eK8x,HhPvLCf]x1`$q'j:[iF^'x9O$%lD4_VInM)o`Z:1Aqm$wZ(gsBfka$]bMkX!;"Oh6pjtsDN3=0_ik.q)Vl17%[]KZBpNT9;if`[mpQ,t;,5Vx"i9XJ^#uENq*[F/#$[1x.kC^4l3TNaL`^"`g_!OfTNxa#+N+w)AdqjOEv?ta\Z8U5/ZrK$Vuq4B^a7(?$mS$Q\^#.K?Q;GC,54UcV_$BrPiAmVc_t!(WXo\ud)F.nN%#:R"*o_R%N5F\,.L5^QXDP'$7Sf,`i+DIJP0+uLgOmn3I=1Gj4HXCN!iMo.`O2#:]Yw7Q?[89rt.uhlt8cf[xI%w1xFZTvGHw7wa`Wc.%%2QZ3,!_/MWAJWZ[VwLhFOK@7D86(EmD@Ygu-A#+%'h]A-t(+Qa:d7qEU(\9FnYQK\j[5sUKMgBaDONbo!!DK,-=:DN;vj.x@gUv6CH\NbZVbH,n!Bpt^H!6ctHj)m%ebUDkX?%N0f1q.!HW"-cm:]UO6r5ce?HF$+0ZHGU?$/dnOmViTA#EY/gi[#p^%r,*'KIjK(76X\-^:VVD(Lvp7#N]kwlDO[_m;f2L,0!A@]Ej*%W:)va_?07mR`HTvapn29$lk!l#0]JO?GXeg]j41,0Js51G=x.Vx98DJ@H,gG:%1sSrJJ4bVxN(oLfi'ak^mZq*GUVHieY$nKm5wG"ub'U@-VK=[g[K!BmX+E!b`g3nX,(k*+ZHn[innVG0J8W@hpE2$;?k=,bBAG@4Q*V[cv9pws46`B$LfbWn^vt%w4$-R#?1q"IFJ0kenKN*"]?mI8W[3MnH.6'(/vDFZ9hk*ha)?Gx)r]j0lu3iv"KcYfJPt=Tn"]R'06Rf[O?0)n9DQ/?L.+,nqjqoru@flrI?M661Rh\\ouKQv.tea@wt9"j@v1Xj,S()=!(pYRJ5jw`B'uGV]CD="O^6*%hu9S)Xe*2K%N,0O$h^_Hh$k#Y2xbvga$WQ^@i\#R+;/=$scU?@oevJ;@dimg('QaE;`cKS?nbKlD%5'H5$:QS@NagpKLt,3DoDWItk!nPkg"P^*TF28c@WCfqWs`QZN"7RiBGKk0V+RV46Si"kiKUoIg/;eG1)@S6pfnW;!B8d4\j@:!rE8CV:SptSq3m;09Hq'Ruq":qi\vN\pM]]Lj(*X7wYEQ.Dr?G_k51*td'xS7XKhNB@].5Td5EH?51Ns5%a1kXKNOgtXP(g!a6?7KoN*NlA$N_P:x#HhX0US?$RA^UJ3=LL$v2qu3^23:BdvGjUk-ic%ZX!`NtL4f#Lc8vQAEe0=LK!i,VGEHYt6=aTWf,N5];v,o[)+2xZ7'FSRwb+5U/M^^ShRXmp9#MVAO6N*%n;NKt'o8a%0dU-YK(5.QW^_\!%!QY)\Wh(i_Vx9WQr3'V\\Tb+TY`3G5qrAHK^aaP;p/RJ@Z#.i_r^t!.QgYDw(u$XC)3A@#+pbv9]I_"p_EDMr2dCP4;8l,QhfXB@md7C%+H`r7C0*r,(tMrB?Dgt;_C!CX+!L16Kh)wnC(gI;@,"A/LK2eEX@OVK-4,cd1(4mo]iHh1H^3(`5P\7^J=8mOxtcg8id2[GD-rde72jBL1X/G_e`*TWC0Z:NLQ1M*H%vpN4)sM]-Fah3;C7K_0wDr;9p9!`4ojfIR/bt_rHJ[SKZ%m=G@H4HF.Hq;@L?PRY)gZFr#4cXi,TU![s*q`B4j@@w9g1/JKp((^9@%C(,H?66;AZ4j73#[6wpoAjEjeAkX``5h3G0^l2+:hGZ'j$jlGW`1*G5H6k-VnxHbVIH#Gew(=O=#?Q[2=KrVUUJg@[)iD7O?otkto`6CJC1w8SJ;CgweA4_qR,m0tE6i8cRHE$dqK3e?Y2P,DU[VP!HRH[In/_+W@2X[r\wBP\w^o.h^p/])2[so0)PktK*,\X*?mmQ"I#GPKkH^3R;Z_$D=V]q"eiMf#=,`vEY6p7^\*PSGl0B/-SV[+^ass`LE(qMt(WEv0/OpKW-OXZp:k^[XPqGS^eZ"h4jXlhwRxJstj6fh/5a3gu*KWP1[$Dix(C/M]mA.MP.Xm5,v0Dvrb6bZ^ldSHcJjCsm,MTL\%Ijob7d*`?_@WqcS*tTPoZ%-07u4]cN6xcDF"8lQpM.\\V(sY5T*ib\Qp6A3R)a_4W0wem0qE(]C*i!IjqidkOn#t_.@%M$*xoZInCC!o]gx^)5oRvPGhj8OB'(t+q@_"$`vPvYQ.2jI;#qLI1RLa:wik7T8AjD$daY="x?hls=^GVggEWhx])X(SGH%-knxF.FGGq"WTxbade1.,Y*UO#'9/#g/Lin4L@=.338\v7-"="%l$__q^4DIq1ftg9MWWP(2j[k)^30_"1SA#0*W/*LSjW!m]bSo^vVUS)J1?QhhW0[xBRh-C\,tbk1nZYA83t#7S,@O-!CnV(0M[1,d$WJjHM+FY4+\P(m7')w,miWv6)k0jimGk$wnmi'h?@.dI%jVRMQk)Lq@RsxORmN$TIbH,X+1O3UV22`F'?5$i`5/^s7!^pK9oCsL8lWLD91Mv#;I3tn_dr1o.B"EQOXr"KW;2G$8^(1W"4AMoqh(SOe'uwaobM"xxWX]Y(e?.Z=hG*M:tubSeCrES5VV?JkbkBJoudaHM_GPN6%w,l/v;t7vWEZ[2l@sh;CC'nIq?LWw97/:l3`,UlE)dd,$'4tV'"?!Z(nHuxM?GeW*.UUd6ajlNmS.(-Zoa-U4QL6%s+e+#Wv`kr-IY];%QYZN(.tk\DVg-X-..7Z4'px5g9LlML,?/r(Hffes_C)jHup/CQx!Pl?\m;gm.tc3_F)]U/@a]5JouP!-P@e`=3lEVF1OGxY2Ipb@SsLes@5O^_1c5O?ap:-MpEY8@]OA\42'"%\+S5"FAXlN.kuT;rGsXpi4p:W'JGGLmpD)VCKJW.hNF@+?3?m6d9%K@6g(.Mw,#JQMHi9Haq2e0(4`YcOuVV3mdr'@)stl*Tuggm:P4tE!'$HZ'^?"G;ATkYtNWJ;5JYpQt(#Qn$pCfZUrnP0Lr?6#nR^U;@3tE3+wZ+2`?qV/@2GiNxl45vCb9b2Afc7A;DS$xitGc^e@QjoI4oZdH(pd?:)MP]84^2eKJbx#+Bm-"B*`Q[D^3ma%,cUD*j3F$NOSggjh.RU"Y.2xH(q5Jl.Sc9-U,(C9$''cLgCakxPx(?qg`C-aLaKGhq(NmK3iT/1cVmb:pH(C?xa/,Vb91CrSWGW5GirV1NuCnKhH"\G1r+E5?b)ITb'`'2q$';P?_\]u;$HUJx5a2:llxv0HOFviZ2!k7Co#+?GEwLl/o_`$[pO,h-3[!7kJQ?iYCrgge:$g^+Z*vPmsGWuKU_'Lr1hvj.V*@9ZJd("5u/*T63uo)m[T)A6ol-YC6X4dQLaA]gJsV,?tR.WrP]JxHGi-nA#C%-:[M.#+G\m/0;NXr%uu9v4=H6S/OrYCaP57hu,ELDtM)!(m[u`AK@(o;RDK*CEU5*!B%Rpr[\b=*m?ALMa;-[b,KI_O9Hj5n^xjNh@FM9x(qT)SmG%GRxV:\6L#gkkc@bjr7dRH1A1c)%Y_bkIT*]BS=B:,@2iS")\Y[CWs#]@kcxA1,V_(,!RNQ!w9cwF=Jf2jXP6$;_A`s+Juqc-85edW/+fEAX)-@0piIXZks"QLp@(K;X+m.gp05Ch^vx7]uMn(b\.2KxL)!@eO3K;OqM9EpP-([f\C:qf(KZk*pcl2;.!:1vrJ!g7+F,\E!bOO]d6)U:jhvL#(`.Q#p,q7m1P`G9Z9Yo=tg'v$(,)M/%e8e_j4M*E\Xj/w8UA-hhDP%fJFeF!5ack%7?!6+!-Hg0etf:IPpid,nt2=c)'RGJ+Fhn%?:V:LRMIwlF9J$*e@f.i)-?G"7wScJ9e)B!bQ71=Nk%bxhib!RMbg:/P+TVNPl3BY')xwGKC[JFMQZ]--MB2oG1')Q$Q#SX,+#p%,4q#\vM\RQM?\0MGZ/[BDpvan,cEpBf-q?a#80^q'I[[8sTNfioAIk4_:9LTCj9B1*\J3.8\eKY+]l00tOgRR82TG6b#`[AIK4`:]k%hj"n610N#wDv=)`"!%;I']eTo[81%[86($O1-nuTLX@k\ZvV_fWTaKc:cUMZd6$-Kg:0BQddmB4YdNZmNV1(B!J=2v1$][%;_BN"F$Hgk$\]#=)%Mq[71/BXQ5tn'6_Y+Nk\Df6K/O3$+`)TW=U!+_m+Lo!s$"WweKL2esbXH\8@kwiP_lgCvQkTs+?uIb1K3kHnF$Q9n8:JKT9GtIJ;R.[D0F1vSN/H*1QL/)!C8`TeJF.S)XC8N$X;YQd%KM$iC37s@;k^]?AE"=`TiW%Y/-8Buhh]!Ca-RX/4PY]silubdWN%.@bgC$j5![/bSd:\[LP"5cEYk(NF1H+T`BwZE]3^:s97R3`)rd,0gB@TU2OBgeB#'X'.IOl\;X#XlW7O^N$K!S?MPWS*[oR*i0XZ!KQ_j7HL]CT%0qcH[$ujI4F'$5f2=WDJjY.4%V_Z80*!he="-*PhVNqK!=A2X,;D5\9\^3[vW8[#gMg8@9!.u9w*YreH)-+/'7nP\e^a$Gkq%Rt,WF_R!RL$wm/L5-7EfU5J7Wxhod%tG(_kGcGe;v`UAq%'OPRpeVa1)90%w4a3Zv;6^/5'9iM^whZ@jeUmo\Cev054QWb+8!70c?mWdx7/4+)$Hh0IbmuGA;qXBpsJ[8gNL#5`Zicn6F1QBbaK4$%VYU_7seSxiP_hg]\XwXO8S=M,$mV(c$]@_j(BZL`^Q78slEm"FJ2x[4Dus'e-6eg28Su!\px%CZPFd(.gG`(=le[4r6:.?x7FIgkhsH!vnbk!E6J.U`dSY;%7-b@kN;m7@@Nh?jq)eM3oIw0Mg\7$5#+[]/5eGJH?JP#KsNn/?+.;%xK[r@Jf!f,DJ%XM`N;cY=OA(7jhQu\^]UkL45V:Qbng[[[fi'74.f.F',EK"xBv-U!.$kk2gsug%@'%]eEN[*x)sQO6)2?-0@t2Jsc[0El5o@2-,S)MF;9k:^^@LR$!D!Q[B4NTP-%k73ux1LcTFrMt!]AS$fksD/jD$U4lb#Aw2c0@oeoJN?\V"15r+6i^25Q:wh7p:w,K+NU9TNe/2d'9tZn%`+Y8cQHO+_.LF*pYm_['hWWn#9RE@%_m-\I/tj2g=Aq$X=mB+[2q5'FVh3%qv;A94`1IOPL'sw](;\4lC,TtN/R,XlIsK;)rmF"((#-v?R%K@4_QqrWcoN;[%oM+eJ3hxJA25S:d5?V#$A"rf^6iW"C8b!=D3!fpTR8$g@+nZnNo3)l'jJxwVH[c=R95;BVR*e1WGx'gE8ds?(1:`S:EGxc"bm#I0m'j'(=G#fpJ72(=C^w$[[/_5V`_J!oOdf:Q4[0?a-:qI=LOn0x+nCuVi9_$I(Zl:[%C5hBNvBpAmJw\j%176KFOX!VaW`mx$7TM?VmJr[uG'?'a;vR@g;]\h9/NH9UX%TDYKE-wL8S@0LZEc64A!G=b_AOE!rUq674i#EA[e)JsdrN?BT5-Jdl9"Zd'tW3%44LeH@2_R8+Z%UbUBMH^-?r`DqH`4Y1a"Tbu!D\Ewkn"emJ\+n@msFBqQu;.v+0bdaj1Y`FVSHaVWwB.ZbqY@8n;Na"pXX@,QK/YaXH=dN[pJX8x0gLQlCg9nTK#R9H\1GFK[Ul7PA")t4q_^*%Bjoa%1RI=!M]pCweg_LI/Z";r=!:^!DS?XE\+KN#Ietqf#Xgph:"_)Mr[MfG$+FY,6#/f[X\_AFc@"qRA;SuU9/8OnH(gLNb#2jGq1-.U?:ucSa6-,1RjoLY*H.dG:4)m@8QWXQJ.@#QwGJV`Rgcn\nbrgmmx)J[n0pbM6P_qBPQORD48T#:;`*hN'U;oSO_bGP_WKx5.jJ^S9.7P!R"deU$,4bg-8j%552Nbbxj?R"rwPm67!Nh_NeEfXSGKTDOSQcCO!dpsjFUK*bLn6s7RB-j5+k)V"hJg^Xi-N!Z!"No,\Cg@mCaklTYbNr_(L`^t2uOX7Z2NYl^0$+j`H%R^j^-jXR8HgOHFIpBP4d7S\Htp)J?]Qbh8A$811.7[lkYN-,3Dc6l8)@u_3i=h0of.?4"2.[,O1VpfS4[`]EH';#qsfU1AhW?`,exQL%5jVR%Z!g*QjY!Tk0T9-ib[U65L7(i\:mSk-DLjX1732w*][+-0e[=a`551bpuTk0Z,Yw\@;br-KRut*[VnoF^d]%Wc=pLx*YK$\:l5;x"'GT2/Mf:KOmINHW],A'_wJ"ZGqugmM4aLE*O.d)3BC%M[C.ainMTk]R\.\P/,%+K[iH"%[%@=Js)\[g]/bH`Pv"J"B0s*Aq'T-a9M`JkQ-50Z.)C-W-L=;+RidD7xN=ZNe62!AxlCd6LmrQl^!HfLi6F(D'K2fCDXel;Q57o?*'+RAwG$b0RQ-,7,;cw.n[e!V$q5EHTe[a2f)ui'jS6_:'OX7Z:K`1rCE$?2dIDr_4oktM[55!M^sYB!KGc_D'4eGcK/r.;q(-qNNbjNhlvNBb,2=\0vT$d:;'Xa*uD?EW-0Xx5b_I\(ue)=_S?F:TSl:QF.]wx"fbwL=vTmo\RST1bOilO(l\B-5Rg")RJA(;[3H`NLLEXDmfN)bWP5q=J]P^0Wc=*I"?IV`O/2)Qq?`:fX;2@EUg4S2(%PL,_e4N85F0q['X_;2hp0+*8jMjU^C\LW2d/Vh4q!Y6m\.3__0foE8eJ"cB$W_^LwtumBFM(YxrUcP-``'w^-S.Eg'?x@@id@+;Vol9RT^j=0?MD=jg+(8oIKIBi^u=S/kZPH^',6YC(EtiVblAO/ccSBQ4A%B3U4,\?5`.K?tmgEV?g$XYA=EAV6w20-@`ui'Ih:NRwpo`W$m4Tpru2ifO4i@*SdaA_5m`/$5IajMeH@-=)"p?hD/k!96h="Q[=Vc%9vmB0=Y(wDjbO34w,$sd(aDAN#M!NgmQ/xWV@/V^G4xtIxs^6eDhw2,Q-tY#FLQHs+/WH[25Sw:(RF*^]X*54fbvKwS[,b.$9xb$wWERY0gJ6CpRF4`xrY[q$)UxZIERrEEmh[Q9#7nVV[X6C_dk)xU8ckwBJXGR(0uc\6QxuSD-?8^_+=ZIg=^2^]6]oG$bpW6vZFP3sa6`N1):oka\n+r"/r/cf-8GeIT'$E(@lK5\8O*`B?1m%5.Kcx8ERAN@U9O%%_c8^eCSu"#X)7:s[+)#r+GTVUSvBQHFlv/E+-+S*g^Z5T,1p].u%UV315VMpK@jRAP[OMKp)ej/S^6;egP\%tlqOQTI(@]iqZ@indPLWXJ.2j'4Dk-dl^-+m.2'd3'cB@rTeFwE(m$J8Uhcd01t!x(*@9c[(4iR0(+f$WH*\B[hkMKeK^R`Q:rCM9=?g=72=Sb9YNN=%c]+UOSo8S#hDp"p5PJ+/(50/O_WiT?1]"9)+G)W-;0]C_enicploZ*/do]g'B1FMW$hK_MfCBclDAK'8LwrQ7^*N,$os[`,4cJnZ=DpZIKm9P!@Cxig2A%xV:nF"jG.0)$#qDI``4?p'e)lC%I.Y0VA/3"BY56;%\$-Q+6lv4?uv'4J8$6pak6gH.8AmoL$pvZBOYfUK`ll!KrI`;D*1l%X0ss@Y.WsY-\OoEsUfdU+;(^%]Jw`b_hp/vPiuZ=IGFkwf+A"DXpaeQqex(a"wNd)"V/]P`HG17!+`80we.U5`m@.o!kGpC(]JB!3!dV[\*g.9JEh5+HxKW^_RIwx)7*U/;StCx"h(k2t^I4b*Ik[JE@mlRc\K2N6iGOU;#:v-!FpeJ`SCfWWId(oP`lu:dNkOSI!!YA'@pxEQr)o6NI.,37Kqn1K5YaewtJ4S%FV'filn:M5nKE#gNnA]R@jPQshl3e/8!xpaW.V_3MO`"Wu65Qck0nAOLj#!N_r=)C3IA(\OlFs'c;=S"BrdWJZS0vXa3[N]U@mB,s6B#s36_e]S*\e!0hcB"3@J@4n#UEM]CP#,mW2RMxhT!/R8*0F[?YbA82CPf@['[A(LkEMW+Efn#5)eDSV7$De6YHdK_s%Q.:@;3Lnf(p6?`kxL(Q/Z%Kvxp49oJ:I\h;6O6U()Xnu%3[;aV]PNS6!UL3i$\w*n.n5e4@:.,!w5AvY.w-tvoYfx(#3ukFp+8rM-.uken$oC5KlcY"@gV)-wcXPjiFr.4[U*G?#$l8.lu[8BAOg_et+a^93m'0A#7C4H\:FrR]1;f)c_iC`?KW"0\"2PGDW7"ZHBSlY`P]!lJanI;;6=*A/Cu`hGN#UFaShBV+\0%.-bv*bB$f+14M#Y*A^a7CG7fYKKEbNvV`3D%,WKu_9HI(0e^8ALJ/:$kD%r16j[Im`a]L6Ge!8fCcxa.l:/6jKw[jBx6Iwd/g@DTi)hK3@jMV",SPoaw+6vKaq,Ik.tDsO9xh93:mk9LQ09EPE1\"J_ZP4;3?1E'l4JBv:a)N=2,#f@iVMPD!mB[B45r7@N/OHnK=XuA)3VH?kaBe$P,/q\E`WD\#H@nv7M_2,b.MTKY];UhCfM(NjR"]cMsW')@_$ARl3ShUV%kI,@gR.YTJl'@2+o`],cWIP9p[n"*75opc!(_,E4v_$#?MpcoNH7@0eiF.,4f'h0/q.]._v6Pg^uwLEstDEEQN6h,O06=M%xCg]xVk*1l.rvE-8[kn!bU`^:7`,'jP#om,ALo-Hqfl0Tl`sS]_GZQSp^?ZXi?G!w7(BU)1mC@K`q[vjoFD`QC?:66%#g*Xg7:l7l])@]Rj=`GgtcQ=!7WjdwI9Obt+-iH"+W..p[HB1w(w,P5D4;ZXP@(ksI_KZ\c/@^2jB8D+nCgtc%c!GB83U/T/L0U-$2ME._p*NlGDW"xNC4"[q%TO.eV+=4a(b5CM),Ep2?"N#+.MjYB$jdUf0HC+G9M!"uoOpVw"\5JC5X(:@q`.5wJiSll_\YvY`"T=_GQLY+'GSqjQJV779_8Iu^^nIK?Cp#5n!WuhTUFRgoCDuV]r1SPoCY9jW8f;L6Q,sqA/6Z4BKJ1vLX:3aYgB3^5!^RVO\I=Y)wE'u_!@K1!C$wKW""?V.q,#DmAU_aU\r=dX35-I$#Sw'-[gbaljaPT!g"`t(,=@_*2v:ER#U4''Sn/U:]%iNXV3r,1xZRhZN)k(GL5Cr5!29Zt(J-gqLd.1[r@n12`;v8.=2\[p#Wn48+I%.dC6tc*"6u?'Wl)uvSsJ],_5paMbg4\wi-HEVS5P7[PVO=A9RLZe/:ol!A;dNUh4$jTf5Xa.(Q)heKaN(SJq6Hni.RN^[37q#AYr!L7TF9CFtM,8CB4YT4*OB;7qh(tWmmJX_h:^Sg+_qq*!0SQB%T?oi=^JElC*Q;,.dFW!cH_-'s6pRCiOM$!#5b/:VdJt;xXiS'OUQ_'v)SO?)82)WF+Y?N/Po]RD,*4@YqK8dZG+n$"5Pl%3qY`hPSL%DH47E$TJXY?8vQn($6;G)_T'J*0-AS5f3Yw)p=RZL(NqW$w8lw4fZ@QU:-ag^?C_C;oO,:6T8Ob`Old2GQrQ3/f2"-1Dd\Ub:%L:;j@)cq,gEG`N]?0G"cO=C04RJPA-6)dh9%onZP]D70aYA.604al$OkWFKe"N76vYUnM5oev0@kJ(H#'r/V7Gv%nwD6@TkAGw2hEH2/pr:2rQ+52$[n*9G?nD$L/@-3,0r2wv"#^O+eGZ;j22A[%e,B$!uCP47a%\A;$nx%4)2q%kbmpcaneqCJIh@]nGR1/,bS/x8]2KR7n'"vE,$j:eB.]`'`[=+I_o+3w2p*/mGc/[$D;7W.R7O?c*oGfT$:9F'4t4Xf;q,6+mu*]V,TJFcU4Z;,)Oq]d5E)AT0*\@0ttWdEsSPLsn9I_L/jgTZd[PvOKk4-!p]WKaKwU-,rB3^BJhD`l4:41G_/rZ^;tYWF6F""UeXc_rHJ?1TJY('lbdo2;Fp^1VR*0Z(/d$6p4PGlBQ,_p_%oU#7K[w!w8s:`_`Ca^FqsL)gx=FKO0]C84Pu\Tscl#Fv[7_e5U/aF\QF]v6#/7vqmoZET+aI-0hw@0:CN^_JnuWfqO!9@wQxj%@)4Kcd(0=G;@\]:$a?2iku2cfWrKV0e`^5GiB4SH9X`LvW84X(@\.M0lX)6#i:1/w)!e"w?VRP`2?QaZt!w/EL]\WX:2YhZx=/pL0CQd*`U/5bbHVl.#U)n=Y*^6/+Um\$P5,RJ?Z@iZREl,\#@7cM/=Ymh.*H;6g2L;5nXa6RU;eL;pHV]"9"X0W2-XM\?*[wC@E7ums`-vUVuU?mhd4A.KLpiJM4a4H7?]c[R`-Fgb;tQ?rl2)![B]X)q(k0!w5_O9hAb!X*b9K1"6Pd1'KhRJNY:_MAa-sZIDl2[?,.'ZVnZ4IDv/C:g]MX9D"a/kd`+ET?1x#o%G)$kRkR^e!YI8/]*GKe?,W)`)8[rGYvF[@`D6)RdHNM\D'=)Q_^-DF_vClvVE(G\wIKX!,qLB"W2srBKigu9FLIu4_-NW?LETp1mkHbqQjX8eAkj^['[3I!OoGCnLXxG#5@WkO-K(apZn1xJjKo4K9q^$.n`R5"=c9apx/fH%ouSCQM]5hBBXeMIi8?0iZB9TZ4c\xL.dqg-kj9Yp#9"_1pw'Q"CQOeG"['+VQ?72"YIlqcm'O8#6SYp=4L2?!Zt+[j$vP[5x-vfe8I9Bcqm0xPi)e!86qDT5B]ReEBekn05r!t7.bI@f??Q%1;ss_cP,*brP]N$8oZ^W-v-)evG7FL:OH=uvG@L8cVcu'=p@iRbufc`!87C......</Image>
+  </Images>
+
+  <Outlines Paragraphs="Show" StructureLines="Show"/>
+
+</FinalDraft>

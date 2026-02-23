@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompileSettings>
+    <ProjectSettings>
+        <Content Scope="Included">
+            <CompileGroup Type="BinderItem"/>
+            <Filter State="Off" Exclude="No" Type="Label">
+                <Label>-1</Label>
+            </Filter>
+        </Content>
+        <Options>
+            <ResampleImages DPI="72" MaxSize="0">No</ResampleImages>
+            <ConvertRichTextToMMD>No</ConvertRichTextToMMD>
+            <Links/>
+            <PDF>
+                <Cover Source="" Bleed="0.0" BleedUnits="pt"></Cover>
+                <Compression Enabled="No">
+                    <ImageResolutionCompressionType></ImageResolutionCompressionType>
+                    <ImageResolution>300</ImageResolution>
+                    <CompressionQuality>0.5</CompressionQuality>
+                </Compression>
+            </PDF>
+            <Scriptwriting>
+                <IncludeTitles>Yes</IncludeTitles>
+                <IncludeSynopses>Yes</IncludeSynopses>
+                <CommentsAsScriptNotes>Yes</CommentsAsScriptNotes>
+            </Scriptwriting>
+            <Ebook>
+                <Cover>
+                    <ImageDocument Source="FrontMatter"></ImageDocument>
+                    <Title>Cover</Title>
+                    <SVG Width="-1" Height="-1"><![CDATA[]]></SVG>
+                </Cover>
+                <TOC PandocDepth="3">
+                    <HTML Generate="Yes">
+                        <Title>Contents</Title>
+                    </HTML>
+                </TOC>
+            </Ebook>
+        </Options>
+        <MetaData>
+            <ProjectTitle>&lt;$template_projectName&gt;</ProjectTitle>
+            <ProjectAbbreviatedTitle>&lt;$template_projectName&gt;</ProjectAbbreviatedTitle>
+            <Surname>&lt;$template_lastName&gt;</Surname>
+            <Forename>&lt;$template_firstName&gt;</Forename>
+            <EbookLanguage>en</EbookLanguage>
+            <FountainTitlePageMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </FountainTitlePageMetaData>
+            <MMDMetaData>
+                <Value Key="Title"><![CDATA[<$projecttitle>]]></Value>
+                <Value Key="Author"><![CDATA[<$author>]]></Value>
+            </MMDMetaData>
+        </MetaData>
+    </ProjectSettings>
+    <CurrentFileType>pdf</CurrentFileType>
+    <FormatSettings>
+        <Format ID="manuscript-courier">
+            <SectionLayouts>
+                <Type ID="4FCD9F14-AEC2-4A4B-AB29-543FF91AAFB7">TEXT-SECTION</Type>
+                <Type ID="70D25CAF-4DBA-4E6E-98D2-C0482A3E1C77">21A46E64-6A8C-43C7-A721-81184399E77B</Type>
+                <Type ID="DCA8571B-485A-4963-82E1-104A1428644B">DC460EDE-9743-4708-A4E8-B101EAD328E4</Type>
+            </SectionLayouts>
+        </Format>
+    </FormatSettings>
+    <LastUsedFormats>
+        <Print>DEFAULT</Print>
+        <pdf>manuscript-courier</pdf>
+    </LastUsedFormats>
+</CompileSettings>
