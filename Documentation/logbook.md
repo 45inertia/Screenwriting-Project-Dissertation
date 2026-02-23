@@ -48,9 +48,11 @@
 | <a href="#Log_8">Log_8</a> | 04/02/2026 | 5hrs       | Scrivenger Research                   |
 | <a href="#Log_9">Log_9</a> | 07/02/2026 | 5hrs       | Arc Studio Research                   |
 |<a href="#Log_10">Log_10</a>| 09/02/2026 | 8hrs       | Finish Arc Studio and Qt tutorials    |
-|<a href="#Log_10">Log_11</a>| 11/02/2026 | 8hrs       | Started Progress Report               |
-|<a href="#Log_10">Log_12</a>| 12/02/2026 | 7hrs       | Progress Report Write Up Continuation |
-|<a href="#Log_10">Log_13</a>| 13/02/2026 | 5hrs       | Finalising Progress Report            |
+|<a href="#Log_11">Log_11</a>| 11/02/2026 | 8hrs       | Started Progress Report               |
+|<a href="#Log_12">Log_12</a>| 12/02/2026 | 7hrs       | Progress Report Write Up Continuation |
+|<a href="#Log_13">Log_13</a>| 13/02/2026 | 5hrs       | Finalising Progress Report            |
+|<a href="#Log_14">Log_14</a>| 21/02/2026 | 9hrs       | To Do List Proof of Concept Project   |
+|<a href="#Log_15">Log_15</a>| 23/02/2026 | 9hrs       | Finalising Progress Report            |
 
 
 
@@ -102,7 +104,12 @@ Finalised the progress report:
 - Trimmed the annotated bibliography down to 20 artifacts and added annotations to them detailing
   the summary, evaluation and relevance.
 
+<a id="Log_14"></a>
+**Log_14**
 
+
+<a id="Log_15"></a>
+**Log_15**
 
 
 ## Understanding Screenwriting
