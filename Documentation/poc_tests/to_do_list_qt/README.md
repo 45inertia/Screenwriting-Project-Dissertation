@@ -27,7 +27,7 @@ Slots:
 
 Public method:
     - `addTask(Task& t)`
-    - `removeTask(int id)`
+    - `removeTask(int id)`  
     - `editTask(Task& t)`
 **Note** that these are not slots because they emit the signal:
 - *Ui calls public method*

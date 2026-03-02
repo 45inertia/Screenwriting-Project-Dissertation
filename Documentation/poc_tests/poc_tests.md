@@ -5,6 +5,7 @@
       - [Choice of Parser](#choice-of-parser)
       - [Other Conclusions](#other-conclusions)
   - [To Do List Application (Qt)](#to-do-list-application-qt)
+    - [XML serialize and deserialize workflow](#xml-serialize-and-deserialize-workflow)
 
 
 ## To Do List Application (Console)
@@ -89,5 +90,22 @@ This first test application was also extremely useful for practicing C++ syntax 
 an Object Oriented Program.
 
 ## To Do List Application (Qt)
+
+### XML serialize and deserialize workflow
+
+**Serialization Worflow**
+- Trigger: App calls `XmlSerializer::serialize(file, vector)`.
+- Open Pipe: `QFile` opens the hardware level connection to the disk.
+- Handshake: `QXmlStreamWriter` attatches to the file.
+- Loop: For every `Task` object in vector, writer generates a block of text.
+- Cleanup: The file is closed and Writer Destroyed.
+
+**Deserialization Workflow**
+- Trigger: App calls `XmlSerializer::deserialize(file, vector)`.
+- Scan: `QXmlStreamReader` starts at the first byte of the file.
+- Token Check: Reader sees tag and asks if its `Task`.
+- Extract: If yes, it pulls the attributes and creates a Task object in the vector.
+- Finish: Repeats until `atEnd()`
+
 
 

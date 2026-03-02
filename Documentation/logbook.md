@@ -51,8 +51,9 @@
 |<a href="#Log_11">Log_11</a>| 11/02/2026 | 8hrs       | Started Progress Report               |
 |<a href="#Log_12">Log_12</a>| 12/02/2026 | 7hrs       | Progress Report Write Up Continuation |
 |<a href="#Log_13">Log_13</a>| 13/02/2026 | 5hrs       | Finalising Progress Report            |
-|<a href="#Log_14">Log_14</a>| 21/02/2026 | 9hrs       | To Do List Proof of Concept Project   |
-|<a href="#Log_15">Log_15</a>| 23/02/2026 | 9hrs       | Finalising Progress Report            |
+|<a href="#Log_14">Log_14</a>| 21/02/2026 | 9hrs       | Documentation Editing, POC plan       |
+|<a href="#Log_15">Log_15</a>| 23/02/2026 | 9hrs       | Learning Qt signal/slot QObject       |
+|<a href="#Log_16">Log_16</a>| 01/03/2026 | 5hrs       | Test Project Backend Implementation   |
 
 
 
@@ -87,17 +88,20 @@ environments. Core features such as `QObject` are being learnt.
 
 <a id="Log_11"></a>
 **Log_11**
+
 Started the progress report which included: 
 - Collecting all references that have been used throughout research into `mybib`.
 - Creating the introduction, Project Evaluation and Project Progress section of the report.
 
 <a id="Log_12"></a>
 **Log_12**
+
 Continued filling in the progress report:
 - Added information to the Project Management and What Next? section of the report.
 
 <a id="Log_13"></a>
 **Log_13**
+
 Finalised the progress report:
 - Added the evidence of ethics clearance through the ethics application.
 - Added the artifical intelligence declaration.
@@ -107,9 +111,22 @@ Finalised the progress report:
 <a id="Log_14"></a>
 **Log_14**
 
+Documentation for my project was refactored and linked together for ease of access on the github.
+A mermaid.js class diagram was developed for the Proof of Concept (POC) test project.
 
 <a id="Log_15"></a>
 **Log_15**
+
+Research conducted into the implementation of signals and slots through Qt as well as the use of Qt
+Objects. This was done through Qt Academy and creating basic applications based on this educational 
+information.
+
+<a id="Log_16"></a>
+**Log_16**
+
+The backend serialization was implemented in the proof of concept test project. This also included
+the development of the class and class manager that interact with both the backend serialization and
+the front end GUI. [Repository Link](https://github.com/45inertia/Qt-To-Do-List-Application)
 
 
 ## Understanding Screenwriting
