@@ -41,16 +41,13 @@ child objects when the parent object is deleted. `ScriptManager` can be kept pur
 pointers
 
 ## Class Diagram
-
+````mermaid
 classDiagram
-    direction TB
 
-    %% ─── VIEW LAYER ──────────────────────────────────────────────────────────
     class MainWindow {
-        -ScriptEditor* editor
-        -SceneNavigator* navigator
-        -ScriptViewModel* viewModel
-        +MainWindow(QWidget* parent)
+        -ScriptEditor editor
+        -SceneNavigator navigator
+        -ScriptViewModel viewModel
         +setupUI() void
         +connectSignals() void
         +onNewFile() void
@@ -60,95 +57,83 @@ classDiagram
     }
 
     class ScriptEditor {
-        -ScriptViewModel* viewModel
-        +ScriptEditor(QWidget* parent)
-        +keyPressEvent(QKeyEvent* event) void
-        +applyFormatting(ElementType type) void
+        -ScriptViewModel viewModel
+        +keyPressEvent(event) void
+        +applyFormatting(type) void
         +refreshDisplay() void
-        +onElementTypeChanged(ElementType type) slot
+        +onElementTypeChanged(type) void
     }
 
     class SceneNavigator {
-        -ScriptViewModel* viewModel
-        +SceneNavigator(QWidget* parent)
-        +populateScenes(QList~Scene*~ scenes) void
-        +onSceneClicked(int index) slot
+        -ScriptViewModel viewModel
+        +populateScenes(scenes) void
+        +onSceneClicked(index) void
     }
 
-    %% ─── VIEWMODEL LAYER ─────────────────────────────────────────────────────
     class ScriptViewModel {
-        -ScriptManager* scriptManager
-        -CharacterRegister* charRegister
+        -ScriptManager scriptManager
+        -CharacterRegister charRegister
         -ElementType currentType
-        +ScriptViewModel()
         +getCurrentType() ElementType
         +cycleElementType() void
-        +getSuggestions(QString prefix) QList~QString~
-        +loadScript(QString path) void
-        +saveScript(QString path) void
-        +exportPdf(QString path) void
-        +getScenes() QList~Scene*~
-        +addElement(QString text, ElementType type) void
-        +elementTypeChanged(ElementType) signal
-        +scriptLoaded() signal
-        +autoCompleteReady(QList~QString~) signal
+        +getSuggestions(prefix) List
+        +loadScript(path) void
+        +saveScript(path) void
+        +exportPdf(path) void
+        +getScenes() List
+        +addElement(text, type) void
     }
 
-    %% ─── SERVICE LAYER ───────────────────────────────────────────────────────
     class ScriptManager {
-        -unique_ptr~Script~ script
-        -OsfSerializer* serializer
-        +ScriptManager()
-        +getScript() Script*
-        +loadFromFile(QString path) bool
-        +saveToFile(QString path) bool
-        +addScene(Scene* scene) void
-        +addElement(ScriptElement* element, int sceneIndex) void
+        -Script script
+        -OsfSerializer serializer
+        +getScript() Script
+        +loadFromFile(path) bool
+        +saveToFile(path) bool
+        +addScene(scene) void
+        +addElement(element, sceneIndex) void
     }
 
     class OsfSerializer {
-        +serialize(Script* script) QByteArray
-        +deserialize(QByteArray xml) unique_ptr~Script~
-        -parseScene(QXmlStreamReader& xml) unique_ptr~Scene~
-        -parseElement(QXmlStreamReader& xml) unique_ptr~ScriptElement~
-        -writeScene(QXmlStreamWriter& xml, Scene* scene) void
-        -writeElement(QXmlStreamWriter& xml, ScriptElement* el) void
+        +serialize(script) QByteArray
+        +deserialize(xml) Script
+        -parseScene(xml) Scene
+        -parseElement(xml) ScriptElement
+        -writeScene(xml, scene) void
+        -writeElement(xml, element) void
     }
 
     class PdfExporter {
-        +exportToPdf(Script* script, QString path) bool
-        -applyPageLayout(QPdfWriter& writer) void
-        -renderElement(QPainter& p, ScriptElement* el, int& yPos) void
-        -computeFormatting(ElementType type) ElementFormatting
+        +exportToPdf(script, path) bool
+        -applyPageLayout(writer) void
+        -renderElement(painter, element, yPos) void
+        -computeFormatting(type) ElementFormatting
     }
 
     class CharacterRegister {
-        -QSet~QString~ names
-        +buildFromScript(Script* script) void
-        +registerCharacter(QString name) void
-        +getSuggestions(QString prefix) QList~QString~
+        -names QSet
+        +buildFromScript(script) void
+        +registerCharacter(name) void
+        +getSuggestions(prefix) List
     }
 
-    %% ─── MODEL LAYER ─────────────────────────────────────────────────────────
     class Script {
         -QString title
         -QString author
-        -QList~unique_ptr~Scene~~ scenes
-        +Script(QString title, QString author)
+        -scenes List
         +getTitle() QString
         +getAuthor() QString
-        +getScenes() QList~Scene*~
-        +addScene(unique_ptr~Scene~ scene) void
+        +getScenes() List
+        +addScene(scene) void
         +sceneCount() int
     }
 
     class Scene {
         -int sceneNumber
-        -QList~unique_ptr~ScriptElement~~ elements
-        +Scene(int sceneNumber)
+        -elements List
         +getSceneNumber() int
-        +getElements() QList~ScriptElement*~
-        +addElement(unique_ptr~ScriptElement~ el) void
+        +getElements() List
+        +addElement(element) void
         +getHeading() QString
     }
 
@@ -156,11 +141,10 @@ classDiagram
         -int id
         -ElementType type
         -QString text
-        +ScriptElement(int id, ElementType type, QString text)
         +getId() int
         +getType() ElementType
         +getText() QString
-        +setText(QString text) void
+        +setText(text) void
     }
 
     class ElementType {
@@ -180,32 +164,26 @@ classDiagram
         +bool allCaps
         +QString fontFamily
         +int fontSize
-        +static ElementFormatting forType(ElementType t)
+        +forType(type) ElementFormatting
     }
 
-    %% ─── RELATIONSHIPS ───────────────────────────────────────────────────────
     MainWindow *-- ScriptEditor
     MainWindow *-- SceneNavigator
     MainWindow --> ScriptViewModel
-
     ScriptEditor --> ScriptViewModel
     SceneNavigator --> ScriptViewModel
-
     ScriptViewModel --> ScriptManager
     ScriptViewModel --> CharacterRegister
-
     ScriptManager *-- Script
     ScriptManager --> OsfSerializer
-
     Script "1" *-- "0..*" Scene
     Scene "1" *-- "0..*" ScriptElement
-
     ScriptElement --> ElementType
     ElementFormatting --> ElementType
-
     PdfExporter --> Script
     PdfExporter --> ElementFormatting
     CharacterRegister --> Script
+````
 
 ## Sequence Diagram
 
