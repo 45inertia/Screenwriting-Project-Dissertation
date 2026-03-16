@@ -1,7 +1,7 @@
 #ifndef ELEMENTTYPE_H
 #define ELEMENTTYPE_H
 
-enum elementType {
+enum ElementType {
     SCENE_HEADING,
     ACTION,
     CHARACTER,

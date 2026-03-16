@@ -19,6 +19,10 @@ set(PROJECT_SOURCES
         src/view/mainwindow.cpp
         src/view/mainwindow.h
         src/view/mainwindow.ui
+        src/view/scenenavigator.h
+        src/view/scenenavigator.cpp
+        src/view/scripteditor.h
+        src/view/scripteditor.cpp
 
         # models
         src/model/script.cpp
@@ -42,12 +46,6 @@ set(PROJECT_SOURCES
         src/services/pdfexporter.cpp
         src/services/characterregister.h
         src/services/characterregister.cpp
-
-        #views
-        src/view/scenenavigator.h
-        src/view/scenenavigator.cpp
-        src/scripteditor.h
-        src/scripteditor.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
