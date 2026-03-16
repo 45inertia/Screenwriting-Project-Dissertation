@@ -185,6 +185,31 @@ classDiagram
     CharacterRegister --> Script
 ````
 
+**Notes**
+
+- `OsfSerializer`
+  - It is important to understand the the parser never holds the whole file in memory, it's like
+    reading a book one line at a time.
+  - `QByteArray` is Qt's container for raw bytes. This will be used as it ensures the script text
+    will survive serialization without being corrupted. OSF files are in standard UTF-8. This is 
+    what we get when you write a `QByteArray` produced by `QXmlStreamWriter`.
+
+
+
+## Element Formatting Reference
+These are the industry standards for element formatting:
+
+| Element Type | Left Margin | Right Margin | Capitalization | Notes |
+|---|---|---|---|---|
+| `SCENE_HEADING` | 1.5 in | 1.0 in | ALL CAPS | e.g. `INT. OFFICE - DAY` |
+| `ACTION` | 1.5 in | 1.0 in | Normal | Block description |
+| `CHARACTER` | 3.7 in | 1.0 in | ALL CAPS | Centred above dialogue |
+| `DIALOGUE` | 2.5 in | 2.5 in | Normal | Under character name |
+| `PARENTHETICAL` | 3.1 in | 2.5 in | Normal | `(beat)` style |
+| `TRANSITION` | 4.0 in | 1.0 in | ALL CAPS | e.g. `CUT TO:` |
+| `SHOT` | 1.5 in | 1.0 in | ALL CAPS | Sub-heading |
+
+
 ## Sequence Diagram
 
 ## Data Flow / State Diagram
