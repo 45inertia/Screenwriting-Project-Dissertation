@@ -13,10 +13,41 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
+        src/main.cpp
+
+        # view
+        src/view/mainwindow.cpp
+        src/view/mainwindow.h
+        src/view/mainwindow.ui
+
+        # models
+        src/model/script.cpp
+        src/model/script.h
+        src/model/scene.cpp
+        src/model/scene.h
+        src/model/scriptelement.cpp
+        src/model/scriptelement.h
+        src/model/ElementType.h
+
+        # viewmodel
+        src/viewmodel/scriptviewmodel.h
+        src/viewmodel/scriptviewmodel.cpp
+
+        # services
+        src/services/scriptmanager.h
+        src/services/scriptmanager.cpp
+        src/services/osfserializer.h
+        src/services/osfserializer.cpp
+        src/services/pdfexporter.h
+        src/services/pdfexporter.cpp
+        src/services/characterregister.h
+        src/services/characterregister.cpp
+
+        #views
+        src/view/scenenavigator.h
+        src/view/scenenavigator.cpp
+        src/scripteditor.h
+        src/scripteditor.cpp
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -41,6 +72,8 @@ else()
         )
     endif()
 endif()
+
+target_include_directories(ssa PRIVATE src)
 
 target_link_libraries(ssa PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 

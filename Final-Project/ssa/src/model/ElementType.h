@@ -1,0 +1,4 @@
+#ifndef ELEMENTTYPE_H
+#define ELEMENTTYPE_H
+
+#endif // ELEMENTTYPE_H
