@@ -1,4 +1,14 @@
 #ifndef ELEMENTTYPE_H
 #define ELEMENTTYPE_H
 
+enum elementType {
+    SCENE_HEADING,
+    ACTION,
+    CHARACTER,
+    DIALOGUE,
+    PARENTHETICAL,
+    TRANSITION,
+    SHOT
+};
+
 #endif // ELEMENTTYPE_H
