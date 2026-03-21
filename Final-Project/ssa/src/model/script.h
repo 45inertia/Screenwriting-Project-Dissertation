@@ -3,6 +3,9 @@
 
 class Script
 {
+private:
+
+
 public:
     Script();
 };
