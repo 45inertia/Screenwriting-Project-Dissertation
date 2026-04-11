@@ -3,6 +3,12 @@
 
 #include <QMainWindow>
 
+// Forward declared here as only the pointers to them are needed and not the full functionality.
+class ScriptEditor;
+class ScriptNavigator;
+class QSplitter;
+class QLabel;
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -19,5 +25,18 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    ScriptEditor* scriptEditor_;
+    SceneNavigator* sceneNavigator_;
+    QSplitter* qSplitter_;
+    QLabel* elementTypeLabel_;
+    QLabel* pageCountLabel_;
+
+
+    void setupCentralWidget();
+    void setupToolBar();
+    void setupMenuBar();
+    void setupStatusBar();
+
+
 };
 #endif // MAINWINDOW_H

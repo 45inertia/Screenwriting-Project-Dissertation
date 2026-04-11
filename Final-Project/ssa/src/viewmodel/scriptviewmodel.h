@@ -3,11 +3,11 @@
 
 #include <QObject>
 
-class ScriptViewModel
+class ScriptViewModel : public QObject
 {
     Q_OBJECT
 public:
-    ScriptViewModel();
+    explicit ScriptViewModel(QObject* parent = nullptr);
 };
 
 #endif // SCRIPTVIEWMODEL_H

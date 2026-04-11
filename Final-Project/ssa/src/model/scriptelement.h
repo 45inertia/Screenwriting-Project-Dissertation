@@ -1,7 +1,7 @@
 #ifndef SCRIPTELEMENT_H
 #define SCRIPTELEMENT_H
 
-#include "/model/ElementType.h"
+#include "model/ElementType.h"
 #include <QString>
 
 class ScriptElement

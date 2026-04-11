@@ -1,3 +1,6 @@
 #include "scriptviewmodel.h"
 
-ScriptViewModel::ScriptViewModel() {}
+ScriptViewModel::ScriptViewModel(QObject* parent)
+    : QObject(parent) {
+
+}
