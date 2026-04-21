@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "view/scenenavigator.h"
 
 // Forward declared here as only the pointers to them are needed and not the full functionality.
 class ScriptEditor;

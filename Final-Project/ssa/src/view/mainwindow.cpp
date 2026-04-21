@@ -31,6 +31,18 @@ MainWindow::~MainWindow()
 
 void MainWindow::setupCentralWidget() {
     qSplitter_ = new QSplitter(Qt::Horizontal, this);
-    scriptNavigator_ = new SceneNavigator(this);
+    sceneNavigator_ = new SceneNavigator(this);
 
+}
+
+void MainWindow::setupToolBar() {
+// TODO
+}
+
+void MainWindow::setupMenuBar() {
+// TODO
+}
+
+void MainWindow::setupStatusBar() {
+// TODO
 }
