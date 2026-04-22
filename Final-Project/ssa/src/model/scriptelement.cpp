@@ -9,7 +9,7 @@ ScriptElement::ScriptElement(int id, ElementType type, const QString &text)
 
 int ScriptElement::getId() const { return id_; }
 
-ElementType ScriptElement::getElement() const { return type_; }
+ElementType ScriptElement::getType() const { return type_; }
 
 QString ScriptElement::getText() const { return text_; }
 

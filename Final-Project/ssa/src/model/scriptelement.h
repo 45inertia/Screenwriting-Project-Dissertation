@@ -14,11 +14,11 @@ private:
 public:
     // constructor and destructor
     ScriptElement(int id, ElementType type, const QString& text);
-    ~ScriptElement();
+    ~ScriptElement() = default;
 
     // getters and setters
     int getId() const;
-    ElementType getElement() const;
+    ElementType getType() const;
     QString getText() const;
     void setText(const QString& text);
 
