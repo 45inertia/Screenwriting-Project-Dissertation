@@ -38,3 +38,11 @@ itself. However this was rejected for the following reasons:
 The final decision was to keep `Script` using `std::vector<Scene>` and document the reasons clearly.
 `unique_ptr` is used where it solves a technical problem and plain value sematics are used where
 containment is sufficient.
+
+## Services Layer
+
+### `ScriptManager` QObject in the services layer
+In principle it was determined the services layer should remain plain C++. However the need to emit
+signals when the script state changes was the deciding factor in changing `ScriptManager` into a
+`QObject`. This is documented as a deliberate exception to the plain C++ principle rather than
+an oversight.
