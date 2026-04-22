@@ -35,3 +35,14 @@ void Scene::addElement(std::unique_ptr<ScriptElement> element) {
 void Scene::setHeading(const QString& heading) {
     heading_ = heading;
 }
+
+void Scene::removeElement(int id) {
+    auto it = std::find_if(elements_.begin(), elements_.end(),
+                           [id](const std::unique_ptr<ScriptElement>& e) {
+                               return e->getId() == id;
+                           });
+
+    if (it != elements_.end()) {
+        elements_.erase(it);
+    }
+}

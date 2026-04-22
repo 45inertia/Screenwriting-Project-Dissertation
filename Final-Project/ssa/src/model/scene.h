@@ -31,6 +31,7 @@ public:
     int getElementCount() const;
 
     void addElement(std::unique_ptr<ScriptElement> element);
+    void removeElement(int id);
     void setHeading(const QString& heading);
 
 };
