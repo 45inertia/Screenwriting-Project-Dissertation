@@ -2,6 +2,7 @@
 #include "model/scene.h"
 #include <QString>
 #include <vector>
+#include <algorithm>
 
 Script::Script()
     : title_("Untitled"), author_("Unknown")

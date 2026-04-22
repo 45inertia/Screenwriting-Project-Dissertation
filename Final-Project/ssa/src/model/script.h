@@ -4,6 +4,7 @@
 #include "model/scene.h"
 #include <QString>
 #include <vector>
+#include <algorithm>
 
 class Script {
 private:
@@ -14,6 +15,12 @@ private:
 public:
     Script();
     ~Script() = default;
+
+    // Script is move only as a consequence of std::vector<Scene> being move only
+    Script(Script&&) = default;
+    Script& operator=(Script&&) = default;
+    Script(const Script&) = delete;
+    Script& operator=(const Script&) = delete;
 
     // getters and setters
     QString getTitle() const;

@@ -25,7 +25,7 @@ const std::vector<std::unique_ptr<ScriptElement>>& Scene::getElements() const {
 }
 
 int Scene::getElementCount() const {
-    return elements_.size();
+    return static_cast<int>(elements_.size());
 }
 
 void Scene::addElement(std::unique_ptr<ScriptElement> element) {
