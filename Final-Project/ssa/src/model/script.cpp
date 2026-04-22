@@ -14,6 +14,11 @@ QString Script::getAuthor() const { return author_; }
 
 const std::vector<Scene>& Script::getScenes() const { return scenes_; }
 
+// overloaded function
+std::vector<Scene>& Script::getScenes() {
+    return scenes_;
+}
+
 int Script::getSceneCount() const { return static_cast<int>(scenes_.size()); }
 
 void Script::setTitle(const QString& newTitle) { title_ = newTitle; }

@@ -46,3 +46,13 @@ In principle it was determined the services layer should remain plain C++. Howev
 signals when the script state changes was the deciding factor in changing `ScriptManager` into a
 `QObject`. This is documented as a deliberate exception to the plain C++ principle rather than
 an oversight.
+
+### `OsfSerializer` load function whitespace
+Implementing the `writer.setAutoFormatting(true)` introduces whitespace in the xml file which causes
+issues with the load operation. Therefore the whiespace needed to be skipped with `.trimmed()`.
+
+
+### `OsfSerializer` load function `getScenes` overload
+A pointer pointing to the last scene added is needed so that script elements can be added to this
+scene. Currently `getScenes()` from Script is a const verison. A non const reference verison is
+needed for the load operation so an overload function for `getScenes()` has been added.

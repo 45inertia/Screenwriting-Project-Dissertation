@@ -26,6 +26,8 @@ public:
     QString getTitle() const;
     QString getAuthor() const;
     const std::vector<Scene>& getScenes() const;
+    // overload
+    std::vector<Scene>& getScenes();
     int getSceneCount() const;
 
     void setTitle(const QString& newTitle);

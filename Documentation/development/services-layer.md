@@ -54,6 +54,53 @@ These allow `ScriptViewModel` to react to state changes.
 
 ## `OsfSerializer`
 
+What the serializer needs to handle in full:
+
+**Writing**
+1. Open a `QFile` at the given path for writing.
+2. Attatch a `QXmlStreamWriter` to the file.
+3. Enable Auto Formatting for readable output.
+4. Write the `<screenplay>` root element with title and author attributes.
+5. For each `<scene>` write the `<scene>` with number and heading attributes.
+6. For each `<element>` in the `<scene>` write the `<element>` with type attribute and text content.
+7. Close all elements and the document.
+8. Close the file.
+
+**Reading**
+1. Open a `QFile` at the given path for reading.
+2. Attatch a `QXmlStreamReader` to the file.
+3. Loop through tokens with `readNext()`.
+4. On `StartElement` named `screenplay` read title, author and create new `Script`.
+5. On `StartElement` named `scene` read number, heading and create new `Scene`.
+6. On `StartElement` named `element` read type attribute and store it temporarily.
+7. On `Characters` (the element text) create `ScriptElement` with stored type and text.
+8. On `EndElement` named `scene` add the completed `Scene` to the script.
+9. On `EndDocument` or `error` finish and return.
+
+**`QXmlStreamWriter` for saving**
+`QXmlStreamWriter` writes XML token by token. `setAutoFormatting(true)` produces human readable
+indented output useful for debugging and interoperability. Attributes must be written immediately
+after `writeStartElement` before any child elements or text content. 
+
+**`QXmlStreamReader` for loading**
+`QXmlStreamReader` reads XML as a token stream using `readNext()`. The token types used are:
+- `startElement`
+- `characters`
+- `endElement`
+State is tracked across tokens using local variables. 
+
+Whitespace-only characters produced by auto-formatted XML are filtered by calling `trimmed()` and
+skipping empty strings.
+
+**Element Type Conversion**
+Two private static utility functions handle the conversion between the `ElementType` enums and its
+string representation in XML. These are private static methods on `OsfSerializer` and nothing else
+calls them.
+
+**Error Handling**
+Both `save` and `load` return early with `false` or `nullptr` if the file cannot be opened. After
+reading, `reader.hasError()` is checked before returning. If the XML is corrupted in some way then
+the load returns `nullptr` rather than a partially populated script.
 
 
 ## `PdfExporter`
