@@ -107,3 +107,4 @@ ensureCursorVisible to scroll the viewport.
 There is a fallback of 0 in sceneBlockMap_.value(sceneIndex, 0) that is ensured if the scene has
 not been registered. This means the editor scrolls to the top rather than producing undefined
 behaviour.
+

@@ -26,6 +26,10 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+private slots:
+    void onNewScript();
+
+
 private:
     Ui::MainWindow *ui;
     ScriptEditor* scriptEditor_;
