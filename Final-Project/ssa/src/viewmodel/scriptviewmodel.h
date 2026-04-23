@@ -5,6 +5,7 @@
 #include "model/ElementType.h"
 #include "services/scriptmanager.h"
 #include <QObject>
+#include <QMap>
 
 class ScriptViewModel : public QObject
 {
@@ -18,6 +19,7 @@ public:
     ElementType getCurrentElementType() const;
     int getCurrentSceneIndex() const;
     QStringList getSceneList() const;
+    int getSceneCount() const;
 
     // user actions from the view
     void onTabPressed();
@@ -25,6 +27,10 @@ public:
     void onElementTextChanged(const QString& text);
     void onSceneSelected(int sceneIndex);
     void onNewSceneRequested();
+
+    // block operations
+    void registerSceneBlock(int sceneIndex, int blockNumber);
+    int getBlockForScene(int sceneIndex) const;
 
     // file operations
     void onNewScriptRequested(const QString& title, const QString& author);
@@ -41,6 +47,7 @@ private:
     ScriptManager* scriptManager_;
     ElementType currentElementType_;
     int currentSceneIndex_;
+    QMap<int, int> sceneBlockMap_; // scene index : block number
 
     ElementType cycleElementType(ElementType current) const;
 };

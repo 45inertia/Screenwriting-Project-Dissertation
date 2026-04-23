@@ -73,3 +73,37 @@ connects to `ScriptViewModel` and does not know that `ScriptManager` exists.
 All this together keeps the MVVM boundary intact as the ViewModel takes events from the services 
 layer and translates them into view facing signals rather than letting the service layer signals
 directly influence the view layer.
+
+### `SceneNavigator` accessing `ScriptManager` directly MVVM boundary violation
+
+During the implementation of `SceneNavigator`, the initial approach created a `ScriptViewModel`
+member function called `viewModel_->getScriptManager()`. This meant that `SceneNavigator` was
+going through the ViewModel into the services layer which violated the MVVM boundary. 
+
+The fix was to remove the `getScriptManager` member function from `ScriptViewModel` and add two
+ViewModel methods that provide exactly what the view needs which was `getSceneList()`. 
+
+## View Layer
+
+### Scene Navigation: Locating Scenes in a Continuous Document
+
+A challenge arose when implementing the scene jump functinoality in `SceneNavigator`. 
+The application needed to scroll `ScriptEditor` to the correct position when a user clicked a
+scene in the navigator list. The problem was that `ScriptEditor` operates as a single continuous
+QTextDocument with no concept of scenes. It is simply a sequence of paragraphs called blocks,
+numbered from zero. There was no way to ask the document where do the scenes start.
+
+The solution was to register each scene's starting block number in ScriptViewModel at the moment
+the scene is created. When the user presses Enter to confirm a scene heading, keyPressEvent captures
+the current block number before the new block is inserted and calls 
+`ScriptViewModel::registerSceneBlock` with the same index and block number. They are stored in a
+`QMap<int, int>` which maps scene index to block number.
+
+When the user clicks a scene in SceneNavigator, ScriptViewModel emits currentSceneChanged with
+the same index. ScriptEditor recieves this, looks up the block number via getBlockForScene and
+calls scrollToBlock. This locates the block and moves the cursor there with setTextCursor, it calls
+ensureCursorVisible to scroll the viewport.
+
+There is a fallback of 0 in sceneBlockMap_.value(sceneIndex, 0) that is ensured if the scene has
+not been registered. This means the editor scrolls to the top rather than producing undefined
+behaviour.

@@ -7,6 +7,7 @@
 #include <QTextBlockFormat>
 #include <QTextCharFormat>
 #include <QFont>
+#include <QTextBlock>
 
 // Namespace containing all Industry Standard Screenplay Measurements
 // All values in points (1 inch = 72 points)
@@ -68,6 +69,12 @@ void ScriptEditor::keyPressEvent(QKeyEvent *event) {
         return;
     case Qt::Key_Return:
     case Qt::Key_Enter:
+
+        if(currentElementType_ == SCENE_HEADING) {
+            int blockNumber = textCursor().blockNumber();
+            int sceneIndex = viewModel_->getSceneCount();
+            viewModel_->registerSceneBlock(sceneIndex, blockNumber);
+        }
         // insert a new block then report to viewModel
         QTextEdit::keyPressEvent(event);
         viewModel_->onEnterPressed();
@@ -87,6 +94,7 @@ void ScriptEditor::onElementTypeChanged(ElementType type) {
     currentElementType_ = type;
     applyElementFormatting(type);
 }
+
 
 void ScriptEditor::applyElementFormatting(ElementType type) {
     QTextCursor cursor = textCursor();
@@ -183,3 +191,20 @@ QTextCharFormat ScriptEditor::charFormatForType(ElementType type) const {
     return format;
 }
 
+//------- Block Operations -----------------------------------------------------------------------
+
+void ScriptEditor::onCurrentSceneChanged(int sceneIndex) {
+    int blockNumber = viewModel_->getBlockForScene(sceneIndex);
+    scrollToBlock(blockNumber);
+}
+
+
+void ScriptEditor::scrollToBlock(int blockNumber) {
+    QTextDocument* doc = document();
+    QTextBlock block = doc->findBlockByNumber(blockNumber);
+    if (block.isValid()) {
+        QTextCursor cursor(block);
+        setTextCursor(cursor);
+        ensureCursorVisible();
+    }
+}

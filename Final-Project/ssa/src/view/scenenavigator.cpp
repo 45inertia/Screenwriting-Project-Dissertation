@@ -1,8 +1,5 @@
 #include "scenenavigator.h"
 #include "viewmodel/scriptviewmodel.h"
-#include "services/scriptmanager.h"
-#include "model/script.h"
-#include "model/scene.h"
 
 #include <QListWidgetItem>
 

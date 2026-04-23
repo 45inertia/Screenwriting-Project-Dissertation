@@ -39,4 +39,10 @@ The signals that should be emited are the following:
 
 The constructor wires `ScriptManager`'s `scriptLoaded` and `scriptClosed` signals to lambda
 functions. These reset the ViewModel state and emit the appropriate signals regarding the view
-layer.
+layer. This means that the view layer only needs to connect to `ScriptViewModel` and has no
+knowledge of `ScriptManager`.
+
+**File Operations**
+
+These are delegations to `ScriptManager`. `onSaveRequested` and `onLoadRequested` exist so the view
+can call a single interface without interacting with `ScriptManager`. 

@@ -20,6 +20,7 @@ protected:
 
 private slots:
     void onElementTypeChanged(ElementType type);
+    void onCurrentSceneChanged(int sceneIndex);
 
 private:
     ScriptViewModel* viewModel_;
@@ -28,6 +29,7 @@ private:
     void applyElementFormatting(ElementType type);
     QTextBlockFormat blockFormatForType(ElementType type) const;
     QTextCharFormat charFormatForType(ElementType type) const;
+    void scrollToBlock(int blockNumber);
 };
 
 #endif // SCRIPTEDITOR_H

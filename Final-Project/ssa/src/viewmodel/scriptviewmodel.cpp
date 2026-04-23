@@ -52,6 +52,13 @@ QStringList ScriptViewModel::getSceneList() const {
     return list;
 }
 
+int ScriptViewModel::getSceneCount() const {
+    if(!scriptManager_->hasScript()) {
+        return 0;
+    }
+    return scriptManager_->getScript()->getSceneCount();
+}
+
 // ----- Tabbing Logic ----------------------------------------------------------------------------
 
 void ScriptViewModel::onTabPressed() {
@@ -60,8 +67,14 @@ void ScriptViewModel::onTabPressed() {
 }
 
 void ScriptViewModel::onEnterPressed() {
+
     // after character, moves to dialogue and vice versa, everything else should default to action.
     switch(currentElementType_) {
+
+        case SCENE_HEADING:
+            onNewSceneRequested();
+            currentElementType_ = ACTION;
+            break;
         case CHARACTER:
             currentElementType_ = DIALOGUE;
             break;
@@ -144,6 +157,16 @@ void ScriptViewModel::onNewSceneRequested() {
     emit currentSceneChanged(currentSceneIndex_);
     emit elementTypeChanged(currentElementType_);
 
+}
+
+// --------Block Operations -----------------------------------------------------------------------
+
+void ScriptViewModel::registerSceneBlock(int sceneIndex, int blockNumber) {
+    sceneBlockMap_[sceneIndex] = blockNumber;
+}
+
+int ScriptViewModel::getBlockForScene(int sceneIndex) const {
+    return sceneBlockMap_.value(sceneIndex, 0); // returns block number or 0 as fallback
 }
 
 // -----File Operations----------------------------------------------------------------------------
