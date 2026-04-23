@@ -2,14 +2,33 @@
 #define SCENENAVIGATOR_H
 
 #include <QWidget>
+#include <QListWidget>
+#include <QVBoxLayout>
+#include <QLabel>
 
-class SceneNavigator : public QWidget
-{
+// forward declaration as opposed to inlcude to avoid include chain.
+class ScriptViewModel;
+
+class SceneNavigator : public QWidget {
+
     Q_OBJECT
-public:
-    explicit SceneNavigator(QWidget *parent = nullptr);
 
-signals:
+public:
+    explicit SceneNavigator(ScriptViewModel* viewModel, QWidget *parent = nullptr);
+    ~SceneNavigator() = default;
+
+private slots:
+    void onSceneListUpdated();
+    void onCurrentSceneChanged(int sceneIndex);
+    void onItemClicked(QListWidgetItem* item);
+
+private:
+    ScriptViewModel* viewModel_;
+    QListWidget* sceneList_;
+    QLabel* titleLabel_;
+
+    void setupUi();
+
 };
 
 #endif // SCENENAVIGATOR_H

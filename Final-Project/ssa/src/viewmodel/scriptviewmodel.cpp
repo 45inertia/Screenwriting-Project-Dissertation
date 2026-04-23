@@ -38,6 +38,20 @@ int ScriptViewModel::getCurrentSceneIndex() const {
     return currentSceneIndex_;
 }
 
+QStringList ScriptViewModel::getSceneList() const {
+    QStringList list;
+    if(!scriptManager_->hasScript()) {
+        return list;
+    }
+
+    for(const Scene& scene : scriptManager_->getScript()->getScenes()) {
+        list << QString("%1. %2")
+                .arg(scene.getSceneNumber())
+                    .arg(scene.getHeading());
+    }
+    return list;
+}
+
 // ----- Tabbing Logic ----------------------------------------------------------------------------
 
 void ScriptViewModel::onTabPressed() {

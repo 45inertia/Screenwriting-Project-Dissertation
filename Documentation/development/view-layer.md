@@ -23,3 +23,6 @@ behaviour. All other keys pass through normally to `QTextEdit`
 `ScriptEditor` should inherit from `QTextEdit` rather than containing one. This is because
 subclassing gives direct access to `keyPressEvent`, the document and the cursor without any more
 wiring.
+
+## SceneNavigator
+

@@ -17,6 +17,7 @@ public:
     // accessing current state
     ElementType getCurrentElementType() const;
     int getCurrentSceneIndex() const;
+    QStringList getSceneList() const;
 
     // user actions from the view
     void onTabPressed();
