@@ -185,6 +185,12 @@ void ScriptViewModel::onLoadRequested(const QString &filePath) {
     scriptManager_->loadScript(filePath);
 }
 
+// --- Element Type -------------------------------------------------------------------------------
+
+void ScriptViewModel::onElementTypeSelected(ElementType type) {
+    currentElementType_ = type;
+    emit elementTypeChanged(type);
+}
 
 
 

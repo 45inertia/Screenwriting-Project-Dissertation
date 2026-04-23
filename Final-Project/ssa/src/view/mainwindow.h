@@ -15,6 +15,9 @@ class QLabel;
 #include <QMainWindow>
 #include <QLabel>
 #include <QSplitter>
+#include <QApplication>
+#include <QEvent>
+#include <QRegularExpression>
 
 // forward declarations
 class ScriptEditor;
@@ -71,5 +74,7 @@ private:
     void setupCentralWidget();
     QString elementTypeToString(ElementType type) const;
 
+protected:
+    bool eventFilter(QObject* obj, QEvent* event) override;
 };
 #endif // MAINWINDOW_H

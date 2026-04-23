@@ -27,6 +27,7 @@ public:
     void onElementTextChanged(const QString& text);
     void onSceneSelected(int sceneIndex);
     void onNewSceneRequested();
+    void onElementTypeSelected(ElementType type);
 
     // block operations
     void registerSceneBlock(int sceneIndex, int blockNumber);

@@ -69,6 +69,7 @@ void MainWindow::setupCentralWidget() {
     scriptEditor_->setPlaceholderText("Begin writing your screenplay...");
 }
 
+
 void MainWindow::setupMenuBar() {
     QMenu* fileMenu = menuBar()->addMenu("File");
 
@@ -207,4 +208,90 @@ void MainWindow::onSaveAsScript() {
         currentFilePath_ = path;
         scriptViewModel_->onSaveRequested(path);
     }
+}
+
+// --- status bar updates ------------------------------------------------------------------------
+
+void MainWindow::onScriptTitleChanged(const QString &title) {
+    setWindowTitle("SSA - " + title);
+}
+
+void MainWindow::onElementTypeChanged(ElementType type) {
+    elementTypeLabel_->setText(elementTypeToString(type));
+}
+
+void MainWindow::onStatusElementTypeClicked() {
+    QMenu menu(this);
+
+    // list all element types
+    const QList<ElementType> types = {
+        SCENE_HEADING,
+        ACTION,
+        CHARACTER,
+        DIALOGUE,
+        PARENTHETICAL,
+        TRANSITION,
+        SHOT
+    };
+
+    // builds the element type menu list and adds the data of the type
+    for (ElementType type : types) {
+        QAction* action = menu.addAction(elementTypeToString(type));
+        action->setData(static_cast<int>(type));
+    }
+
+    // show the menu below the label
+    QAction* selected = menu.exec(
+        elementTypeLabel_->mapToGlobal(
+            QPoint(0, elementTypeLabel_->height())
+        )
+    );
+
+    if (selected) {
+        ElementType chosenType = static_cast<ElementType>(
+            selected->data().toInt()
+        );
+        scriptViewModel_->onElementTypeSelected(chosenType);
+    }
+}
+
+void MainWindow::updateWordCount() {
+    QString text = scriptEditor_->toPlainText();
+    int count = text.isEmpty() ? 0 :
+                    text.split(QRegularExpression("\\s+"),
+                                Qt::SkipEmptyParts).count();
+    wordCountLabel_->setText(QString("Words: %1").arg(count));
+
+    // A rough page estime of 250 words per screenplay page
+    int pages = qMax(1, (count / 250) + 1);
+    pageCountLabel_->setText(QString("Page %1").arg(pages));
+
+}
+
+void MainWindow::updateSceneIndicator(int sceneIndex) {
+    int total = scriptViewModel_->getSceneCount();
+    sceneIndicatorLabel_->setText(QString("Scene %1 of %2").arg(sceneIndex + 1).arg(total));
+}
+
+// --- helper utility ----------------------------------------------------------------------------
+
+QString MainWindow::elementTypeToString(ElementType type) const {
+    switch(type) {
+        case SCENE_HEADING:  return "SCENE HEADING";
+        case ACTION:         return "ACTION";
+        case CHARACTER:      return "CHARACTER";
+        case DIALOGUE:       return "DIALOGUE";
+        case PARENTHETICAL:  return "PARENTHETICAL";
+        case TRANSITION:     return "TRANSITION";
+        case SHOT:           return "SHOT";
+        default:             return "ACTION";
+    }
+}
+
+bool MainWindow::eventFilter(QObject *obj, QEvent *event) {
+    if(obj == elementTypeLabel_ && event->type() == QEvent::MouseButtonPress) {
+        onStatusElementTypeClicked();
+        return true;
+    }
+    return QMainWindow::eventFilter(obj, event);
 }

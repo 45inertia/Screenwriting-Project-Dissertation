@@ -17,6 +17,8 @@ public:
 
 protected:
     void keyPressEvent(QKeyEvent* event) override;
+    // overriding the event filter
+    bool eventFilter(QObject* obj, QEvent* event) override;
 
 private slots:
     void onElementTypeChanged(ElementType type);
@@ -30,6 +32,8 @@ private:
     QTextBlockFormat blockFormatForType(ElementType type) const;
     QTextCharFormat charFormatForType(ElementType type) const;
     void scrollToBlock(int blockNumber);
+    void showElementTypePicker();
+    QString elementTypeToDisplayString(ElementType type) const;
 };
 
 #endif // SCRIPTEDITOR_H

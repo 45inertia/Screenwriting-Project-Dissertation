@@ -8,6 +8,7 @@
 #include <QTextCharFormat>
 #include <QFont>
 #include <QTextBlock>
+#include <QMenu>
 
 // Namespace containing all Industry Standard Screenplay Measurements
 // All values in points (1 inch = 72 points)
@@ -63,30 +64,120 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
 
 void ScriptEditor::keyPressEvent(QKeyEvent *event) {
     switch (event->key()) {
-    case Qt::Key_Tab:
-        // reporting to the viewModel
-        viewModel_->onTabPressed();
-        return;
-    case Qt::Key_Return:
-    case Qt::Key_Enter:
+        case Qt::Key_Tab:
+            // reporting to the viewModel
+            viewModel_->onTabPressed();
+            return;
+        case Qt::Key_Return:
+        case Qt::Key_Enter:
+        {
+            // checking if the current block is empty
+            QString currentText = textCursor().block().text().trimmed();
+            if(currentText.isEmpty()) {
+                showElementTypePicker();
+                return;
+            }
 
-        if(currentElementType_ == SCENE_HEADING) {
-            int blockNumber = textCursor().blockNumber();
-            int sceneIndex = viewModel_->getSceneCount();
-            viewModel_->registerSceneBlock(sceneIndex, blockNumber);
+            // behaviour if block has content
+            if(currentElementType_ == SCENE_HEADING) {
+                int blockNumber = textCursor().blockNumber();
+                int sceneIndex = viewModel_->getSceneCount();
+                viewModel_->registerSceneBlock(sceneIndex, blockNumber);
+            }
+            // insert a new block then report to viewModel
+            QTextEdit::keyPressEvent(event);
+            viewModel_->onEnterPressed();
+            return;
         }
-        // insert a new block then report to viewModel
-        QTextEdit::keyPressEvent(event);
-        viewModel_->onEnterPressed();
-        return;
 
-    default:
-        // All other keys should pass normally
-        QTextEdit::keyPressEvent(event);
-        break;
-    }
+        default:
+            // All other keys should pass normally
+            QTextEdit::keyPressEvent(event);
+            break;
+        }
 }
 
+bool ScriptEditor::eventFilter(QObject *obj, QEvent *event) {
+    // intercepting the Tab in the element picker menu to move to next item
+    if(event->type() == QEvent::KeyPress) {
+        QMenu* menu = qobject_cast<QMenu*>(obj);
+        if(menu) {
+            QKeyEvent* keyEvent = static_cast<QKeyEvent*>(event);
+            if (keyEvent->key() == Qt::Key_Tab) {
+                // move to the next action
+                QAction* current = menu->activeAction();
+                QList<QAction*> actions = menu->actions();
+                int idx = actions.indexOf(current);
+                int next = (idx + 1) % actions.size();
+                menu->setActiveAction(actions[next]);
+                return true; // consume the tab
+            }
+        }
+    }
+    return QTextEdit::eventFilter(obj, event);
+}
+
+// popup type picker
+void ScriptEditor::showElementTypePicker() {
+    QMenu* menu = new QMenu(this);
+    menu->setAttribute(Qt::WA_DeleteOnClose);
+
+    const QList<ElementType> types = {
+        SCENE_HEADING,
+        ACTION,
+        CHARACTER,
+        DIALOGUE,
+        PARENTHETICAL,
+        TRANSITION,
+        SHOT
+    };
+
+    // map from action to element type
+    QMap<QAction*, ElementType> actionMap;
+
+    for (ElementType type : types) {
+        QAction* action = menu->addAction(elementTypeToDisplayString(type));
+        actionMap[action] = type;
+
+        // bolding the current type so the user knows where they are
+        if (type == currentElementType_) {
+            QFont f = action->font();
+            f.setBold(true);
+            action->setFont(f);
+        }
+    }
+
+    // event filter on menu to handle tab key
+    menu->installEventFilter(this);
+
+    // positioning the menu at the cursor in the editor
+    QRect cursorRect = this->cursorRect();
+    QPoint globalPos = viewport()->mapToGlobal(cursorRect.bottomLeft());
+
+    QAction* selected = menu->exec(globalPos);
+
+    if (selected) {
+        ElementType chosenType = actionMap[selected];
+        // reformat the current block (not inserting a new block)
+        viewModel_->onElementTypeSelected(chosenType);
+
+    }
+
+
+}
+
+QString ScriptEditor::elementTypeToDisplayString(ElementType type) const {
+    switch (type) {
+        case SCENE_HEADING:  return "Scene Heading";
+        case ACTION:         return "Action";
+        case CHARACTER:      return "Character";
+        case DIALOGUE:       return "Dialogue";
+        case PARENTHETICAL:  return "Parenthetical";
+        case TRANSITION:     return "Transition";
+        case SHOT:           return "Shot";
+        default:             return "Action";
+    }
+}
 
 // ----- Formatting ------------------------------------------------------------------------------
 
@@ -208,3 +299,4 @@ void ScriptEditor::scrollToBlock(int blockNumber) {
         ensureCursorVisible();
     }
 }
+

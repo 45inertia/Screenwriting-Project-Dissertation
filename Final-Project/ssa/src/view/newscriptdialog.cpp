@@ -4,9 +4,6 @@
 #include <QPushButton>
 #include <QRegularExpression>
 
-
-
-
 NewScriptDialog::NewScriptDialog(QWidget *parent)
     : QDialog(parent),
     titleEdit_(nullptr),
