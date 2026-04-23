@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 #include "view/scenenavigator.h"
+#include "viewmodel/scriptviewmodel.h"
+#include "services/scriptmanager.h"
 
 // Forward declared here as only the pointers to them are needed and not the full functionality.
 class ScriptEditor;
@@ -27,6 +29,8 @@ public:
 private:
     Ui::MainWindow *ui;
     ScriptEditor* scriptEditor_;
+    ScriptViewModel* scriptViewModel_;
+    ScriptManager* scriptManager_;
     SceneNavigator* sceneNavigator_;
     QSplitter* qSplitter_;
     QLabel* elementTypeLabel_;
