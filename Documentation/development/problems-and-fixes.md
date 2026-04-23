@@ -56,3 +56,20 @@ issues with the load operation. Therefore the whiespace needed to be skipped wit
 A pointer pointing to the last scene added is needed so that script elements can be added to this
 scene. Currently `getScenes()` from Script is a const verison. A non const reference verison is
 needed for the load operation so an overload function for `getScenes()` has been added.
+
+## ViewModel Layer
+
+### Connecting ScriptManager signals to ScriptViewModel without coupling the View
+A design problem arose in connecting `ScriptManager`'s state change signals to the view layer.
+One approach looked at was to connect the signals to slots in `ScriptEditor` and `Scenenavigator`.
+However this would mean that the View layer has a dependency on `ScriptManager` which breaks the
+MVVM boundary as the view should only communicate with the ViewModel.
+
+The solution found was to connect `ScriptManager`'s signals to lambda functions inside 
+`ScriptViewModel`'s constructor. Therefore when `ScriptManager` emits a relevant signal the
+lambda resets `ScriptViewModel`'s state and emits the view facing signals so that the view only
+connects to `ScriptViewModel` and does not know that `ScriptManager` exists.
+
+All this together keeps the MVVM boundary intact as the ViewModel takes events from the services 
+layer and translates them into view facing signals rather than letting the service layer signals
+directly influence the view layer.
