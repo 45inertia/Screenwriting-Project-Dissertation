@@ -80,9 +80,16 @@ void ScriptEditor::keyPressEvent(QKeyEvent *event) {
 
             // behaviour if block has content
             if(currentElementType_ == SCENE_HEADING) {
+                QString heading = currentText.toUpper();
+
                 int blockNumber = textCursor().blockNumber();
                 int sceneIndex = viewModel_->getSceneCount();
                 viewModel_->registerSceneBlock(sceneIndex, blockNumber);
+
+                QTextEdit::keyPressEvent(event);
+                //passing the actual heading text
+                viewModel_->onNewSceneRequested(heading);
+                return;
             }
             // insert a new block then report to viewModel
             QTextEdit::keyPressEvent(event);

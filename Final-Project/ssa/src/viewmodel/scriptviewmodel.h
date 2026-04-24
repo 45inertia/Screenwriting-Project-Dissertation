@@ -26,7 +26,7 @@ public:
     void onEnterPressed();
     void onElementTextChanged(const QString& text);
     void onSceneSelected(int sceneIndex);
-    void onNewSceneRequested();
+    void onNewSceneRequested(const QString& heading = "INT. NEW SCENE - DAY");
     void onElementTypeSelected(ElementType type);
 
     // block operations

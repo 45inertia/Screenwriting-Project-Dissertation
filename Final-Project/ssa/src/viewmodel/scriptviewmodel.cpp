@@ -71,10 +71,6 @@ void ScriptViewModel::onEnterPressed() {
     // after character, moves to dialogue and vice versa, everything else should default to action.
     switch(currentElementType_) {
 
-        case SCENE_HEADING:
-            onNewSceneRequested();
-            currentElementType_ = ACTION;
-            break;
         case CHARACTER:
             currentElementType_ = DIALOGUE;
             break;
@@ -141,14 +137,14 @@ void ScriptViewModel::onSceneSelected(int sceneIndex) {
     emit elementTypeChanged(currentElementType_);
 }
 
-void ScriptViewModel::onNewSceneRequested() {
+void ScriptViewModel::onNewSceneRequested(const QString& heading) {
     if(!scriptManager_->hasScript()) {
         return;
     }
 
     Script* script = scriptManager_->getScript();
     int newNumber = script->getSceneCount() + 1;
-    script->addScene(Scene(newNumber, "INT. NEW SCENE - DAY"));
+    script->addScene(Scene(newNumber, heading));
 
     currentSceneIndex_ = newNumber - 1;
     currentElementType_ = ACTION;

@@ -17,17 +17,10 @@ public:
 
     QString getTitle() const;
     QString getAuthor() const;
-    QString getFilePath() const;
-
-private slots:
-    void onTitleChanged(const QString& title);
-    void onAccepted();
 
 private:
     QLineEdit* titleEdit_;
     QLineEdit* authorEdit_;
-    QLineEdit* filenameEdit_;
-    QString filePath_;
 
     void setupUi();
 };

@@ -131,7 +131,7 @@ void MainWindow::setupStatusBar() {
         "color: palette(highlighted-text);"
         "}"
     );
-    elementTypeLabel_->setCursor(Qt::PointingHandCursor);
+    elementTypeLabel_->setCursor(Qt::PointingHandCursor); // changes mouse cursor to hand pointer.
     elementTypeLabel_->installEventFilter(this);
     statusBar()->addWidget(elementTypeLabel_);
 
@@ -164,14 +164,48 @@ void MainWindow::setupStatusBar() {
 
 void MainWindow::onNewScript() {
     NewScriptDialog dialog(this);
-    if(dialog.exec() == QDialog::Accepted) {
-        currentFilePath_ = dialog.getFilePath();
-        scriptViewModel_->onNewScriptRequested(dialog.getTitle(), dialog.getAuthor());
-
-        // saving immediately to the chosen location
-        scriptViewModel_->onSaveRequested(currentFilePath_);
-        setWindowTitle("SSA - " + dialog.getTitle());
+    if(dialog.exec() != QDialog::Accepted) {
+        return;
     }
+
+    QString title = dialog.getTitle().trimmed();
+    QString author = dialog.getAuthor().trimmed();
+
+    if(title.isEmpty()) {
+        title = "Untitled";
+    }
+    if(author.isEmpty()) {
+        author = "Unknown";
+    }
+
+    QString deafultFilename = title.toLower()
+                                  .replace(" ", "_")
+                                  .remove(QRegularExpression("[^a-z0-9_]"))
+                                + ".osf";
+
+    QString defaultPath = QStandardPaths::writableLocation(
+        QStandardPaths::DocumentsLocation);
+
+    QString path = QFileDialog::getSaveFileName(
+        this,
+        "Save New Script",
+        defaultPath,
+        "Open Screenplay Format (*.osf"
+    );
+
+    if (path.isEmpty()) {
+        return;
+    }
+    if(!path.endsWith(".osf", Qt::CaseInsensitive)) {
+        path += ".osf";
+    }
+
+    // creatinig and saving
+    currentFilePath_ = path;
+    scriptViewModel_->onNewScriptRequested(title, author);
+    scriptViewModel_->onSaveRequested(currentFilePath_);
+    setWindowTitle("SSA - " + title);
+
 }
 
 void MainWindow::onOpenScript() {
@@ -204,10 +238,16 @@ void MainWindow::onSaveAsScript() {
         "Open Screenplay Format (*.osf)"
     );
 
-    if(!path.isEmpty()) {
-        currentFilePath_ = path;
-        scriptViewModel_->onSaveRequested(path);
+    if (path.isEmpty()) {
+        return;
     }
+    if(!path.endsWith(".osf", Qt::CaseInsensitive)) {
+        path += ".osf";
+    }
+
+    currentFilePath_ = path;
+    scriptViewModel_->onSaveRequested(path);
+
 }
 
 // --- status bar updates ------------------------------------------------------------------------

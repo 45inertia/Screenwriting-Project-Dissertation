@@ -108,3 +108,30 @@ There is a fallback of 0 in sceneBlockMap_.value(sceneIndex, 0) that is ensured 
 not been registered. This means the editor scrolls to the top rather than producing undefined
 behaviour.
 
+### MainWindow event filter pattern
+
+The status bar element type indicator needed to respond to mouse clicks to show the element type
+picker menu. QLabel has no clicked signal as it is a display widget and not an interactive one.
+Two options were considered:
+
+1. Subclass QLabel and override mousePressEvent
+2. Install an event filter on the label from MainWindow
+
+The event filter approach was chosen as it keeps all MainWindow interaction logic in one place. 
+`installEventFilter(this)` tells Qt to route all events destined for the label through MainWindow's
+eventFilter method first. When a Mouse press event is detected on the label, the menu is shown and 
+`return true` consumes the event. All other events return through the parent class eventFilter for
+normal processing. Without the parent class fallback, all the events across all object would fail.
+
+### Tab key not handled by QMenu
+
+QMenu handles arrow key navigation natively but does not respond to Tab. The element type picker
+in scriptEditor required Tab to cycle through options to match the Tab based workflow.
+
+An event filter was installed on the menu object itself. When a KeyPress event with Qt::Key_Tab
+is detected, the filter manually advances the active action.
+
+The modulo operator is used to wrap the index back to zero when the last item is reached.
+
+`qobject_cast<QMenu*>(obj)` checks the object type and returns nullptr if the object is not a QMenu.
+This prevents the filter intercepting Tab on other objects.
