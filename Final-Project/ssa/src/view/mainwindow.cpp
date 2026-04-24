@@ -388,6 +388,10 @@ void MainWindow::applyDarkTheme() {
         "QSplitter::handle {"
         "  background-color: #3d3d3d;"
         "}"
+        "QMenu::item {"
+        "  text-align: left;"
+        "  padding: 4px 20px 4px 8px;"
+        "}"
 
 
         //"QLabel {"
@@ -438,6 +442,10 @@ void MainWindow::applyLightTheme() {
         "}"
         "QSplitter::handle {"
         "  background-color: #cccccc;"
+        "}"
+        "QMenu::item {"
+        "  text-align: left;"
+        "  padding: 4px 20px 4px 8px;"
         "}"
 
 

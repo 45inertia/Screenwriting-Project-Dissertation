@@ -38,7 +38,8 @@ namespace ScreenplayFormat {
 ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     : QTextEdit(parent),
     viewModel_(viewModel),
-    currentElementType_(ACTION)
+    currentElementType_(ACTION),
+    isBulkOperation_(false)
 {
     // Setting the font
     QFont font(ScreenplayFormat::FONT_FAMILY, ScreenplayFormat::FONT_SIZE);
@@ -56,6 +57,10 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     // element type indicator
     connect(this, &QTextEdit::cursorPositionChanged,
             this, &ScriptEditor::onCursorPositionChanged);
+
+    // for detecting if scene heading blocks diappear and updating the navigator
+    connect(document(), &QTextDocument::contentsChanged,
+            this, &ScriptEditor::onDocumentContentsChanged);
 }
 
 // ---- Syncing with the model -------------------------------------------------------------------
@@ -64,6 +69,8 @@ void ScriptEditor::syncToModel() {
     if (viewModel_->getSceneCount() == 0 && document()->isEmpty()) {
         return;
     }
+
+    isBulkOperation_ = true;
 
     // collecting all blocks as (ElementType, text) pairs
     QList<QPair<ElementType, QString>> blocks;
@@ -79,10 +86,12 @@ void ScriptEditor::syncToModel() {
     }
 
     viewModel_->rebuildFromBlocks(blocks);
+    isBulkOperation_ = false;
 }
 
 void ScriptEditor::loadFromScript() {
     // loading data from the data model through ScriptViewModel
+    isBulkOperation_ = true;
     clear();
 
     int sceneCount = viewModel_->getSceneCount();
@@ -136,6 +145,10 @@ void ScriptEditor::loadFromScript() {
     // moving the cursor the the start of the document
     QTextCursor start(document());
     setTextCursor(start);
+    isBulkOperation_ = false;
+
+    // triggering the cursor update after load
+    onCursorPositionChanged();
 
 }
 
@@ -265,6 +278,11 @@ void ScriptEditor::showElementTypePicker() {
 }
 
 void ScriptEditor::onCursorPositionChanged() {
+
+    if(isBulkOperation_) {
+        return;
+    }
+
     BlockData* data = dynamic_cast<BlockData*>(
         textCursor().block().userData());
 
@@ -275,6 +293,8 @@ void ScriptEditor::onCursorPositionChanged() {
         viewModel_->onElementTypeSelected(data->elementType);
     }
 }
+
+
 
 QString ScriptEditor::elementTypeToDisplayString(ElementType type) const {
     switch (type) {
@@ -411,5 +431,55 @@ void ScriptEditor::scrollToBlock(int blockNumber) {
         setTextCursor(cursor);
         ensureCursorVisible();
     }
+}
+
+void ScriptEditor::onDocumentContentsChanged() {
+    // count the scene heading blocks currently in the document
+
+    if(isBulkOperation_) {
+        return;
+    }
+
+    int headingCount = 0;
+    QTextBlock block = document()->begin();
+    while(block.isValid()) {
+        if(getBlockElementType(block) == SCENE_HEADING &&
+            !block.text().trimmed().isEmpty()) {
+            headingCount++;
+        }
+        block = block.next();
+    }
+
+    // only syncing when a heading has been deleted
+    if(headingCount < viewModel_->getSceneCount()) {
+        syncNavigatorFromDocument();
+    }
+
+    // update navigator if an existing scene heading was edited
+    int sceneIdx = 0;
+    QTextBlock b = document()->begin();
+    while (b.isValid() && sceneIdx < viewModel_->getSceneCount()) {
+        if (getBlockElementType(b) == SCENE_HEADING &&
+            !b.text().trimmed().isEmpty()) {
+            viewModel_->updateSceneHeading(sceneIdx, b.text().trimmed().toUpper());
+            sceneIdx++;
+        }
+        b = b.next();
+    }
+}
+
+void ScriptEditor::syncNavigatorFromDocument() {
+    // rebuild the scene list from document blocks without doing a full model rebuild
+    QList<QPair<ElementType, QString>> blocks;
+    QTextBlock block = document()->begin();
+    while(block.isValid()) {
+        QString text = block.text().trimmed();
+        ElementType type = getBlockElementType(block);
+        if(!text.isEmpty()) {
+            blocks.append(qMakePair(type, text));
+        }
+        block = block.next();
+    }
+    viewModel_->rebuildFromBlocks(blocks);
 }
 

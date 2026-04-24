@@ -170,11 +170,11 @@ void ScriptViewModel::rebuildFromBlocks(const QList<QPair<ElementType, QString>>
         return;
     }
 
+    sceneBlockMap_.clear(); // removeing the stale block positions
+
     Script* script = scriptManager_->getScript();
 
-    while(script->getSceneCount() > 0) {
-        script->removeScene(1);
-    }
+    script->clearScenes();
 
     Scene* currentScene = nullptr;
     int sceneNumber = 0;
@@ -212,6 +212,20 @@ QList<QPair<ElementType, QString>> ScriptViewModel::getAllBlocks() const {
         }
     }
     return blocks;
+}
+
+void ScriptViewModel::updateSceneHeading(int sceneIndex, const QString &heading) {
+    if (!scriptManager_->hasScript()) {
+        return;
+    }
+
+    Script* script = scriptManager_->getScript();
+    if(sceneIndex < 0 || sceneIndex >= script->getSceneCount()) {
+        return;
+    }
+
+    script->getScenes()[sceneIndex].setHeading(heading);
+    emit sceneListUpdated();
 }
 
 // -----File Operations----------------------------------------------------------------------------

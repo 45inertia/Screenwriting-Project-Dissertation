@@ -34,6 +34,11 @@ public:
     void setAuthor(const QString& newAuthor);
     void addScene(Scene newScene);
     void removeScene(int sceneNumber);
+    void clearScenes();
 };
+
+inline void Script::clearScenes() {
+    scenes_.clear();
+}
 
 #endif // SCRIPT_H

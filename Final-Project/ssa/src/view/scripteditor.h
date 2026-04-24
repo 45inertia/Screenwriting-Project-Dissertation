@@ -36,10 +36,12 @@ private slots:
     void onElementTypeChanged(ElementType type);
     void onCurrentSceneChanged(int sceneIndex);
     void onCursorPositionChanged();
+    void onDocumentContentsChanged();
 
 private:
     ScriptViewModel* viewModel_;
     ElementType currentElementType_;
+    bool isBulkOperation_;
 
     void applyElementFormatting(ElementType type);
     QTextBlockFormat blockFormatForType(ElementType type) const;
@@ -50,6 +52,8 @@ private:
 
     void setBlockElementType(ElementType type);
     ElementType getBlockElementType(const QTextBlock& block) const;
+
+    void syncNavigatorFromDocument();
 };
 
 #endif // SCRIPTEDITOR_H

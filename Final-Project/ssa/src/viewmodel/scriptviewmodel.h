@@ -34,6 +34,7 @@ public:
     int getBlockForScene(int sceneIndex) const;
     void rebuildFromBlocks(const QList<QPair<ElementType, QString>>& blocks);
     QList<QPair<ElementType, QString>> getAllBlocks() const;
+    void updateSceneHeading(int sceneIndex, const QString& heading);
 
     // file operations
     void onNewScriptRequested(const QString& title, const QString& author);
