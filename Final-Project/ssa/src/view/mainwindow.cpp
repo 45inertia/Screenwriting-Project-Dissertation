@@ -47,6 +47,14 @@ MainWindow::MainWindow(QWidget *parent)
     connect(scriptEditor_->document(), &QTextDocument::contentsChanged,
             this, &MainWindow::updateWordCount);
 
+    // loading the script from
+    // TODO I THINK I NEED TO HAVE A SIGNAL FROM SCRIPTMANAGER THAT TRIGGERS A SIGNAL FROM
+    // SCRIPT VIEW MODEL TO USE HERE FOR MVVM BOUNDARY
+    connect(scriptManager_, &ScriptManager::scriptLoaded,
+            this, [this]() {
+        scriptEditor_->loadFromScript();
+    });
+
 }
 
 MainWindow::~MainWindow() {
@@ -227,6 +235,7 @@ void MainWindow::onSaveScript() {
         onSaveAsScript();
         return;
     }
+    scriptEditor_->syncToModel();
     scriptViewModel_->onSaveRequested(currentFilePath_);
 }
 
@@ -246,6 +255,7 @@ void MainWindow::onSaveAsScript() {
     }
 
     currentFilePath_ = path;
+    scriptEditor_->syncToModel();
     scriptViewModel_->onSaveRequested(path);
 
 }

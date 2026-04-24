@@ -1,11 +1,11 @@
 #ifndef SCRIPTVIEWMODEL_H
 #define SCRIPTVIEWMODEL_H
 
-#include "model/script.h"
 #include "model/ElementType.h"
 #include "services/scriptmanager.h"
 #include <QObject>
 #include <QMap>
+#include <QTextBlock>
 
 class ScriptViewModel : public QObject
 {
@@ -32,6 +32,8 @@ public:
     // block operations
     void registerSceneBlock(int sceneIndex, int blockNumber);
     int getBlockForScene(int sceneIndex) const;
+    void rebuildFromBlocks(const QList<QPair<ElementType, QString>>& blocks);
+    QList<QPair<ElementType, QString>> getAllBlocks() const;
 
     // file operations
     void onNewScriptRequested(const QString& title, const QString& author);

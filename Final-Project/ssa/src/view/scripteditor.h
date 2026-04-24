@@ -3,6 +3,14 @@
 
 #include "model/ElementType.h"
 #include <QTextEdit>
+#include <QTextBlockUserData>
+
+// stores the ElementType for each block in the QTextDocument
+class BlockData : public QTextBlockUserData {
+public:
+    ElementType elementType;
+    explicit BlockData(ElementType type) : elementType(type) {}
+};
 
 // forward declaration as opposed to inlcude to avoid include chain.
 class ScriptViewModel;
@@ -14,6 +22,10 @@ class ScriptEditor : public QTextEdit {
 public:
     explicit ScriptEditor(ScriptViewModel* viewModel, QWidget *parent = nullptr);
     ~ScriptEditor() = default;
+
+    void syncToModel();
+    void loadFromScript();
+
 
 protected:
     void keyPressEvent(QKeyEvent* event) override;
@@ -34,6 +46,9 @@ private:
     void scrollToBlock(int blockNumber);
     void showElementTypePicker();
     QString elementTypeToDisplayString(ElementType type) const;
+
+    void setBlockElementType(ElementType type);
+    ElementType getBlockElementType(const QTextBlock& block) const;
 };
 
 #endif // SCRIPTEDITOR_H

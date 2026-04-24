@@ -2,8 +2,6 @@
 
 *Things that didn't work and how they are solved*
 
-## Model Layer
-
 ### `script`
 `elements_` was of type QList. QList uses implicit sharing (copy-on-write) internally which requires 
 elements to be copyable. As `unique_ptr` is not copyable, `QList` and `unique_ptr` are not 
@@ -39,8 +37,6 @@ The final decision was to keep `Script` using `std::vector<Scene>` and document 
 `unique_ptr` is used where it solves a technical problem and plain value sematics are used where
 containment is sufficient.
 
-## Services Layer
-
 ### `ScriptManager` QObject in the services layer
 In principle it was determined the services layer should remain plain C++. However the need to emit
 signals when the script state changes was the deciding factor in changing `ScriptManager` into a
@@ -56,8 +52,6 @@ issues with the load operation. Therefore the whiespace needed to be skipped wit
 A pointer pointing to the last scene added is needed so that script elements can be added to this
 scene. Currently `getScenes()` from Script is a const verison. A non const reference verison is
 needed for the load operation so an overload function for `getScenes()` has been added.
-
-## ViewModel Layer
 
 ### Connecting ScriptManager signals to ScriptViewModel without coupling the View
 A design problem arose in connecting `ScriptManager`'s state change signals to the view layer.
@@ -82,8 +76,6 @@ going through the ViewModel into the services layer which violated the MVVM boun
 
 The fix was to remove the `getScriptManager` member function from `ScriptViewModel` and add two
 ViewModel methods that provide exactly what the view needs which was `getSceneList()`. 
-
-## View Layer
 
 ### Scene Navigation: Locating Scenes in a Continuous Document
 
@@ -135,3 +127,23 @@ The modulo operator is used to wrap the index back to zero when the last item is
 
 `qobject_cast<QMenu*>(obj)` checks the object type and returns nullptr if the object is not a QMenu.
 This prevents the filter intercepting Tab on other objects.
+
+### ScriptEditor and Script model disconnected
+A gap was identified where the QTextEdit document and the Script data were completely disconnected.
+The editor wrote to its own QTextDocument but this content was never transfered to ScriptElement
+objects. When loaing, the Script model was populated from the OSF file but nothing used it to
+populate the editor.
+
+The solution was a two way mechanism for syncing.
+
+syncToModel() reads every block in QTextDocument, extracts the stored ElementType and text, and 
+rebuilds the Script model by clearing existing scenes and recreating them from the block data. This
+is then called before every save.
+
+loadFromScript() reads all scenes and elements from the Script model via getAllBlocks on the
+ViewModel, clears the editor and repopulates it block by block applying the correct formatting and 
+registering scene block positions for the navigator.
+
+To know which ElementType each block holds, QTextBlockUserData was used which is Qt's mechanism for
+attatching custom data to individual text blocks. A BlockData subclass stores the ElementType and is
+set on each block whenever the element type changes via applyElementFormatting.

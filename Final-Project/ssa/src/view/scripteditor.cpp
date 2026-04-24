@@ -60,6 +60,92 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     applyElementFormatting(ACTION);
 }
 
+// ---- Syncing with the model -------------------------------------------------------------------
+
+void ScriptEditor::syncToModel() {
+    if (viewModel_->getSceneCount() == 0 && document()->isEmpty()) {
+        return;
+    }
+
+    // collecting all blocks as (ElementType, text) pairs
+    QList<QPair<ElementType, QString>> blocks;
+
+    QTextBlock block = document()->begin();
+    while(block.isValid()) {
+        QString text = block.text().trimmed();
+        ElementType type = getBlockElementType(block);
+        if (!text.isEmpty()) {
+            blocks.append(qMakePair(type, text));
+        }
+        block = block.next();
+    }
+
+    viewModel_->rebuildFromBlocks(blocks);
+}
+
+void ScriptEditor::loadFromScript() {
+    // loading data from the data model through ScriptViewModel
+    clear();
+
+    int sceneCount = viewModel_->getSceneCount();
+    if (sceneCount == 0) {
+        return;
+    }
+
+    QTextCursor cursor(document());
+    bool firstBlock = true;
+
+    // get all content in block form from ScriptViewModel
+    QList<QPair<ElementType, QString>> blocks = viewModel_->getAllBlocks();
+
+    // rebuilding the block map for scene navigation
+    int blockNumber = 0;
+    int sceneIndex = 0;
+
+    for(const auto& pair : std::as_const(blocks)) {
+        ElementType type = pair.first;
+        QString text = pair.second;
+        if (!firstBlock) {
+            cursor.insertBlock();
+            blockNumber++;
+        }
+        firstBlock = false;
+
+        // applying the formatting for this element type
+        cursor.setBlockFormat(blockFormatForType(type));
+        cursor.setBlockCharFormat(charFormatForType(type));
+
+        // store the element type on block
+        cursor.block().setUserData(new BlockData(type));
+
+        // insert the text;
+        cursor.insertText(text);
+
+        // registering the scene heading block positions
+        if(type == SCENE_HEADING) {
+            viewModel_->registerSceneBlock(sceneIndex, blockNumber);
+            sceneIndex++;
+        }
+    }
+
+    // moving the cursor the the start of the document
+    QTextCursor start(document());
+    setTextCursor(start);
+
+}
+
+void ScriptEditor::setBlockElementType(ElementType type) {
+    // attach element type to current block as user data
+    QTextBlock block = textCursor().block();
+    block.setUserData(new BlockData(type));
+}
+
+ElementType ScriptEditor::getBlockElementType(const QTextBlock &block) const {
+    BlockData* data = dynamic_cast<BlockData*>(block.userData());
+    if (data) return data->elementType;
+    return ACTION; // default if no data stored
+}
+
 // ---- Key Press Handling ------------------------------------------------------------------------
 
 void ScriptEditor::keyPressEvent(QKeyEvent *event) {
@@ -207,6 +293,9 @@ void ScriptEditor::applyElementFormatting(ElementType type) {
 
     cursor.endEditBlock();
     setTextCursor(cursor);
+
+    // store the element type on this block
+    setBlockElementType(type);
 }
 
 QTextBlockFormat ScriptEditor::blockFormatForType(ElementType type) const   {

@@ -165,6 +165,57 @@ int ScriptViewModel::getBlockForScene(int sceneIndex) const {
     return sceneBlockMap_.value(sceneIndex, 0); // returns block number or 0 as fallback
 }
 
+void ScriptViewModel::rebuildFromBlocks(const QList<QPair<ElementType, QString>>& blocks) {
+    // rebuilding the script state from the blocks that are in the scriptEditor document
+
+    if(!scriptManager_->hasScript()) {
+        return;
+    }
+
+    Script* script = scriptManager_->getScript();
+
+    while(script->getSceneCount() > 0) {
+        script->removeScene(1);
+    }
+
+    Scene* currentScene = nullptr;
+    int sceneNumber = 0;
+    int elementId = 0;
+
+    for(const auto& pair : blocks) {
+        ElementType type = pair.first;
+        QString text = pair.second;
+
+        if(type == SCENE_HEADING) {
+            sceneNumber++;
+            script->addScene(Scene(sceneNumber, text));
+            currentScene = &script->getScenes().back();
+            elementId = 0;
+        } else if (currentScene != nullptr) {
+            currentScene->addElement(std::make_unique<ScriptElement>(++elementId, type, text));
+        }
+    }
+    emit sceneListUpdated();
+}
+
+QList<QPair<ElementType, QString>> ScriptViewModel::getAllBlocks() const {
+    QList<QPair<ElementType, QString>> blocks;
+    if(!scriptManager_->hasScript()) {
+        return blocks;
+    }
+
+    for (const Scene& scene : scriptManager_->getScript()->getScenes()) {
+        // add the scene heading
+        blocks.append(qMakePair(SCENE_HEADING, scene.getHeading()));
+
+        // adding all other elements
+        for(const auto& element : scene.getElements()) {
+            blocks.append(qMakePair(element->getType(), element->getText()));
+        }
+    }
+    return blocks;
+}
+
 // -----File Operations----------------------------------------------------------------------------
 
 void ScriptViewModel::onNewScriptRequested(const QString &title, const QString &author) {
@@ -187,6 +238,7 @@ void ScriptViewModel::onElementTypeSelected(ElementType type) {
     currentElementType_ = type;
     emit elementTypeChanged(type);
 }
+
 
 
 
