@@ -31,46 +31,13 @@ void SceneNavigator::setupUi() {
 
     // title at the top of the navigator
     titleLabel_ = new QLabel("Scenes", this);
-    titleLabel_->setStyleSheet(
-        "QLabel {"
-        "background-color: #2d2d2d;"
-        "color: #9d9d9d;"
-        "padding: 8px 12px;"
-        "font-family: 'Courier New';"
-        "font-size: 11px;"
-        "border-bottom: 1px solid #3d3d3d;"
-        "}"
-    );
 
     // Scene List
     sceneList_ = new QListWidget(this);
-    sceneList_->setStyleSheet(
-        "QListWidget {"
-        "background-color: #252526;"
-        "color: #d4d4d4;"
-        "border: none;"
-        "font-family: 'Courier New';"
-        "font-size: 11px;"
-        "}"
-        "QListWidget::item {"
-        "padding: 6px 12px;"
-        "border-bottom: 1px solid #2d2d2d;"
-        "}"
-        "QListWidget::item:selected {"
-        "background-color: #094771;"
-        "color: #ffffff;"
-        "}"
-        "QListWidget::item:hover {"
-        "background-color: #2a2d2e;"
-        "}"
-    );
 
     layout->addWidget(titleLabel_);
     layout->addWidget(sceneList_);
     setLayout(layout);
-
-    // dark background for the navigator
-    setStyleSheet("QWidget { background-color: #252526; }");
 }
 
 // ---------- slots ----------------------------------------------------------------------------
@@ -97,4 +64,73 @@ void SceneNavigator::onItemClicked(QListWidgetItem *item) {
     viewModel_->onSceneSelected(sceneIndex);
 }
 
+// ---------- theming ----------------------------------------------------------------------------
+
+void SceneNavigator::setDarkTheme() {
+    setStyleSheet("QWidget { background-color: #252526; }");
+    titleLabel_->setStyleSheet(
+        "QLabel {"
+        "  background-color: #2d2d2d;"
+        "  color: #9d9d9d;"
+        "  padding: 8px 12px;"
+        "  font-family: 'Courier New';"
+        "  font-size: 11px;"
+        "  border-bottom: 1px solid #3d3d3d;"
+        "}"
+        );
+    sceneList_->setStyleSheet(
+        "QListWidget {"
+        "  background-color: #252526;"
+        "  color: #d4d4d4;"
+        "  border: none;"
+        "  font-family: 'Courier New';"
+        "  font-size: 11px;"
+        "}"
+        "QListWidget::item {"
+        "  padding: 6px 12px;"
+        "  border-bottom: 1px solid #2d2d2d;"
+        "}"
+        "QListWidget::item:selected {"
+        "  background-color: #094771;"
+        "  color: #ffffff;"
+        "}"
+        "QListWidget::item:hover {"
+        "  background-color: #2a2d2e;"
+        "}"
+        );
+}
+
+void SceneNavigator::setLightTheme() {
+    setStyleSheet("QWidget { background-color: #f0f0f0; }");
+    titleLabel_->setStyleSheet(
+        "QLabel {"
+        "  background-color: #e0e0e0;"
+        "  color: #555555;"
+        "  padding: 8px 12px;"
+        "  font-family: 'Courier New';"
+        "  font-size: 11px;"
+        "  border-bottom: 1px solid #cccccc;"
+        "}"
+        );
+    sceneList_->setStyleSheet(
+        "QListWidget {"
+        "  background-color: #f0f0f0;"
+        "  color: #1e1e1e;"
+        "  border: none;"
+        "  font-family: 'Courier New';"
+        "  font-size: 11px;"
+        "}"
+        "QListWidget::item {"
+        "  padding: 6px 12px;"
+        "  border-bottom: 1px solid #dddddd;"
+        "}"
+        "QListWidget::item:selected {"
+        "  background-color: #0078d4;"
+        "  color: #ffffff;"
+        "}"
+        "QListWidget::item:hover {"
+        "  background-color: #e8e8e8;"
+        "}"
+        );
+}
 

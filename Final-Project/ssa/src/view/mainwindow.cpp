@@ -14,10 +14,13 @@
 #include <QMessageBox>
 #include <QMenu>
 #include <QAction>
+#include <QApplication>
+#include <QPalette>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
+    , isDarkTheme_(false)
 {
     ui->setupUi(this);
     setWindowTitle("SSA - Screenwriting Software");
@@ -54,6 +57,8 @@ MainWindow::MainWindow(QWidget *parent)
             this, [this]() {
         scriptEditor_->loadFromScript();
     });
+
+    detectAndApplySystemTheme();
 
 }
 
@@ -104,6 +109,15 @@ void MainWindow::setupMenuBar() {
     connect(saveAction, &QAction::triggered, this, &MainWindow::onSaveScript);
     connect(saveAsAction, &QAction::triggered, this, &MainWindow::onSaveAsScript);
     connect(quitAction, &QAction::triggered, this, &QApplication::quit);
+
+    QMenu* viewMenu = menuBar()->addMenu("View");
+
+    QAction* toggleThemeAction = viewMenu->addAction("Toggle Theme");
+    toggleThemeAction->setShortcut(
+        QKeySequence(Qt::CTRL | Qt::SHIFT | Qt::Key_T));
+
+    connect(toggleThemeAction, &QAction::triggered,
+            this, &MainWindow::onToggleTheme);
 }
 
 // contains information on
@@ -128,15 +142,15 @@ void MainWindow::setupStatusBar() {
     elementTypeLabel_->setMinimumWidth(160);
     elementTypeLabel_->setStyleSheet(
         "QLabel {"
-        "font-weight: bold;"
-        "font-family: 'Courier New';"
-        "padding: 2px 8px;"
-        "border: 1px solid palette(mid);"
-        "border-radius: 3px;"
+        "  font-weight: bold;"
+        "  font-family: 'Courier New';"
+        "  color: #ffffff;"
+        "  padding: 2px 8px;"
+        "  border: 1px solid rgba(255,255,255,0.4);"
+        "  border-radius: 3px;"
         "}"
         "QLabel:hover {"
-        "background-color: palette(highlight);"
-        "color: palette(highlighted-text);"
+        "  background-color: rgba(255,255,255,0.15);"
         "}"
     );
     elementTypeLabel_->setCursor(Qt::PointingHandCursor); // changes mouse cursor to hand pointer.
@@ -321,6 +335,132 @@ void MainWindow::updateWordCount() {
 void MainWindow::updateSceneIndicator(int sceneIndex) {
     int total = scriptViewModel_->getSceneCount();
     sceneIndicatorLabel_->setText(QString("Scene %1 of %2").arg(sceneIndex + 1).arg(total));
+}
+
+// ----- theming (light and dark mode)------------------------------------------------------------
+
+void MainWindow::onToggleTheme() {
+    isDarkTheme_ = !isDarkTheme_;
+    if (isDarkTheme_) {
+        applyDarkTheme();
+    } else {
+        applyLightTheme();
+    }
+}
+
+void MainWindow::detectAndApplySystemTheme() {
+    // Qt exposes the system palette and checks if the window background lightness is below
+    // 128 which is considered a dark theme
+    // 255 = white , 0 = black
+    QPalette systemPalette = QApplication::palette();
+    QColor windowColour = systemPalette.color(QPalette::Window);
+    isDarkTheme_ = windowColour.lightness() < 128;
+
+    if (isDarkTheme_) {
+        applyDarkTheme();
+    } else {
+        applyLightTheme();
+    }
+}
+
+void MainWindow::applyDarkTheme() {
+    // global stylesheet for system-managed widgets
+    qApp->setStyleSheet(
+        "QMenuBar {"
+        "  background-color: #2d2d2d;"
+        "  color: #d4d4d4;"
+        "}"
+        "QMenuBar::item:selected {"
+        "  background-color: #094771;"
+        "}"
+        "QMenu {"
+        "  background-color: #2d2d2d;"
+        "  color: #d4d4d4;"
+        "  border: 1px solid #3d3d3d;"
+        "}"
+        "QMenu::item:selected {"
+        "  background-color: #094771;"
+        "}"
+        "QStatusBar {"
+        "  background-color: #007acc;"
+        "  color: #ffffff;"
+        "}"
+        "QSplitter::handle {"
+        "  background-color: #3d3d3d;"
+        "}"
+
+
+        //"QLabel {"
+        //"  color: #ffffff;"
+        //"}"
+        );
+
+    // status bar label colors are set explicitly not via global rule
+    wordCountLabel_->setStyleSheet("color: #ffffff;");
+    sceneIndicatorLabel_->setStyleSheet("color: #ffffff;");
+    pageCountLabel_->setStyleSheet("color: #ffffff;");
+
+    // update editor
+    scriptEditor_->setStyleSheet(
+        "QTextEdit {"
+        "  background-color: #1e1e1e;"
+        "  color: #d4d4d4;"
+        "  border: none;"
+        "}"
+        );
+
+    // update navigator
+    sceneNavigator_->setDarkTheme();
+}
+
+void MainWindow::applyLightTheme() {
+    qApp->setStyleSheet(
+        "QMenuBar {"
+        "  background-color: #f0f0f0;"
+        "  color: #1e1e1e;"
+        "}"
+        "QMenuBar::item:selected {"
+        "  background-color: #0078d4;"
+        "  color: #ffffff;"
+        "}"
+        "QMenu {"
+        "  background-color: #ffffff;"
+        "  color: #1e1e1e;"
+        "  border: 1px solid #cccccc;"
+        "}"
+        "QMenu::item:selected {"
+        "  background-color: #0078d4;"
+        "  color: #ffffff;"
+        "}"
+        "QStatusBar {"
+        "  background-color: #0078d4;"
+        "  color: #ffffff;"
+        "}"
+        "QSplitter::handle {"
+        "  background-color: #cccccc;"
+        "}"
+
+
+        //"QLabel {"
+        //"  color: #1e1e1e;"
+        //"}"
+        );
+
+    // status bar label colors are set explicitly not via global rule
+    wordCountLabel_->setStyleSheet("color: #ffffff;");
+    sceneIndicatorLabel_->setStyleSheet("color: #ffffff;");
+    pageCountLabel_->setStyleSheet("color: #ffffff;");
+
+
+    scriptEditor_->setStyleSheet(
+        "QTextEdit {"
+        "  background-color: #ffffff;"
+        "  color: #1e1e1e;"
+        "  border: none;"
+        "}"
+        );
+
+    sceneNavigator_->setLightTheme();
 }
 
 // --- helper utility ----------------------------------------------------------------------------

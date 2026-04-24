@@ -17,6 +17,9 @@ public:
     explicit SceneNavigator(ScriptViewModel* viewModel, QWidget *parent = nullptr);
     ~SceneNavigator() = default;
 
+    void setDarkTheme();
+    void setLightTheme();
+
 private slots:
     void onSceneListUpdated();
     void onCurrentSceneChanged(int sceneIndex);

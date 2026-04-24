@@ -45,13 +45,6 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     font.setFixedPitch(true);
     setFont(font);
 
-    // setting the dark background
-    setStyleSheet("QTextEdit {"
-                  "background-color: #1e1e1e;"
-                  "color: #d4d4d4;"
-                  "border:none;"
-                  "}");
-
     // connecting to view model
     connect(viewModel_, &ScriptViewModel::elementTypeChanged,
             this, &ScriptEditor::onElementTypeChanged);
@@ -272,9 +265,15 @@ void ScriptEditor::showElementTypePicker() {
 }
 
 void ScriptEditor::onCursorPositionChanged() {
-    ElementType type = getBlockElementType(textCursor().block());
-    currentElementType_ = type;
-    viewModel_->onElementTypeSelected(type);
+    BlockData* data = dynamic_cast<BlockData*>(
+        textCursor().block().userData());
+
+    // only update if this block has explicitly stored element type data
+    // new blocks created by Enter have no BlockData
+    if (data) {
+        currentElementType_ = data->elementType;
+        viewModel_->onElementTypeSelected(data->elementType);
+    }
 }
 
 QString ScriptEditor::elementTypeToDisplayString(ElementType type) const {
