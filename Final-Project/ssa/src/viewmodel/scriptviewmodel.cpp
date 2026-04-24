@@ -132,9 +132,7 @@ void ScriptViewModel::onSceneSelected(int sceneIndex) {
     }
 
     currentSceneIndex_ = sceneIndex;
-    currentElementType_ = ACTION;
     emit currentSceneChanged(currentSceneIndex_);
-    emit elementTypeChanged(currentElementType_);
 }
 
 void ScriptViewModel::onNewSceneRequested(const QString& heading) {

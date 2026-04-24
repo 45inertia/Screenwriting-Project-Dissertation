@@ -49,6 +49,7 @@ private slots:
     void onStatusElementTypeClicked();
     void updateWordCount();
     void updateSceneIndicator(int sceneIndex);
+    void onToggleTheme();
 
 private:
     Ui::MainWindow *ui;
@@ -69,10 +70,18 @@ private:
     // Current save path
     QString currentFilePath_;
 
+    // themeing member
+    bool isDarkTheme_;
+
     void setupMenuBar();
     void setupStatusBar();
     void setupCentralWidget();
     QString elementTypeToString(ElementType type) const;
+
+    // theming methods
+    void detectAndApplySystemTheme();
+    void applyDarkTheme();
+    void applyLightTheme();
 
 protected:
     bool eventFilter(QObject* obj, QEvent* event) override;

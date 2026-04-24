@@ -58,6 +58,11 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
 
     // applying the initial formatting
     applyElementFormatting(ACTION);
+
+    // connecting the cursor position to onCursorPositionChanged for updating
+    // element type indicator
+    connect(this, &QTextEdit::cursorPositionChanged,
+            this, &ScriptEditor::onCursorPositionChanged);
 }
 
 // ---- Syncing with the model -------------------------------------------------------------------
@@ -92,12 +97,19 @@ void ScriptEditor::loadFromScript() {
         return;
     }
 
-    QTextCursor cursor(document());
-    bool firstBlock = true;
-
     // get all content in block form from ScriptViewModel
     QList<QPair<ElementType, QString>> blocks = viewModel_->getAllBlocks();
 
+    // If empty script then the first block is a scene heading
+    if(blocks.isEmpty()) {
+        applyElementFormatting(SCENE_HEADING);
+        currentElementType_ = SCENE_HEADING;
+        viewModel_->onElementTypeSelected(SCENE_HEADING);
+        return;
+    }
+
+    QTextCursor cursor(document());
+    bool firstBlock = true;
     // rebuilding the block map for scene navigation
     int blockNumber = 0;
     int sceneIndex = 0;
@@ -257,6 +269,12 @@ void ScriptEditor::showElementTypePicker() {
     }
 
 
+}
+
+void ScriptEditor::onCursorPositionChanged() {
+    ElementType type = getBlockElementType(textCursor().block());
+    currentElementType_ = type;
+    viewModel_->onElementTypeSelected(type);
 }
 
 QString ScriptEditor::elementTypeToDisplayString(ElementType type) const {

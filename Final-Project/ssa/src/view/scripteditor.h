@@ -35,6 +35,7 @@ protected:
 private slots:
     void onElementTypeChanged(ElementType type);
     void onCurrentSceneChanged(int sceneIndex);
+    void onCursorPositionChanged();
 
 private:
     ScriptViewModel* viewModel_;

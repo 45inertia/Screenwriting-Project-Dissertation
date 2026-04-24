@@ -147,3 +147,35 @@ registering scene block positions for the navigator.
 To know which ElementType each block holds, QTextBlockUserData was used which is Qt's mechanism for
 attatching custom data to individual text blocks. A BlockData subclass stores the ElementType and is
 set on each block whenever the element type changes via applyElementFormatting.
+
+
+### Status bar element type not reflecting cursor position
+The element type label in the status bar was only updated when the user explicitly changed the 
+element type via Tab or the picker menu. It did not update when the user clicked into a different 
+block or moved the cursor with the arrow keys.
+
+The fix was to connect QTextEdit::cursorPositionChanged to a slot that reads the BlockData from
+the current block and calls onElementTypeSelected on the ViewModel. Since BlockData is attached to
+every block by applyElementFormatting and loadFromScript, the correct element type is always
+available regardless of how the cursor moved. cursorPositionChanged fires on every keystroke
+and click but the handler is lightweight enough that this does not cause performance issues.
+
+### Element Type State Conflation
+A bug was identified where clicking a scene in SceneNavigator changed the element type of the last
+block to ACTION. The root cause was that onSceneSelected was emitting elementTypeChanged(ACTION)
+after navigation. ScriptEditor recieved this signal and called applyElementFormatting(ACTION)
+on whatever block the cursor was on which changed the BlockData and formatting.
+
+The deeper issue was that currentElementType_ in ScriptViewModel was serving two purposes:
+- tracking the type the user had selected for new text
+- providing the type for the status bar.
+These should be driven by different sources.
+
+The fix was to remove elementTypeChanged from onSceneSelected entirely. Navigation only emits
+currentSceneChanged. The cursor moves, cursorPositionChanged fires, onCurosrPositionChanged reads
+BlockData from the block and calls onElementTypeSelected
+
+The new script vs opened script distinction was also made explicit. When getAllBlocks returns
+empty (new script), loadFromScript applies SCENE_HEADING to the first block explicitly. When blocks
+exist (opened script), BlockData is set on each block during population and cursorPositionChanged
+handles the status bar correctly after the cursor is placed.
