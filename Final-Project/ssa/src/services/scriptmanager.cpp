@@ -59,3 +59,13 @@ void ScriptManager::closeScript() {
     script_.reset();
     emit scriptClosed();
 }
+
+bool ScriptManager::exportPdf(const QString &filePath) {
+    if(!hasScript()) {
+        emit errorOccurred("No script to export.");
+        return false;
+    }
+    return pdfExporter_->exportToPdf(*script_, filePath);
+}
+
+

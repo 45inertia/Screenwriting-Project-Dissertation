@@ -25,6 +25,7 @@ public:
     bool saveScript(const QString& filePath);
     bool loadScript(const QString& filePath);
     void closeScript();
+    bool exportPdf(const QString& filePath);
 
 signals:
     void scriptLoaded();

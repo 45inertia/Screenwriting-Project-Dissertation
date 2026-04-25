@@ -49,6 +49,7 @@ private slots:
     void updateWordCount();
     void updateSceneIndicator(int sceneIndex);
     void onToggleTheme();
+    void onExportPdf();
 
 private:
     Ui::MainWindow *ui;

@@ -40,6 +40,7 @@ public:
     void onNewScriptRequested(const QString& title, const QString& author);
     void onSaveRequested(const QString& filePath);
     void onLoadRequested(const QString& filePath);
+    bool onExportPdfRequested(const QString& filePath);
 
 signals:
     void elementTypeChanged(ElementType type);

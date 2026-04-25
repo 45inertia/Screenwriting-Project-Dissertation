@@ -244,6 +244,10 @@ void ScriptViewModel::onLoadRequested(const QString &filePath) {
     scriptManager_->loadScript(filePath);
 }
 
+bool ScriptViewModel::onExportPdfRequested(const QString &filePath) {
+    return scriptManager_->exportPdf(filePath);
+}
+
 // --- Element Type -------------------------------------------------------------------------------
 
 void ScriptViewModel::onElementTypeSelected(ElementType type) {

@@ -116,6 +116,11 @@ void MainWindow::setupMenuBar() {
 
     fileMenu->addSeparator();
 
+    QAction* exportPdfAction = fileMenu->addAction("Export to PDF...");
+    exportPdfAction->setShortcut(QKeySequence("Ctrl+E"));
+
+    fileMenu->addSeparator();
+
     QAction* quitAction = fileMenu->addAction("Quit");
     quitAction->setShortcut(QKeySequence::Quit);
 
@@ -124,6 +129,7 @@ void MainWindow::setupMenuBar() {
     connect(openAction, &QAction::triggered, this, &MainWindow::onOpenScript);
     connect(saveAction, &QAction::triggered, this, &MainWindow::onSaveScript);
     connect(saveAsAction, &QAction::triggered, this, &MainWindow::onSaveAsScript);
+    connect(exportPdfAction, &QAction::triggered, this, &MainWindow::onExportPdf);
     connect(quitAction, &QAction::triggered, this, &QApplication::quit);
 
     QMenu* viewMenu = menuBar()->addMenu("View");
@@ -288,6 +294,36 @@ void MainWindow::onSaveAsScript() {
     scriptEditor_->syncToModel();
     scriptViewModel_->onSaveRequested(path);
 
+}
+
+void MainWindow::onExportPdf() {
+    if(!scriptViewModel_->getSceneCount()) {
+        QMessageBox::information(this, "Export",
+                                 "No script to export. Please create or open a script first.");
+        return;
+    }
+
+    QString path = QFileDialog::getSaveFileName(
+        this,
+        "Export to PDF",
+        QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation),
+        "PDF Files (*.pdf)"
+        );
+
+    if(path.isEmpty()) return;
+    if(!path.endsWith(".pdf", Qt::CaseInsensitive)) {
+        path += ".pdf";
+    }
+    scriptEditor_->syncToModel();
+    bool success = scriptViewModel_->onExportPdfRequested(path);
+
+    if(success) {
+        QMessageBox::information(this, "Export Complete",
+                                 "Script exported successfully to:\n" + path);
+    } else {
+        QMessageBox::warning(this, "Export Failed",
+                    "The script could not be exported. Please check the file path and try again.");
+    }
 }
 
 // --- status bar updates ------------------------------------------------------------------------
