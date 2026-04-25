@@ -9,6 +9,8 @@
 #include <QFont>
 #include <QTextBlock>
 #include <QMenu>
+#include <QTextDocument>
+#include <QTextFrame>
 
 // Namespace containing all Industry Standard Screenplay Measurements
 // All values in points (1 inch = 72 points)
@@ -45,8 +47,13 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     QFont font(ScreenplayFormat::FONT_FAMILY, ScreenplayFormat::FONT_SIZE);
     font.setFixedPitch(true);
     setFont(font);
+    // constraining document to screenplay page width
+    setLineWrapMode(QTextEdit::FixedPixelWidth);
+    setLineWrapColumnOrWidth(816); // full 8.5 inch page at 96 DPI
+    setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
+    applyDocumentMargins();
 
-    // connecting to view model
+    // connecting element type changed
     connect(viewModel_, &ScriptViewModel::elementTypeChanged,
             this, &ScriptEditor::onElementTypeChanged);
 
@@ -97,6 +104,7 @@ void ScriptEditor::loadFromScript() {
     // loading data from the data model through ScriptViewModel
     isBulkOperation_ = true;
     clear();
+    applyDocumentMargins();
 
     int sceneCount = viewModel_->getSceneCount();
     if (sceneCount == 0) {
@@ -315,7 +323,6 @@ void ScriptEditor::onCursorPositionChanged() {
 }
 
 
-
 QString ScriptEditor::elementTypeToDisplayString(ElementType type) const {
     switch (type) {
         case SCENE_HEADING:  return "Scene Heading";
@@ -335,7 +342,6 @@ void ScriptEditor::onElementTypeChanged(ElementType type) {
     currentElementType_ = type;
     applyElementFormatting(type);
 }
-
 
 void ScriptEditor::applyElementFormatting(ElementType type) {
     QTextCursor cursor = textCursor();
@@ -363,42 +369,56 @@ QTextBlockFormat ScriptEditor::blockFormatForType(ElementType type) const   {
         format.setLeftMargin(ScreenplayFormat::SCENE_HEADING_LEFT);
         format.setRightMargin(ScreenplayFormat::DEFAULT_RIGHT);
         format.setAlignment(Qt::AlignLeft);
+        // two blank lines above scene heading, one below
+        format.setTopMargin(24);
+        format.setBottomMargin(12);
         break;
 
     case ACTION:
         format.setLeftMargin(ScreenplayFormat::ACTION_LEFT);
         format.setRightMargin(ScreenplayFormat::DEFAULT_RIGHT);
         format.setAlignment(Qt::AlignLeft);
+        format.setTopMargin(0);
         break;
 
     case CHARACTER:
         format.setLeftMargin(ScreenplayFormat::CHARACTER_LEFT);
         format.setRightMargin(ScreenplayFormat::DEFAULT_RIGHT);
         format.setAlignment(Qt::AlignLeft);
+        // blank line above character name
+        format.setTopMargin(12);
+        format.setBottomMargin(0);
         break;
 
     case DIALOGUE:
         format.setLeftMargin(ScreenplayFormat::DIALOGUE_LEFT);
         format.setRightMargin(ScreenplayFormat::DIALOGUE_RIGHT);
         format.setAlignment(Qt::AlignLeft);
+        format.setTopMargin(0);
+        format.setBottomMargin(12);
         break;
 
     case PARENTHETICAL:
         format.setLeftMargin(ScreenplayFormat::PARENTHETICAL_LEFT);
         format.setRightMargin(ScreenplayFormat::PARENTHETICAL_RIGHT);
         format.setAlignment(Qt::AlignLeft);
+        format.setTopMargin(0);
+        format.setBottomMargin(12);
         break;
 
     case TRANSITION:
         format.setLeftMargin(ScreenplayFormat::TRANSITION_LEFT);
         format.setRightMargin(ScreenplayFormat::DEFAULT_RIGHT);
         format.setAlignment(Qt::AlignRight);
+        format.setTopMargin(12);
+        format.setBottomMargin(12);
         break;
 
     case SHOT:
         format.setLeftMargin(ScreenplayFormat::SHOT_LEFT);
         format.setRightMargin(ScreenplayFormat::DEFAULT_RIGHT);
         format.setAlignment(Qt::AlignRight);
+        format.setTopMargin(12);
         break;
     }
     return format;
@@ -419,13 +439,22 @@ QTextCharFormat ScriptEditor::charFormatForType(ElementType type) const {
     return format;
 }
 
+void ScriptEditor::applyDocumentMargins() {
+    // page margins set on the document
+    QTextFrameFormat frameFormat;
+    frameFormat.setLeftMargin(144); // 1.5 inches at 96dpi
+    frameFormat.setRightMargin(96); // 1 inch
+    frameFormat.setTopMargin(96); // 1 inch top
+    frameFormat.setBottomMargin(96); // 1 inch bottom
+    document()->rootFrame()->setFrameFormat(frameFormat);
+}
+
 //------- Block Operations -----------------------------------------------------------------------
 
 void ScriptEditor::onCurrentSceneChanged(int sceneIndex) {
     int blockNumber = viewModel_->getBlockForScene(sceneIndex);
     scrollToBlock(blockNumber);
 }
-
 
 void ScriptEditor::scrollToBlock(int blockNumber) {
     QTextDocument* doc = document();
@@ -486,4 +515,5 @@ void ScriptEditor::syncNavigatorFromDocument() {
     }
     viewModel_->rebuildFromBlocks(blocks);
 }
+
 

@@ -54,6 +54,8 @@ private:
     ElementType getBlockElementType(const QTextBlock& block) const;
 
     void syncNavigatorFromDocument();
+
+    void applyDocumentMargins();
 };
 
 #endif // SCRIPTEDITOR_H
