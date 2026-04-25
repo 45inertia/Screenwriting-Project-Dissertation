@@ -25,6 +25,8 @@ set(PROJECT_SOURCES
         src/view/scripteditor.cpp
         src/view/newscriptdialog.cpp
         src/view/newscriptdialog.h
+        src/view/welcomescreen.h
+        src/view/welcomescreen.cpp
 
         # models
         src/model/script.cpp
@@ -55,6 +57,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         src/view/newscriptdialog.h src/view/newscriptdialog.cpp
+        src/view/welcomescreen.h src/view/welcomescreen.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET ssa APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

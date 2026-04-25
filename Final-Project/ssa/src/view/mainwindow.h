@@ -9,6 +9,9 @@
 // Forward declared here as only the pointers to them are needed and not the full functionality.
 class ScriptEditor;
 class ScriptNavigator;
+class ScriptManager;
+class ScriptViewModel;
+class WelcomeScreen;
 class QSplitter;
 class QLabel;
 
@@ -18,12 +21,8 @@ class QLabel;
 #include <QApplication>
 #include <QEvent>
 #include <QRegularExpression>
+#include <QStackedWidget>
 
-// forward declarations
-class ScriptEditor;
-class SceneNavigator;
-class ScriptViewModel;
-class ScriptManager;
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -59,6 +58,8 @@ private:
     ScriptViewModel* scriptViewModel_;
     ScriptEditor* scriptEditor_;
     SceneNavigator* sceneNavigator_;
+    QStackedWidget* centralStack_;
+    WelcomeScreen* welcomeScreen_;
     QSplitter* qSplitter_;
 
     // status bar labels

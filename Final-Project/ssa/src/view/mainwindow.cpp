@@ -6,6 +6,7 @@
 #include "viewmodel/scriptviewmodel.h"
 #include "services/scriptmanager.h"
 #include "model/ElementType.h"
+#include "view/welcomescreen.h"
 
 #include <QMenuBar>
 #include <QStatusBar>
@@ -16,6 +17,7 @@
 #include <QAction>
 #include <QApplication>
 #include <QPalette>
+#include <QStackedWidget>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -31,6 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
     scriptViewModel_ = new ScriptViewModel(scriptManager_, this);
     scriptEditor_ = new ScriptEditor(scriptViewModel_, this);
     sceneNavigator_ = new SceneNavigator(scriptViewModel_, this);
+    welcomeScreen_ = new WelcomeScreen(this);
 
     setupCentralWidget();
     setupMenuBar();
@@ -51,10 +54,9 @@ MainWindow::MainWindow(QWidget *parent)
             this, &MainWindow::updateWordCount);
 
     // loading the script from
-    // TODO I THINK I NEED TO HAVE A SIGNAL FROM SCRIPTMANAGER THAT TRIGGERS A SIGNAL FROM
-    // SCRIPT VIEW MODEL TO USE HERE FOR MVVM BOUNDARY
     connect(scriptManager_, &ScriptManager::scriptLoaded,
             this, [this]() {
+        centralStack_->setCurrentIndex(1); // switching from welcome to editor
         scriptEditor_->loadFromScript();
     });
 
@@ -69,6 +71,11 @@ MainWindow::~MainWindow() {
 // ----setup--------------------------------------------------------------------------------------
 
 void MainWindow::setupCentralWidget() {
+
+    centralStack_ = new QStackedWidget(this);
+    // page 0 is the welcome screen
+    centralStack_->addWidget(welcomeScreen_);
+
     // splitter
     qSplitter_ = new QSplitter(Qt::Horizontal, this);
     qSplitter_->addWidget(sceneNavigator_);
@@ -78,8 +85,17 @@ void MainWindow::setupCentralWidget() {
     qSplitter_->setStretchFactor(0, 1);
     qSplitter_->setStretchFactor(1, 4);
 
-    setCentralWidget(qSplitter_);
-    scriptEditor_->setPlaceholderText("Begin writing your screenplay...");
+    centralStack_->addWidget(qSplitter_);
+
+    setCentralWidget(centralStack_);
+    // showing welcome screen on startup
+    centralStack_->setCurrentIndex(0);
+
+    connect(welcomeScreen_, &WelcomeScreen::newScriptRequested,
+            this, &MainWindow::onNewScript);
+    connect(welcomeScreen_, &WelcomeScreen::openScriptRequested,
+            this, &MainWindow::onOpenScript);
+
 }
 
 
@@ -394,6 +410,7 @@ void MainWindow::applyDarkTheme() {
         "}"
 
 
+
         //"QLabel {"
         //"  color: #ffffff;"
         //"}"
@@ -413,8 +430,9 @@ void MainWindow::applyDarkTheme() {
         "}"
         );
 
-    // update navigator
+    // updating widgets
     sceneNavigator_->setDarkTheme();
+    welcomeScreen_->setDarkTheme();
 }
 
 void MainWindow::applyLightTheme() {
@@ -449,6 +467,8 @@ void MainWindow::applyLightTheme() {
         "}"
 
 
+
+
         //"QLabel {"
         //"  color: #1e1e1e;"
         //"}"
@@ -469,6 +489,7 @@ void MainWindow::applyLightTheme() {
         );
 
     sceneNavigator_->setLightTheme();
+    welcomeScreen_->setLightTheme();
 }
 
 // --- helper utility ----------------------------------------------------------------------------
