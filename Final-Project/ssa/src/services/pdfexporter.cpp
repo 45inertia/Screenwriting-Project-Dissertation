@@ -18,18 +18,47 @@ bool PdfExporter::exportToPdf(const Script& script, const QString& filePath) {
     QPainter painter(&writer);
     if(!painter.isActive()) return false;
 
+    // ----- title page --------------------------------------------------------------------------
+
     // setting up the font
     QFont font("Courier New", 12);
     font.setFixedPitch(true);
+    font.setBold(true);
     painter.setFont(font);
+
+    int titleY = PAGE_HEIGHT / 3;
+    QString title = script.getTitle().toUpper();
 
     QFontMetrics metrics(font, &writer);
     int lineHeight = metrics.height();
     int leading = metrics.leading();
     int lineSpacing = lineHeight + leading;
 
+    // centering the title
+    int titleWidth = metrics.horizontalAdvance(title);
+    int titleX = (PAGE_WIDTH - titleWidth) / 2;
+    painter.drawText(titleX, titleY, title);
+
+    font.setBold(false);
+    painter.setFont(font);
+
+    int writtenByY = titleY + (lineSpacing * 3);
+    QString writtenBy = "Written by";
+    int writtenByWidth = metrics.horizontalAdvance(writtenBy);
+    painter.drawText((PAGE_WIDTH - writtenByWidth) / 2, writtenByY, writtenBy);
+
+    // author name
+    int authorY = writtenByY + lineSpacing;
+    QString author = script.getAuthor();
+    int authorWidth = metrics.horizontalAdvance(author);
+    painter.drawText((PAGE_WIDTH - authorWidth) / 2, authorY, author);
+
+    writer.newPage();
+
+
+
+
     // starting position
-    int x = MARGIN_LEFT;
     int y = MARGIN_TOP + lineHeight;
 
     bool firstPage = true;
@@ -47,10 +76,8 @@ bool PdfExporter::exportToPdf(const Script& script, const QString& filePath) {
 
     for(const Scene& scene : script.getScenes()) {
         // scene heading, two blank lines before bold
-        QFont boldFont("Courier New", 12);
-        boldFont.setBold(true);
-        boldFont.setFixedPitch(true);
-        painter.setFont(boldFont);
+        font.setBold(true);
+        painter.setFont(font);
 
         checkNewPage(3);
         y += lineSpacing * 2; // two blank lines before scene heading
@@ -59,7 +86,7 @@ bool PdfExporter::exportToPdf(const Script& script, const QString& filePath) {
         painter.drawText(MARGIN_LEFT + OFFSET_ACTION, y, heading);
         y += lineSpacing;
 
-        // reset to normal font
+        font.setBold(false);
         painter.setFont(font);
 
         // draw elements
@@ -126,7 +153,7 @@ QStringList PdfExporter::wrapText(const QString &text, int columnWidth, const QF
     QStringList words = text.split(' ');
     QString currentLine;
 
-    for(const QString& word : qAsConst(words)) {
+    for(const QString& word : std::as_const(words)) {
         QString testLine = currentLine.isEmpty() ? word : currentLine + " " + word;
 
         if(metrics.horizontalAdvance(testLine) <= columnWidth) {
