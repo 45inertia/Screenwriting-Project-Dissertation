@@ -50,6 +50,10 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     connect(viewModel_, &ScriptViewModel::elementTypeChanged,
             this, &ScriptEditor::onElementTypeChanged);
 
+    // connecting currentSceneChanged
+    connect(viewModel_, &ScriptViewModel::currentSceneChanged,
+            this, &ScriptEditor::onCurrentSceneChanged);
+
     // applying the initial formatting
     applyElementFormatting(ACTION);
 
@@ -202,7 +206,23 @@ void ScriptEditor::keyPressEvent(QKeyEvent *event) {
         }
 
         default:
-            // All other keys should pass normally
+            // focing uppercase for element types that require it
+            if (currentElementType_ == SCENE_HEADING ||
+                currentElementType_ == CHARACTER ||
+                currentElementType_ == TRANSITION) {
+
+                if(event->text().length() == 1 && event->text().at(0).isLetter()) {
+                    // inserting uppercase characters directly
+                    QKeyEvent upperEvent(
+                        event->type(),
+                        event->key(),
+                        event->modifiers(),
+                        event->text().toUpper()
+                    );
+                    QTextEdit::keyPressEvent(&upperEvent);
+                    return;
+                }
+            }
             QTextEdit::keyPressEvent(event);
             break;
         }
@@ -389,28 +409,12 @@ QTextCharFormat ScriptEditor::charFormatForType(ElementType type) const {
     QFont font(ScreenplayFormat::FONT_FAMILY, ScreenplayFormat::FONT_SIZE);
     font.setFixedPitch(true);
 
-    switch(type) {
-    case SCENE_HEADING:
+    if(type == SCENE_HEADING) {
         font.setBold(true);
-        format.setFont(font);
-        format.setFontCapitalization(QFont::AllUppercase);
-        break;
-
-    case CHARACTER:
-        format.setFont(font);
-        format.setFontCapitalization(QFont::AllUppercase);
-        break;
-
-    case TRANSITION:
-        format.setFont(font);
-        format.setFontCapitalization(QFont::AllUppercase);
-        break;
-
-    default:
-        format.setFont(font);
-        format.setFontCapitalization(QFont::MixedCase);
-        break;
     }
+
+    format.setFont(font);
+    format.setFontCapitalization(QFont::MixedCase);
 
     return format;
 }
