@@ -43,6 +43,7 @@ private:
     ElementType currentElementType_;
     bool isBulkOperation_;
     QMap<int, int> sceneBlockMap_;
+    bool isCreatingScene_;
 
     void applyElementFormatting(ElementType type);
     QTextBlockFormat blockFormatForType(ElementType type) const;

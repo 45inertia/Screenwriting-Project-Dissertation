@@ -42,7 +42,8 @@ ScriptEditor::ScriptEditor(ScriptViewModel *viewModel, QWidget *parent)
     : QTextEdit(parent),
     viewModel_(viewModel),
     currentElementType_(ACTION),
-    isBulkOperation_(false)
+    isBulkOperation_(false),
+    isCreatingScene_(false)
 {
     // Setting the font
     QFont font(ScreenplayFormat::FONT_FAMILY, ScreenplayFormat::FONT_SIZE);
@@ -109,6 +110,10 @@ void ScriptEditor::loadFromScript() {
 
     int sceneCount = viewModel_->getSceneCount();
     if (sceneCount == 0) {
+        isBulkOperation_ = false;
+        applyElementFormatting(SCENE_HEADING);
+        currentElementType_ = SCENE_HEADING;
+        viewModel_->onElementTypeSelected(SCENE_HEADING);
         return;
     }
 
@@ -192,8 +197,10 @@ void ScriptEditor::keyPressEvent(QKeyEvent *event) {
                 int sceneIndex = viewModel_->getSceneCount();
                 registerSceneBlock(sceneIndex, blockNumber);
                 QTextEdit::keyPressEvent(event);
+                isCreatingScene_ = true;
                 //passing the actual heading text
                 viewModel_->onNewSceneRequested(heading);
+                isCreatingScene_ = false;
                 return;
             }
             // insert a new block then report to viewModel
@@ -449,6 +456,7 @@ int ScriptEditor::getBlockForScene(int sceneIndex) const {
 }
 
 void ScriptEditor::onCurrentSceneChanged(int sceneIndex) {
+    if(isCreatingScene_) return;
     int blockNumber = getBlockForScene(sceneIndex);
     scrollToBlock(blockNumber);
 }
