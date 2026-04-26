@@ -155,22 +155,12 @@ void ScriptViewModel::onNewSceneRequested(const QString& heading) {
 
 // --------Block Operations -----------------------------------------------------------------------
 
-void ScriptViewModel::registerSceneBlock(int sceneIndex, int blockNumber) {
-    sceneBlockMap_[sceneIndex] = blockNumber;
-}
-
-int ScriptViewModel::getBlockForScene(int sceneIndex) const {
-    return sceneBlockMap_.value(sceneIndex, 0); // returns block number or 0 as fallback
-}
-
 void ScriptViewModel::rebuildFromBlocks(const QList<QPair<ElementType, QString>>& blocks) {
     // rebuilding the script state from the blocks that are in the scriptEditor document
 
     if(!scriptManager_->hasScript()) {
         return;
     }
-
-    sceneBlockMap_.clear(); // removeing the stale block positions
 
     Script* script = scriptManager_->getScript();
 

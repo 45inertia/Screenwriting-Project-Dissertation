@@ -23,8 +23,6 @@ signals:
 private:
     QLabel* titleLabel_;
     QLabel* subtitleLabel_;
-    QLabel* instructionLabel_;
-    QLabel* shortcutLabel_;
 
     void setupUi();
 };

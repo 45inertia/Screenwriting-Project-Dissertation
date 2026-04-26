@@ -11,6 +11,7 @@
 #include <QMenu>
 #include <QTextDocument>
 #include <QTextFrame>
+#include <QMap>
 
 // Namespace containing all Industry Standard Screenplay Measurements
 // All values in points (1 inch = 72 points)
@@ -149,7 +150,7 @@ void ScriptEditor::loadFromScript() {
 
         // registering the scene heading block positions
         if(type == SCENE_HEADING) {
-            viewModel_->registerSceneBlock(sceneIndex, blockNumber);
+            registerSceneBlock(sceneIndex, blockNumber);
             sceneIndex++;
         }
     }
@@ -158,22 +159,11 @@ void ScriptEditor::loadFromScript() {
     QTextCursor start(document());
     setTextCursor(start);
     isBulkOperation_ = false;
+    rebuildBlockMap();
 
     // triggering the cursor update after load
     onCursorPositionChanged();
 
-}
-
-void ScriptEditor::setBlockElementType(ElementType type) {
-    // attach element type to current block as user data
-    QTextBlock block = textCursor().block();
-    block.setUserData(new BlockData(type));
-}
-
-ElementType ScriptEditor::getBlockElementType(const QTextBlock &block) const {
-    BlockData* data = dynamic_cast<BlockData*>(block.userData());
-    if (data) return data->elementType;
-    return ACTION; // default if no data stored
 }
 
 // ---- Key Press Handling ------------------------------------------------------------------------
@@ -200,8 +190,7 @@ void ScriptEditor::keyPressEvent(QKeyEvent *event) {
 
                 int blockNumber = textCursor().blockNumber();
                 int sceneIndex = viewModel_->getSceneCount();
-                viewModel_->registerSceneBlock(sceneIndex, blockNumber);
-
+                registerSceneBlock(sceneIndex, blockNumber);
                 QTextEdit::keyPressEvent(event);
                 //passing the actual heading text
                 viewModel_->onNewSceneRequested(heading);
@@ -451,8 +440,16 @@ void ScriptEditor::applyDocumentMargins() {
 
 //------- Block Operations -----------------------------------------------------------------------
 
+void ScriptEditor::registerSceneBlock(int sceneIndex, int blockNumber) {
+    sceneBlockMap_[sceneIndex] = blockNumber;
+}
+
+int ScriptEditor::getBlockForScene(int sceneIndex) const {
+    return sceneBlockMap_.value(sceneIndex, 0);
+}
+
 void ScriptEditor::onCurrentSceneChanged(int sceneIndex) {
-    int blockNumber = viewModel_->getBlockForScene(sceneIndex);
+    int blockNumber = getBlockForScene(sceneIndex);
     scrollToBlock(blockNumber);
 }
 
@@ -514,6 +511,34 @@ void ScriptEditor::syncNavigatorFromDocument() {
         block = block.next();
     }
     viewModel_->rebuildFromBlocks(blocks);
+    rebuildBlockMap();
 }
 
+void ScriptEditor::setBlockElementType(ElementType type) {
+    // attach element type to current block as user data
+    QTextBlock block = textCursor().block();
+    block.setUserData(new BlockData(type));
+}
 
+ElementType ScriptEditor::getBlockElementType(const QTextBlock &block) const {
+    BlockData* data = dynamic_cast<BlockData*>(block.userData());
+    if (data) return data->elementType;
+    return ACTION; // default if no data stored
+}
+
+void ScriptEditor::rebuildBlockMap() {
+    sceneBlockMap_.clear();
+    int sceneIndex = 0;
+    int blockNumber = 0;
+    QTextBlock block = document()->begin();
+
+    while(block.isValid()) {
+        if(getBlockElementType(block) == SCENE_HEADING &&
+            !block.text().trimmed().isEmpty()) {
+            registerSceneBlock(sceneIndex, blockNumber);
+            sceneIndex++;
+        }
+        blockNumber++;
+        block = block.next();
+    }
+}

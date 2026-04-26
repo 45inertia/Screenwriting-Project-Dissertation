@@ -30,8 +30,6 @@ public:
     void onElementTypeSelected(ElementType type);
 
     // block operations
-    void registerSceneBlock(int sceneIndex, int blockNumber);
-    int getBlockForScene(int sceneIndex) const;
     void rebuildFromBlocks(const QList<QPair<ElementType, QString>>& blocks);
     QList<QPair<ElementType, QString>> getAllBlocks() const;
     void updateSceneHeading(int sceneIndex, const QString& heading);
@@ -52,7 +50,6 @@ private:
     ScriptManager* scriptManager_;
     ElementType currentElementType_;
     int currentSceneIndex_;
-    QMap<int, int> sceneBlockMap_; // scene index : block number
 
     ElementType cycleElementType(ElementType current) const;
 };

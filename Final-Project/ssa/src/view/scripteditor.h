@@ -42,10 +42,14 @@ private:
     ScriptViewModel* viewModel_;
     ElementType currentElementType_;
     bool isBulkOperation_;
+    QMap<int, int> sceneBlockMap_;
 
     void applyElementFormatting(ElementType type);
     QTextBlockFormat blockFormatForType(ElementType type) const;
     QTextCharFormat charFormatForType(ElementType type) const;
+    void registerSceneBlock(int sceneIndex, int blockNumber);
+    int getBlockForScene(int sceneIndex) const;
+    void rebuildBlockMap();
     void scrollToBlock(int blockNumber);
     void showElementTypePicker();
     QString elementTypeToDisplayString(ElementType type) const;
