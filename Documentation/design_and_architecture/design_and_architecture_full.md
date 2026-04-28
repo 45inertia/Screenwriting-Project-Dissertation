@@ -30,6 +30,94 @@ coupling between the two.
 
 ## 3. Class Diagram
 
+### Simplified Initial Class Diagram
+```mermaid
+classDiagram
+    direction TB
+
+    %% ─── VIEW LAYER ──────────────────────────────────────────────────────────
+    class MainWindow {
+        
+    }
+
+    class ScriptEditor {
+        
+    }
+
+    class SceneNavigator {
+        
+    }
+
+    %% ─── VIEWMODEL LAYER ─────────────────────────────────────────────────────
+    class ScriptViewModel {
+        
+    }
+
+    %% ─── SERVICE LAYER ───────────────────────────────────────────────────────
+    class ScriptManager {
+        
+    }
+
+    class OsfSerializer {
+        
+    }
+
+    class PdfExporter {
+        
+    }
+
+    class CharacterRegister {
+        
+    }
+
+    %% ─── MODEL LAYER ─────────────────────────────────────────────────────────
+    class Script {
+        
+    }
+
+    class Scene {
+        
+    }
+
+    class ScriptElement {
+        
+    }
+
+    class ElementType {
+        
+    }
+
+    class ElementFormatting {
+        
+    }
+
+    %% ─── RELATIONSHIPS ───────────────────────────────────────────────────────
+    MainWindow *-- ScriptEditor
+    MainWindow *-- SceneNavigator
+    MainWindow --> ScriptViewModel
+
+    ScriptEditor --> ScriptViewModel
+    SceneNavigator --> ScriptViewModel
+
+    ScriptViewModel --> ScriptManager
+    ScriptViewModel --> CharacterRegister
+
+    ScriptManager *-- Script
+    ScriptManager --> OsfSerializer
+
+    Script "1" *-- "0..*" Scene
+    Scene "1" *-- "0..*" ScriptElement
+
+    ScriptElement --> ElementType
+    ElementFormatting --> ElementType
+
+    PdfExporter --> Script
+    PdfExporter --> ElementFormatting
+    CharacterRegister --> Script
+```
+
+
+### Full Initial Class Diagram
 ```mermaid
 classDiagram
     direction TB
