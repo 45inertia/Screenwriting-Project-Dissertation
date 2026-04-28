@@ -34,7 +34,7 @@ extract it, and run `ssa.exe` (No installation required).
 - A C++17 compatible compiler (MSVC, MinGW, or Clang)
 - Qt Creator (recommended) or any CMake-compatible IDE
 
-### Steps
+### Qt Creator
 
 1. Clone the repository `git clone https://github.com/45inertia/Screenwriting-Project-Dissertation.git`
 2. Open Qt Creator and select `File -> Open File or Project`
@@ -44,8 +44,13 @@ extract it, and run `ssa.exe` (No installation required).
 6. Run with **Ctrl+R**
 
 ### Command Line Build
+Requires Qt 6 installed and available to CMake. On Linux Qt can be installed via the package manger.
+On Windows and Mac install Qt via the Qt Online Installer at https://www.qt.io/download-qt-installer
+
 
 ```bash
+# Navigate to the project root where CMakeLists.txt is located
+cd Final-Project/ssa/
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 cmake --build .
