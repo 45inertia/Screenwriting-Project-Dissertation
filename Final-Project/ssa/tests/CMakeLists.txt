@@ -1,3 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(ssa_tests CXX)
+enable_testing()
+
 find_package(Qt6 REQUIRED COMPONENTS Test Widgets Xml)
 
 # ─── Enable automatic MOC generation ─────────────────────────────────────────
@@ -70,4 +74,3 @@ add_test(NAME tst_modellayer COMMAND tst_modellayer)
 #
 # add_test(NAME tst_viewmodellayer COMMAND tst_viewmodellayer)
 
-include(CTest)
